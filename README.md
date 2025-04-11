@@ -19,7 +19,11 @@
 - **Modular and customizable**: use each system independently or as a full FPS base.
 - **Built on Jolt Physics**: smooth and realistic 3D interactions and collisions, with great optimization.
 
-### **Bonus: TrenchBroom Integration Tool**
+<img src="https://raw.githubusercontent.com/MercurioC/FPSFrameworkForGDevelop/refs/heads/main/screenshots/screen02.png">
+<img src="https://raw.githubusercontent.com/MercurioC/FPSFrameworkForGDevelop/refs/heads/main/screenshots/screen03.png">
+<img src="https://raw.githubusercontent.com/MercurioC/FPSFrameworkForGDevelop/refs/heads/main/screenshots/screen04.png">
+
+### **TrenchBroom Converter Tool**
 
 Included is a script that converts `.OBJ` models into `.JSON` layouts compatible with GDevelop’s external layout system. This enables seamless integration of levels created in **TrenchBroom**, a beloved editor from the Quake modding community, even while GDevelop lacks a native 3D level editor.
 
@@ -29,6 +33,6 @@ Included is a script that converts `.OBJ` models into `.JSON` layouts compatible
 
 This framework is released entirely for free to support the growth of this amazing engine and to help more developers explore 3D FPS development in GDevelop!  
 
-If you find this project useful and want to support future development, you can consider making a donation via [**Ko-Fi**](https://ko-fi.com/yourprofile). Your support is sincerely appreciated!
+If you find this project useful and want to support future development, you can consider making a donation via [**Ko-Fi**](https://ko-fi.com/giampiero). Your support is sincerely appreciated, and I'll add every donator to the credits of this project!
 
 Have fun!
