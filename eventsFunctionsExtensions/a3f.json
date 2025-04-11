@@ -1,0 +1,2369 @@
+{
+  "author": "",
+  "category": "General",
+  "extensionNamespace": "",
+  "fullName": "Advanced 3D Features",
+  "gdevelopVersion": "",
+  "helpPath": "https://pandako.itch.io/a3f",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO30NCgkuc3Qye2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLWRhc2hhcnJheTo2LDY7fQ0KCS5zdDN7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtZGFzaGFycmF5OjQsNDt9DQoJLnN0NHtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7fQ0KCS5zdDV7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6My4xMDgxLDMuMTA4MTt9DQoJDQoJCS5zdDZ7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2UtZGFzaGFycmF5OjQsMzt9DQo8L3N0eWxlPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI0LDkuNyA0LDIzLjIgMTYsMzAgMjgsMjMuMiAyOCw5LjcgMTYsMyAiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjQsMTAuMiAxNiwxNyAyOCwxMC4yICIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjE2IiB5MT0iMzAiIHgyPSIxNiIgeTI9IjE3Ii8+DQo8L3N2Zz4NCg==",
+  "name": "A3F",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Graphic Design/f4c71080f9213188ee5556b1acb45ad46fe6e5225947301c363105b080fca008_Graphic Design_3d_cube_isometric.svg",
+  "shortDescription": "This extension adds features to the built-in 3D.",
+  "version": "1.1.0",
+  "description": [
+    "3D features to be added with this extension.  ",
+    "- Lighting",
+    "- Shadow",
+    "- Local translate and rotate",
+    "- Blend mode",
+    "- Opacity",
+    "- Overlap objects",
+    "- Linear interpolation",
+    "- Axes helper",
+    "- Light helper",
+    "- Shadow range helper"
+  ],
+  "tags": [
+    "3d",
+    "movement",
+    "rotate",
+    "material",
+    "light",
+    "shadow",
+    "camera",
+    "opacity"
+  ],
+  "authorIds": [
+    "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "fullName": "",
+      "functionType": "Action",
+      "name": "onFirstSceneLoaded",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "gdjs._A3F = {};",
+            "gdjs._A3F.MakeUniqueMaterial = function(Obj3D) {",
+            "    if (!Obj3D.userData.A3F) {",
+            "        Obj3D.userData.A3F = {};",
+            "    }",
+            "    if (!Obj3D.userData.A3F.UniqueMaterial) {",
+            "        Obj3D.userData.A3F.UniqueMaterial = true;",
+            "        //",
+            "        Obj3D.addEventListener(\"removed\", gdjs._A3F.DisposeUniqueMaterial);",
+            "        //",
+            "        const CopyMat = {};",
+            "        Obj3D.traverse((Child) => {",
+            "            if (Child.material) {",
+            "                if (Array.isArray(Child.material)) {",
+            "                    for (let i = 0; i < Child.material.length; i++) {",
+            "                        if (!CopyMat[Child.material[i].uuid]) {",
+            "                            CopyMat[Child.material[i].uuid] = Child.material[i].clone();",
+            "                        }",
+            "                        Child.material[i] = CopyMat[Child.material[i].uuid];",
+            "                    }",
+            "                } else {",
+            "                    if (!CopyMat[Child.material.uuid]) {",
+            "                        CopyMat[Child.material.uuid] = Child.material.clone();",
+            "                    }",
+            "                    Child.material = CopyMat[Child.material.uuid];",
+            "                }",
+            "            }",
+            "        });",
+            "    }",
+            "};",
+            "//",
+            "gdjs._A3F.DisposeUniqueMaterial = function(Evt) {",
+            "    const Obj3D = Evt.target;// this",
+            "    Obj3D.traverse((Child) => {",
+            "        if (Child.material) {",
+            "            if (Array.isArray(Child.material)) {",
+            "                for (let i = 0; i < Child.material.length; i++) {",
+            "                    Child.material[i].dispose()",
+            "                }",
+            "            } else {",
+            "                Child.material.dispose()",
+            "            }",
+            "        }",
+            "    });",
+            "};",
+            "",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Translates the camera along its local axis.",
+      "fullName": "↔️Local translate camera by distance",
+      "functionType": "Action",
+      "name": "LocalTranslateCameraDistance",
+      "sentence": "↔️Local translate camera (Axis: _PARAM1_, Distance: _PARAM2_, Layer: _PARAM3_, Camera: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const Axis = eventsFunctionContext.getArgument(\"Axis\");",
+            "const Distance = eventsFunctionContext.getArgument(\"Distance\");",
+            "const Layer = eventsFunctionContext.getArgument(\"Layer\");",
+            "// const CameraNumber = eventsFunctionContext.getArgument(\"CameraNumber\");",
+            "",
+            "const Camera3D = runtimeScene.getLayer(Layer).getRenderer().getThreeCamera();",
+            "if (!Camera3D) {",
+            "    return;",
+            "}",
+            "if (Axis == \"X\") {",
+            "    Camera3D.translateX(Distance);",
+            "} else if (Axis == \"Y\") {",
+            "    Camera3D.translateY(-Distance);",
+            "} else {",
+            "    Camera3D.translateZ(Distance);",
+            "}",
+            "runtimeScene.getLayer(Layer)._cameraX = Camera3D.position.x;",
+            "runtimeScene.getLayer(Layer)._cameraY = -Camera3D.position.y;",
+            "runtimeScene.getLayer(Layer).setCameraZ(Camera3D.position.z, null);",
+            ""
+          ],
+          "parameterObjects": "Object",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Distance (in pixels)",
+          "name": "Distance",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "CameraNumber",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Translates the camera along its local axis.",
+      "fullName": "↔️Local translate camera by speed",
+      "functionType": "Action",
+      "name": "LocalTranslateCameraSpeed",
+      "sentence": "↔️Local translate camera (Axis: _PARAM1_, Speed: _PARAM2_, Layer: _PARAM3_, Camera: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LocalTranslateCameraDistance"
+              },
+              "parameters": [
+                "",
+                "Axis",
+                "Speed * TimeDelta()",
+                "Layer",
+                "CameraNumber",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Speed (in pixels per second)",
+          "name": "Speed",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "CameraNumber",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Rotates the camera along its local axis.",
+      "fullName": "🔄️Local rotate camera by angle",
+      "functionType": "Action",
+      "name": "LocalRotateCameraAngle",
+      "sentence": "🔄️Local rotate camera (Axis: _PARAM1_, Angle: _PARAM2_, Layer: _PARAM3_, Camera: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const Axis = eventsFunctionContext.getArgument(\"Axis\");",
+            "const Angle = eventsFunctionContext.getArgument(\"Angle\");",
+            "const Layer = eventsFunctionContext.getArgument(\"Layer\");",
+            "// const CameraNumber = eventsFunctionContext.getArgument(\"CameraNumber\");",
+            "",
+            "const Camera3D = runtimeScene.getLayer(Layer).getRenderer().getThreeCamera();",
+            "if (!Camera3D) {",
+            "    return;",
+            "}",
+            "if (Axis == \"X\") {",
+            "    Camera3D.rotateX(gdjs.toRad(-Angle));",
+            "} else if (Axis == \"Y\") {",
+            "    Camera3D.rotateY(gdjs.toRad(Angle));",
+            "} else {",
+            "    Camera3D.rotateZ(gdjs.toRad(-Angle));",
+            "}",
+            "runtimeScene.getLayer(Layer).setCameraRotation(gdjs.toDegrees(-Camera3D.rotation.z));"
+          ],
+          "parameterObjects": "Object",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Angle (in degrees)",
+          "name": "Angle",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "CameraNumber",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Rotates the camera along its local axis.",
+      "fullName": "🔄️Local rotate camera by speed",
+      "functionType": "Action",
+      "name": "LocalRotateCameraSpeed",
+      "sentence": "🔄️Local rotate camera (Axis: _PARAM1_, Speed: _PARAM2_, Layer: _PARAM3_, Camera: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LocalRotateCameraAngle"
+              },
+              "parameters": [
+                "",
+                "Axis",
+                "Speed * TimeDelta()",
+                "Layer",
+                "CameraNumber",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Speed (in degrees per second)",
+          "name": "Speed",
+          "type": "expression"
+        },
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "CameraNumber",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "🔜Linearly interpolate camera",
+      "functionType": "Action",
+      "name": "LerpCamera",
+      "sentence": "🔜Linearly interpolate camera (Layer: _PARAM1_, Camera:_PARAM2_, Target: _PARAM3_, Position: _PARAM5_, Rotation: _PARAM6_, Viewpoint: _PARAM7_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const Layer = eventsFunctionContext.getArgument(\"Layer\");",
+            "// const CameraNumber = eventsFunctionContext.getArgument(\"CameraNumber\");",
+            "const Targets = eventsFunctionContext.getObjects(\"Target\");",
+            "const FactorP = eventsFunctionContext.getArgument(\"FactorP\");",
+            "const FactorR = eventsFunctionContext.getArgument(\"FactorR\");",
+            "const Viewpoint = eventsFunctionContext.getArgument(\"Viewpoint\");",
+            "//",
+            "const Camera3D = runtimeScene.getLayer(Layer).getRenderer().getThreeCamera();",
+            "if (!Camera3D) {",
+            "    return;",
+            "}",
+            "if (Targets.length === 0) {",
+            "    return;",
+            "}",
+            "const Object3D = Targets[0].get3DRendererObject();",
+            "//",
+            "if (FactorP) {",
+            "    const Vec3 = Object3D.position.clone();",
+            "    Vec3.y *= -1;",
+            "    Camera3D.position.lerp(Vec3, FactorP);",
+            "    runtimeScene.getLayer(Layer)._cameraX = Camera3D.position.x;",
+            "    runtimeScene.getLayer(Layer)._cameraY = -Camera3D.position.y;",
+            "    runtimeScene.getLayer(Layer).setCameraZ(Camera3D.position.z, null);",
+            "}",
+            "if (FactorR) {",
+            "    const Euler = Object3D.rotation.clone();",
+            "    Euler.x *= -1;",
+            "    Euler.z *= -1;",
+            "    const Quaternion = new THREE.Quaternion();",
+            "    Quaternion.setFromEuler(Euler);",
+            "    //",
+            "    if (Viewpoint) {",
+            "        const EulerView = new THREE.Euler(gdjs.toRad(90), gdjs.toRad(-90), 0);",
+            "        const QuaternionView = new THREE.Quaternion();",
+            "        QuaternionView.setFromEuler(EulerView);",
+            "        Quaternion.multiply(QuaternionView);",
+            "    }",
+            "    //",
+            "    Camera3D.quaternion.slerp(Quaternion, FactorR);",
+            "    runtimeScene.getLayer(Layer).setCameraRotation(gdjs.toDegrees(-Camera3D.rotation.z));",
+            "}",
+            "",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Layer",
+          "name": "Layer",
+          "type": "layer"
+        },
+        {
+          "description": "Camera number (default: 0)",
+          "name": "CameraNumber",
+          "type": "expression"
+        },
+        {
+          "description": "Target 3D Object",
+          "name": "Target",
+          "type": "objectList"
+        },
+        {
+          "description": "Target 3D capability",
+          "name": "TargetCapability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Position interpolation factor (0 to 1)",
+          "longDescription": "Disable with 0",
+          "name": "FactorP",
+          "type": "expression"
+        },
+        {
+          "description": "Rotation interpolation factor (0 to 1)",
+          "longDescription": "Disable with 0",
+          "name": "FactorR",
+          "type": "expression"
+        },
+        {
+          "defaultValue": "yes",
+          "description": "Based on the object's viewpoint",
+          "name": "Viewpoint",
+          "optional": true,
+          "type": "yesorno"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Overlay the object on the 3D object.\n⚠️ For objects to overlap correctly, they must be on a different layer than the 3D object.",
+      "fullName": "📚Overlap objects",
+      "functionType": "Action",
+      "group": "Position",
+      "name": "OverlapObjects",
+      "sentence": "📚Overlap objects (_PARAM1_, Hide: _PARAM2_, Target: _PARAM3_, Offset: _PARAM5_, _PARAM6_, _PARAM7_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "AnyObject",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const AnyObject = objects[0];",
+                "const Hide = eventsFunctionContext.getArgument(\"Hide\");",
+                "const Object3D = eventsFunctionContext.getObjects(\"Object3D\")[0];",
+                "const OffsetX = eventsFunctionContext.getArgument(\"OffsetX\");",
+                "const OffsetY = eventsFunctionContext.getArgument(\"OffsetY\");",
+                "const OffsetZ = eventsFunctionContext.getArgument(\"OffsetZ\");",
+                "const Offset3D = new THREE.Vector3(OffsetX, OffsetY, OffsetZ);",
+                "if (!Object3D) {",
+                "    return;",
+                "}",
+                "const Layer3D = Object3D.layer;",
+                "const RendererObject3D = Object3D.get3DRendererObject();",
+                "const Camera3D = runtimeScene.getLayer(Layer3D).getRenderer().getThreeCamera();",
+                "if (!Camera3D) {",
+                "    return;",
+                "}",
+                "//",
+                "let Position3D;",
+                "if (RendererObject3D) {",
+                "    // 3D",
+                "    Position3D = RendererObject3D.position.clone();",
+                "} else {",
+                "    // 2D",
+                "    Position3D = new THREE.Vector3(Object3D.getX(), Object3D.getY(), 0);",
+                "}",
+                "Position3D.add(Offset3D);",
+                "Position3D.y *= -1;",
+                "//",
+                "const Project = Position3D.clone().project(Camera3D);",
+                "const GameResolutionWidth = runtimeScene.getGame().getGameResolutionWidth();",
+                "const GameResolutionHeight = runtimeScene.getGame().getGameResolutionHeight();",
+                "const PointX = (GameResolutionWidth / 2) * (Project.x + 1.0);",
+                "const PointY = (GameResolutionHeight / 2) * ((Project.y * -1) + 1.0);",
+                "//",
+                "if (Hide) {",
+                "    const Frustum = new THREE.Frustum();",
+                "    const CloneCamera = Camera3D.clone();",
+                "    CloneCamera.rotateZ(gdjs.toRad(180));",
+                "    Frustum.setFromProjectionMatrix(new THREE.Matrix4().multiplyMatrices(CloneCamera.projectionMatrix, CloneCamera.matrixWorldInverse));",
+                "    const Within = Frustum.containsPoint(Position3D);",
+                "    AnyObject.hide(!Within);",
+                "}",
+                "//",
+                "AnyObject.setPosition(PointX, PointY);",
+                "",
+                ""
+              ],
+              "parameterObjects": "AnyObject",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Any object",
+          "name": "AnyObject",
+          "type": "objectList"
+        },
+        {
+          "defaultValue": "yes",
+          "description": "Hide when behind the 3D camera",
+          "longDescription": "Hides the 2D object when the 3D object is behind the 3D camera.",
+          "name": "Hide",
+          "optional": true,
+          "type": "yesorno"
+        },
+        {
+          "description": "Target 3D object",
+          "name": "Object3D",
+          "type": "objectList"
+        },
+        {
+          "description": "3D Capability",
+          "name": "Capability3D",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "X Offset",
+          "name": "OffsetX",
+          "type": "expression"
+        },
+        {
+          "description": "Y Offset",
+          "name": "OffsetY",
+          "type": "expression"
+        },
+        {
+          "description": "Z Offset",
+          "name": "OffsetZ",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Translates the 3D object along its local axis.",
+      "fullName": "↔️Local translate by distance",
+      "functionType": "Action",
+      "group": "Position",
+      "name": "LocalTranslateDistance",
+      "sentence": "↔️Local translates (_PARAM1_, Axis: _PARAM3_, Distance: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const Axis = eventsFunctionContext.getArgument(\"Axis\");",
+                "const Distance = eventsFunctionContext.getArgument(\"Distance\");",
+                "",
+                "Object3D.updateMatrixWorld(false);",
+                "const Elements = Object3D.matrixWorld.elements;",
+                "let WorldDirection = new THREE.Vector3();",
+                "if (Axis == \"X\") {",
+                "    WorldDirection.set(Elements[0], Elements[1], Elements[2]);",
+                "    WorldDirection = WorldDirection.normalize();",
+                "} else if (Axis == \"Y\") {",
+                "    WorldDirection.set(Elements[4], Elements[5], Elements[6]);",
+                "    WorldDirection = WorldDirection.normalize();",
+                "} else {",
+                "    Object3D.getWorldDirection(WorldDirection);",
+                "}",
+                "Object2D.setX(Object2D.getX() + (WorldDirection.x * Distance));",
+                "Object2D.setY(Object2D.getY() + (WorldDirection.y * Distance * -1));",
+                "Object2D.setZ(Object2D.getZ() + (WorldDirection.z * Distance));"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Distance (in pixels)",
+          "name": "Distance",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Translates the 3D object along its local axis.",
+      "fullName": "↔️Local translate by speed",
+      "functionType": "Action",
+      "group": "Position",
+      "name": "LocalTranslateSpeed",
+      "sentence": "↔️Local translates (_PARAM1_, Axis: _PARAM3_, Speed: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LocalTranslateDistance"
+              },
+              "parameters": [
+                "Object",
+                "Object",
+                "Capability3d",
+                "Axis",
+                "Speed * TimeDelta()",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Speed (in pixels per second)",
+          "name": "Speed",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Rotates the 3D object along its local axis.",
+      "fullName": "🔄️Local rotate by angle",
+      "functionType": "Action",
+      "group": "Angle",
+      "name": "LocalRotateAngle",
+      "sentence": "🔄️Local rotates (_PARAM1_, Axis: _PARAM3_, Degrees: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const Axis = eventsFunctionContext.getArgument(\"Axis\");",
+                "const Angle = eventsFunctionContext.getArgument(\"Angle\");",
+                "",
+                "if (Axis == \"X\") {",
+                "    Object3D.rotateX(gdjs.toRad(Angle));",
+                "} else if (Axis == \"Y\") {",
+                "    Object3D.rotateY(gdjs.toRad(Angle));",
+                "} else {",
+                "    Object3D.rotateZ(gdjs.toRad(Angle));",
+                "}",
+                "const DegreesX = gdjs.toDegrees(Object3D.rotation.x);",
+                "const DegreesY = gdjs.toDegrees(Object3D.rotation.y);",
+                "const DegreesZ = gdjs.toDegrees(Object3D.rotation.z);",
+                "Object2D.setRotationX(DegreesX);",
+                "Object2D.setRotationY(DegreesY);",
+                "Object2D.setAngle(DegreesZ);"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Angle (in degrees)",
+          "name": "Angle",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Rotates the 3D object along its local axis.",
+      "fullName": "🔄️Local rotate by speed",
+      "functionType": "Action",
+      "group": "Angle",
+      "name": "LocalRotateSpeed",
+      "sentence": "🔄️Local rotates (_PARAM1_, Axis: _PARAM3_, Speed: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LocalRotateAngle"
+              },
+              "parameters": [
+                "Object",
+                "Object",
+                "Capability3d",
+                "Axis",
+                "Speed * TimeDelta()",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"X\",\"Y\",\"Z\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Speed (in degrees per second)",
+          "name": "Speed",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "🔜Linearly interpolate 3D object",
+      "functionType": "Action",
+      "group": "Position",
+      "name": "LerpObject",
+      "sentence": "🔜Linearly interpolate 3D object (_PARAM1_, Target: _PARAM3_, Position: _PARAM5_, Rotation: _PARAM6_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const Targets = eventsFunctionContext.getObjects(\"Target\");",
+                "const FactorP = eventsFunctionContext.getArgument(\"FactorP\");",
+                "const FactorR = eventsFunctionContext.getArgument(\"FactorR\");",
+                "const Viewpoint = eventsFunctionContext.getArgument(\"Viewpoint\");",
+                "//",
+                "if (Targets.length === 0) {",
+                "    return;",
+                "}",
+                "const Target3D = Targets[0].get3DRendererObject();",
+                "//",
+                "if (FactorP) {",
+                "    Object3D.position.lerp(Target3D.position, FactorP);",
+                "    //",
+                "    Object2D.x = Object3D.position.x;",
+                "    Object2D.y = Object3D.position.y;",
+                "    Object2D.setZ(Object3D.position.z);",
+                "}",
+                "if (FactorR) {",
+                "    Object3D.quaternion.slerp(Target3D.quaternion, FactorR);",
+                "    //",
+                "    Object2D._rotationX = gdjs.toDegrees(Object3D.rotation.x);",
+                "    Object2D._rotationY = gdjs.toDegrees(Object3D.rotation.y);",
+                "    Object2D.setAngle(gdjs.toDegrees(Object3D.rotation.z));",
+                "}",
+                "",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d2",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Target 3D Object",
+          "name": "Target",
+          "type": "objectList"
+        },
+        {
+          "description": "Target 3D capability",
+          "name": "TargetCapability3d2",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Position interpolation factor (0 to 1)",
+          "longDescription": "Disable with 0",
+          "name": "FactorP",
+          "type": "expression"
+        },
+        {
+          "description": "Rotation interpolation factor (0 to 1)",
+          "longDescription": "Disable with 0",
+          "name": "FactorR",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "👀Look at position",
+      "functionType": "Action",
+      "group": "Angle",
+      "name": "LookAtPosition",
+      "sentence": "👀Look at position (_PARAM1_, Position: _PARAM3_, _PARAM4_, _PARAM5_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const Scene = runtimeScene.getLayer(Object2D.getLayer()).getRenderer().getThreeScene();",
+                "const X = eventsFunctionContext.getArgument(\"X\");",
+                "const Y = eventsFunctionContext.getArgument(\"Y\");",
+                "const Z = eventsFunctionContext.getArgument(\"Z\");",
+                "//",
+                "Scene.scale.y = 1;",
+                "Object3D.up.set(0, 0, 1);",
+                "Object3D.lookAt(X, Y, Z);",
+                "Scene.scale.y = -1;",
+                "Object3D.up.set(0, 1, 0);",
+                "Object3D.rotateZ(-1.5707963267948966);//gdjs.toRad(90)",
+                "Object3D.rotateY(-1.5707963267948966);//gdjs.toRad(90)",
+                "//",
+                "Object2D._rotationX = gdjs.toDegrees(Object3D.rotation.x);",
+                "Object2D._rotationY = gdjs.toDegrees(Object3D.rotation.y);",
+                "Object2D.setAngle(gdjs.toDegrees(Object3D.rotation.z));",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "X position",
+          "name": "X",
+          "type": "expression"
+        },
+        {
+          "description": "Y position",
+          "name": "Y",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "expression"
+        },
+        {
+          "description": "Z position",
+          "name": "Z",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "👀Look at 3D object",
+      "functionType": "Action",
+      "group": "Angle",
+      "name": "LookAtObject",
+      "sentence": "👀Look at 3D object (_PARAM1_, Target: _PARAM3_, _PARAM5_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareArgumentAsString"
+              },
+              "parameters": [
+                "\"TargetPoint\"",
+                "=",
+                "\"Center point\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LookAtPosition"
+              },
+              "parameters": [
+                "",
+                "Object",
+                "Capability3d",
+                "Target.CenterX()",
+                "Target.CenterY()",
+                "Target.TargetCapability3d::CenterZ()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareArgumentAsString"
+              },
+              "parameters": [
+                "\"TargetPoint\"",
+                "!=",
+                "\"Center point\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LookAtPosition"
+              },
+              "parameters": [
+                "",
+                "Object",
+                "Capability3d",
+                "Target.X()",
+                "Target.Y()",
+                "Target.TargetCapability3d::Z()",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Target 3D Object",
+          "name": "Target",
+          "type": "objectList"
+        },
+        {
+          "description": "Target 3D capability",
+          "name": "TargetCapability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "The point of the target 3D object to look at",
+          "name": "TargetPoint",
+          "supplementaryInformation": "[\"Center point\",\"Origin point\"]",
+          "type": "stringWithSelector"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "🛟Add Axes Helper",
+      "functionType": "Action",
+      "group": "Debug",
+      "name": "AddAxesHelper",
+      "sentence": "🛟Add axes helper (_PARAM1_, _PARAM2_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object3D = objects[0].get3DRendererObject();",
+                "//",
+                "const AxesHelper = new THREE.AxesHelper(2);",
+                "AxesHelper.name = objects[0].name + objects[0].id + \"_AxesHelper\";",
+                "Object3D.add(AxesHelper);"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "3D object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the blend mode of the 3D objects and all their children.\nThis affects all 3d objects that use the same material.",
+      "fullName": "🧱Change blend mode V1 (Deprecated)",
+      "functionType": "Action",
+      "group": "Effects",
+      "name": "ChangeBlendMode",
+      "sentence": "⚠️🧱Change blend mode V1 (_PARAM1_, Blend: _PARAM3_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];\r",
+                "const Object3D = Object2D.get3DRendererObject();\r",
+                "const BlendMode = eventsFunctionContext.getArgument(\"Blend\");\r",
+                "//\r",
+                "//Blend mode\r",
+                "let Blend = null;//THREE.NoBlending === 0\r",
+                "if (BlendMode == \"Normal\") {\r",
+                "    Blend = THREE.NormalBlending;\r",
+                "} else if (BlendMode == \"Additive\") {\r",
+                "    Blend = THREE.AdditiveBlending;\r",
+                "} else if (BlendMode == \"Subtractive\") {\r",
+                "    Blend = THREE.SubtractiveBlending;\r",
+                "} else if (BlendMode == \"Multiply\") {\r",
+                "    Blend = THREE.MultiplyBlending;\r",
+                "}\r",
+                "if (Blend) {\r",
+                "    Object3D.traverse((Child) => {\r",
+                "        if (Child.material) {\r",
+                "            if (Array.isArray(Child.material)) {\r",
+                "                for (let i = 0; i < Child.material.length; i++) {\r",
+                "                    Child.material[i].blending = Blend;\r",
+                "                }\r",
+                "            } else {\r",
+                "                Child.material.blending = Blend;\r",
+                "            }\r",
+                "        }\r",
+                "    });\r",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Blend mode",
+          "name": "Blend",
+          "supplementaryInformation": "[\"Keep model blend mode\",\"Normal\",\"Additive\",\"Subtractive\",\"Multiply\"]",
+          "type": "stringWithSelector"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the blend mode of the 3D objects and all their children.\nThis affects all 3d objects that use the same material.",
+      "fullName": "🧱Change blend mode",
+      "functionType": "Action",
+      "group": "Effects",
+      "name": "ChangeBlendModeV2",
+      "sentence": "🧱Change blend mode (_PARAM1_, Blend: _PARAM3_, Unique: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];\r",
+                "const Object3D = Object2D.get3DRendererObject();\r",
+                "const BlendMode = eventsFunctionContext.getArgument(\"Blend\");\r",
+                "const Unique = eventsFunctionContext.getArgument(\"Unique\");\r",
+                "//\r",
+                "if (Unique) {\r",
+                "    gdjs._A3F.MakeUniqueMaterial(Object3D);\r",
+                "}\r",
+                "//\r",
+                "//Blend mode\r",
+                "let Blend = null;//THREE.NoBlending === 0\r",
+                "if (BlendMode == \"Normal\") {\r",
+                "    Blend = THREE.NormalBlending;\r",
+                "} else if (BlendMode == \"Additive\") {\r",
+                "    Blend = THREE.AdditiveBlending;\r",
+                "} else if (BlendMode == \"Subtractive\") {\r",
+                "    Blend = THREE.SubtractiveBlending;\r",
+                "} else if (BlendMode == \"Multiply\") {\r",
+                "    Blend = THREE.MultiplyBlending;\r",
+                "}\r",
+                "if (Blend) {\r",
+                "    Object3D.traverse((Child) => {\r",
+                "        if (Child.material) {\r",
+                "            if (Array.isArray(Child.material)) {\r",
+                "                for (let i = 0; i < Child.material.length; i++) {\r",
+                "                    Child.material[i].blending = Blend;\r",
+                "                }\r",
+                "            } else {\r",
+                "                Child.material.blending = Blend;\r",
+                "            }\r",
+                "        }\r",
+                "    });\r",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Blend mode",
+          "name": "Blend",
+          "supplementaryInformation": "[\"Keep model blend mode\",\"Normal\",\"Additive\",\"Subtractive\",\"Multiply\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "defaultValue": "yes",
+          "description": "Make the material unique to this object",
+          "longDescription": "If No, it will affect all 3D objects that use the same material.",
+          "name": "Unique",
+          "optional": true,
+          "type": "yesorno"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the opacity of the 3D object, or the first opacity found among its children.",
+      "fullName": "🥛Opacity",
+      "functionType": "Expression",
+      "group": "Visibility",
+      "name": "Opacity",
+      "sentence": "🥛Opacity (_PARAM1_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "eventsFunctionContext.returnValue = 255;",
+            "if (objects.length == 0) {",
+            "    return;",
+            "}",
+            "let Opacity = null;",
+            "const Object2D = objects[0];",
+            "const Object3D = Object2D.get3DRendererObject();",
+            "//",
+            "if (Object3D) {",
+            "    Object3D.traverse((Child) => {",
+            "        if (Opacity === null) {",
+            "            if (Child.material) {",
+            "                if (Array.isArray(Child.material)) {",
+            "                    Opacity = Child.material[0].opacity;",
+            "                } else {",
+            "                    Opacity = Child.material.opacity;",
+            "                }",
+            "            }",
+            "        }",
+            "    });",
+            "}",
+            "Opacity = (Opacity === null) ? 1 : Opacity;",
+            "Opacity *= 255;",
+            "eventsFunctionContext.returnValue = Opacity;",
+            "",
+            ""
+          ],
+          "parameterObjects": "Object",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Check the opacity of the 3D object, or the first opacity found among its children.\nThis condition can be used for non-3D objects as well, but in those cases the opacity is always compared as 255.",
+      "fullName": "🥛Check opacity",
+      "functionType": "Condition",
+      "group": "Visibility",
+      "name": "CheckOpacity",
+      "sentence": "🥛Check opacity (_PARAM1_, _PARAM3_, Opacity: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (objects.length == 0) {",
+            "    return;",
+            "}",
+            "const ObjectsLists = eventsFunctionContext.getObjectsLists(\"Object\");",
+            "const Operator = eventsFunctionContext.getArgument(\"Operator\");",
+            "const TargetOpacity = eventsFunctionContext.getArgument(\"Opacity\") / 255;",
+            "//",
+            "eventsFunctionContext.returnValue = gdjs.evtTools.object.pickObjectsIf((Obj, Argument) => {",
+            "    let Opacity = null;",
+            "    const Object2D = Obj;",
+            "    const Object3D = Object2D.get3DRendererObject();",
+            "    //",
+            "    if (Object3D) {",
+            "        Object3D.traverse((Child) => {",
+            "            if (Opacity === null) {",
+            "                if (Child.material) {",
+            "                    if (Array.isArray(Child.material)) {",
+            "                        Opacity = Child.material[0].opacity;",
+            "                    } else {",
+            "                        Opacity = Child.material.opacity;",
+            "                    }",
+            "                }",
+            "            }",
+            "        });",
+            "    }",
+            "    Opacity = (Opacity === null) ? 1 : Opacity;",
+            "    //",
+            "    if (Operator == \"=\") {",
+            "        return (Opacity == TargetOpacity);",
+            "    } else if (Operator == \"<\") {",
+            "        return (Opacity < TargetOpacity);",
+            "    } else if (Operator == \">\") {",
+            "        return (Opacity > TargetOpacity);",
+            "    } else if (Operator == \"≤\") {",
+            "        return (Opacity <= TargetOpacity);",
+            "    } else if (Operator == \"≥\") {",
+            "        return (Opacity >= TargetOpacity);",
+            "    } else {",
+            "        // ≠",
+            "        return (Opacity != TargetOpacity);",
+            "    }",
+            "}, ObjectsLists, false, null);",
+            "",
+            ""
+          ],
+          "parameterObjects": "Object",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Operator",
+          "name": "Operator",
+          "supplementaryInformation": "[\"=\",\"<\",\">\",\"≤\",\"≥\",\"≠\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Opacity (0 to 255)",
+          "name": "Opacity",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the opacity of the 3D objects and all their children.\nThis affects all 3D objects that use the same material.",
+      "fullName": "🥛Change opacity V1 (Deprecated)",
+      "functionType": "Action",
+      "group": "Visibility",
+      "name": "ChangeOpacity",
+      "sentence": "⚠️🥛Change opacity V1 (_PARAM1_, _PARAM3_, Opacity: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];\r",
+                "const Object3D = Object2D.get3DRendererObject();\r",
+                "const Operator = eventsFunctionContext.getArgument(\"Operator\");\r",
+                "const Opacity = eventsFunctionContext.getArgument(\"Opacity\") / 255;\r",
+                "//\r",
+                "Object3D.traverse((Child) => {\r",
+                "    if (Child.material) {\r",
+                "        if (Array.isArray(Child.material)) {\r",
+                "            for (let i = 0; i < Child.material.length; i++) {\r",
+                "                if (Operator == \"+\") {\r",
+                "                    Child.material[i].opacity += Opacity;\r",
+                "                } else if (Operator == \"-\") {\r",
+                "                    Child.material[i].opacity -= Opacity;\r",
+                "                } else if (Operator == \"*\") {\r",
+                "                    Child.material[i].opacity *= Opacity;\r",
+                "                } else if (Operator == \"/\") {\r",
+                "                    Child.material[i].opacity /= Opacity;\r",
+                "                } else {\r",
+                "                    // =\r",
+                "                    Child.material[i].opacity = Opacity;\r",
+                "                }\r",
+                "                const Transparent = (Child.material[i].opacity < 1);\r",
+                "                if (Child.material[i].transparent !== Transparent) {\r",
+                "                    Child.material[i].transparent = Transparent;\r",
+                "                    Child.material[i].needsUpdate = true;\r",
+                "                }\r",
+                "            }\r",
+                "        } else {\r",
+                "            if (Operator == \"+\") {\r",
+                "                Child.material.opacity += Opacity;\r",
+                "            } else if (Operator == \"-\") {\r",
+                "                Child.material.opacity -= Opacity;\r",
+                "            } else if (Operator == \"*\") {\r",
+                "                Child.material.opacity *= Opacity;\r",
+                "            } else if (Operator == \"/\") {\r",
+                "                Child.material.opacity /= Opacity;\r",
+                "            } else {\r",
+                "                // =\r",
+                "                Child.material.opacity = Opacity;\r",
+                "            }\r",
+                "            const Transparent = (Child.material.opacity < 1);\r",
+                "            if (Child.material.transparent !== Transparent) {\r",
+                "                Child.material.transparent = Transparent;\r",
+                "                Child.material.needsUpdate = true;\r",
+                "            }\r",
+                "        }\r",
+                "    }\r",
+                "});\r",
+                "\r",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Operator",
+          "name": "Operator",
+          "supplementaryInformation": "[\"=\",\"+\",\"-\",\"*\",\"/\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Opacity (0 to 255)",
+          "name": "Opacity",
+          "supplementaryInformation": "[\"Keep model blend mode\",\"Normal\",\"Additive\",\"Subtractive\",\"Multiply\"]",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the opacity of the 3D objects and all their children.",
+      "fullName": "🥛Change opacity",
+      "functionType": "Action",
+      "group": "Visibility",
+      "name": "ChangeOpacityV2",
+      "sentence": "🥛Change opacity (_PARAM1_, _PARAM3_, Opacity: _PARAM4_, Unique: _PARAM5_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];\r",
+                "const Object3D = Object2D.get3DRendererObject();\r",
+                "const Operator = eventsFunctionContext.getArgument(\"Operator\");\r",
+                "const Opacity = eventsFunctionContext.getArgument(\"Opacity\") / 255;\r",
+                "const Unique = eventsFunctionContext.getArgument(\"Unique\");\r",
+                "//\r",
+                "if (Unique) {\r",
+                "    gdjs._A3F.MakeUniqueMaterial(Object3D);\r",
+                "}\r",
+                "//\r",
+                "Object3D.traverse((Child) => {\r",
+                "    if (Child.material) {\r",
+                "        if (Array.isArray(Child.material)) {\r",
+                "            for (let i = 0; i < Child.material.length; i++) {\r",
+                "                if (Operator == \"+\") {\r",
+                "                    Child.material[i].opacity += Opacity;\r",
+                "                } else if (Operator == \"-\") {\r",
+                "                    Child.material[i].opacity -= Opacity;\r",
+                "                } else if (Operator == \"*\") {\r",
+                "                    Child.material[i].opacity *= Opacity;\r",
+                "                } else if (Operator == \"/\") {\r",
+                "                    Child.material[i].opacity /= Opacity;\r",
+                "                } else {\r",
+                "                    // =\r",
+                "                    Child.material[i].opacity = Opacity;\r",
+                "                }\r",
+                "                const Transparent = (Child.material[i].opacity < 1);\r",
+                "                if (Child.material[i].transparent !== Transparent) {\r",
+                "                    Child.material[i].transparent = Transparent;\r",
+                "                    Child.material[i].needsUpdate = true;\r",
+                "                }\r",
+                "            }\r",
+                "        } else {\r",
+                "            if (Operator == \"+\") {\r",
+                "                Child.material.opacity += Opacity;\r",
+                "            } else if (Operator == \"-\") {\r",
+                "                Child.material.opacity -= Opacity;\r",
+                "            } else if (Operator == \"*\") {\r",
+                "                Child.material.opacity *= Opacity;\r",
+                "            } else if (Operator == \"/\") {\r",
+                "                Child.material.opacity /= Opacity;\r",
+                "            } else {\r",
+                "                // =\r",
+                "                Child.material.opacity = Opacity;\r",
+                "            }\r",
+                "            const Transparent = (Child.material.opacity < 1);\r",
+                "            if (Child.material.transparent !== Transparent) {\r",
+                "                Child.material.transparent = Transparent;\r",
+                "                Child.material.needsUpdate = true;\r",
+                "            }\r",
+                "        }\r",
+                "    }\r",
+                "});\r",
+                "\r",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Operator",
+          "name": "Operator",
+          "supplementaryInformation": "[\"=\",\"+\",\"-\",\"*\",\"/\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Opacity (0 to 255)",
+          "name": "Opacity",
+          "supplementaryInformation": "[\"Keep model blend mode\",\"Normal\",\"Additive\",\"Subtractive\",\"Multiply\"]",
+          "type": "expression"
+        },
+        {
+          "defaultValue": "yes",
+          "description": "Make the material unique to this object",
+          "longDescription": "If No, it will affect all 3D objects that use the same material.",
+          "name": "Unique",
+          "optional": true,
+          "type": "yesorno"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Change the shadow settings of 3D objects.\nIf both \"Cast Shadow\" and \"Receive Shadow\" are enabled, striped patterns are likely to occur in the shadow.",
+      "fullName": "👤Change 3D shadow",
+      "functionType": "Action",
+      "group": "Effects",
+      "name": "ChangeShadow",
+      "sentence": "👤Change 3D shadow (_PARAM1_, Cast: _PARAM3_, Receive: _PARAM4_)",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const CastShadow = eventsFunctionContext.getArgument(\"CastShadow\");",
+                "const ReceiveShadow = eventsFunctionContext.getArgument(\"ReceiveShadow\");",
+                "//",
+                "Object3D.traverse((Child) => {",
+                "    if (Child.isMesh) {",
+                "        Child.castShadow = CastShadow;",
+                "        Child.receiveShadow = ReceiveShadow;",
+                "    }",
+                "});",
+                "",
+                ""
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Capability3d",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Cast Shadow",
+          "name": "CastShadow",
+          "supplementaryInformation": "scene3D Object ID",
+          "type": "yesorno"
+        },
+        {
+          "description": "Receive Shadow",
+          "name": "ReceiveShadow",
+          "type": "yesorno"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Use this when you want to set the initial properties of a 3D object.",
+      "fullName": "Advanced 3D Initial Properties",
+      "name": "A3I",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const Behavior = Object2D.getBehavior(\"A3F\");",
+                "//",
+                "//Axes helper",
+                "if (Behavior._getAxesHelper()) {",
+                "    const AxesHelper = new THREE.AxesHelper(2);",
+                "    AxesHelper.name = Object2D.name + Object2D.id + \"_AxesHelper\";",
+                "    Object3D.add(AxesHelper);",
+                "}",
+                "//",
+                "//Blend mode",
+                "let Blend = null;//THREE.NoBlending === 0",
+                "if (Behavior._getBlend() == \"Normal\") {",
+                "    Blend = THREE.NormalBlending;",
+                "} else if (Behavior._getBlend() == \"Additive\") {",
+                "    Blend = THREE.AdditiveBlending;",
+                "} else if (Behavior._getBlend() == \"Subtractive\") {",
+                "    Blend = THREE.SubtractiveBlending;",
+                "} else if (Behavior._getBlend() == \"Multiply\") {",
+                "    Blend = THREE.MultiplyBlending;",
+                "}",
+                "if (Blend) {",
+                "    Object3D.traverse((Child) => {",
+                "        if (Child.material) {",
+                "            if (Array.isArray(Child.material)) {",
+                "                for (let i = 0; i < Child.material.length; i++) {",
+                "                    Child.material[i].blending = Blend;",
+                "                }",
+                "            } else {",
+                "                Child.material.blending = Blend;",
+                "            }",
+                "        }",
+                "    });",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "A3F::A3I::PropertyAxesHelper"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "A3F::AddAxesHelper"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Capability3d",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "A3F::A3I::PropertyCastShadow"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "A3F::A3I::PropertyReceiveShadow"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "A3F::ChangeShadow"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Capability3d",
+                    "yes",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "A3F::A3I::PropertyCastShadow"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "A3F::A3I::PropertyReceiveShadow"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "A3F::ChangeShadow"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Capability3d",
+                    "no",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "A3F::A3I::PropertyCastShadow"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "A3F::A3I::PropertyReceiveShadow"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "A3F::ChangeShadow"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Capability3d",
+                    "yes",
+                    "yes",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "A3F::ChangeBlendMode"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Capability3d",
+                    "Blend",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "A3F::ChangeOpacity"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Capability3d",
+                    "\"=\"",
+                    "Opacity",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "A3F::A3I",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "3D capability",
+          "description": "",
+          "group": "",
+          "extraInformation": [
+            "Scene3D::Base3DBehavior"
+          ],
+          "name": "Capability3d"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Axes helper",
+          "description": "",
+          "group": "Debug",
+          "extraInformation": [],
+          "name": "AxesHelper"
+        },
+        {
+          "value": "Keep model blend mode",
+          "type": "Choice",
+          "label": "Blend mode",
+          "description": "This affects all 3d objects that use the same material.",
+          "group": "Effect",
+          "extraInformation": [
+            "Keep model blend mode",
+            "Normal",
+            "Additive",
+            "Subtractive",
+            "Multiply"
+          ],
+          "name": "Blend"
+        },
+        {
+          "value": "255",
+          "type": "Number",
+          "label": "Opacity (0 to 255)",
+          "description": "This affects all 3d objects that use the same material.",
+          "group": "Visibility",
+          "extraInformation": [],
+          "name": "Opacity"
+        },
+        {
+          "value": "false",
+          "type": "Boolean",
+          "label": "Cast Shadow",
+          "description": "If both \"Cast Shadow\" and \"Receive Shadow\" are enabled, striped patterns are likely to occur in the shadow.",
+          "group": "Effect",
+          "extraInformation": [],
+          "name": "CastShadow"
+        },
+        {
+          "value": "false",
+          "type": "Boolean",
+          "label": "Receive Shadow",
+          "description": "If both \"Cast Shadow\" and \"Receive Shadow\" are enabled, striped patterns are likely to occur in the shadow.",
+          "group": "Effect",
+          "extraInformation": [],
+          "name": "ReceiveShadow"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    },
+    {
+      "description": "⚠️ 3D Lights are highly loaded.",
+      "fullName": "Advanced 3D Light",
+      "name": "A3L",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];",
+                "const Object3D = Object2D.get3DRendererObject();",
+                "const Behavior = Object2D.getBehavior(\"A3L\");",
+                "const Renderer = runtimeScene.getGame().getRenderer().getThreeRenderer();//runtimeScene.getRenderer()._threeRenderer;",
+                "const Scene = runtimeScene.getLayer(Object2D.getLayer()).getRenderer().getThreeScene();//runtimeScene.getLayer(Object2D.getLayer()).get3DRendererObject();",
+                "//",
+                "const LightType = Behavior._getType();",
+                "const Color = Behavior._getColor() || \"255;255;255\";",
+                "let Intensity = Behavior._getIntensity();",
+                "const Distance = Behavior._getDistance();",
+                "const Decay = 2;",
+                "const SpotAngle = Behavior._getSpotAngle() / 2;",
+                "const SpotPenumbra = Behavior._getSpotPenumbra();",
+                "const CastShadow = Behavior._getCastShadow();",
+                "const ShadowMapSize = {\"128px\": 128, \"256px\": 256, \"512px\": 512, \"1024px\": 1024, \"2048px\": 2048}[Behavior._getShadowMapSize()];",
+                "const ShadowRange = Behavior._getShadowRange();",
+                "const ShadowBias = Behavior._getShadowDepthBias();",
+                "const ShadowNormalBias = Behavior._getShadowNormalBias();",
+                "const LightHelper = Behavior._getLightHelper();",
+                "const ShadowHelper = Behavior._getShadowHelper();",
+                "const LightIntensityScale = 1;//10000;//適当// Three.js r160",
+                "//",
+                "const RGB = Color.split(\";\");",
+                "let Light;",
+                "if (LightType == \"Directional Light\") {",
+                "    Intensity *= LightIntensityScale;",
+                "    Light = new THREE.DirectionalLight(`rgb(${RGB[0]}, ${RGB[1]}, ${RGB[2]})`, Intensity);",
+                "    const Target = new THREE.Group();",
+                "    Target.translateX(128);",
+                "    Light.add(Target);",
+                "    Light.target = Target;",
+                "    //",
+                "    Light.shadow.camera.top = ShadowRange / 2;",
+                "    Light.shadow.camera.right = ShadowRange / 2;",
+                "    Light.shadow.camera.bottom = -ShadowRange / 2;",
+                "    Light.shadow.camera.left = -ShadowRange / 2;",
+                "    Light.shadow.camera.near = 0.5;// default",
+                "    Light.shadow.camera.far = ShadowRange;",
+                "    //",
+                "    if (LightHelper) {",
+                "        const Geometry = new THREE.ConeGeometry(32, 128, 3);",
+                "        Geometry.translate(0, 64, 0);",
+                "        Geometry.rotateZ(gdjs.toRad(-90));",
+                "        const Material = new THREE.MeshBasicMaterial({color: `rgb(${RGB[0]}, ${RGB[1]}, ${RGB[2]})`, wireframe: true});",
+                "        const Cone = new THREE.Mesh(Geometry, Material);",
+                "        Cone.name = Object2D.name + Object2D.id + \"_DirectionalLightHelper\";",
+                "        Light.add(Cone);",
+                "        // const DirectionalLightHelper = new THREE.DirectionalLightHelper(Light, 128);",
+                "        // DirectionalLightHelper.name = Object2D.name + Object2D.id + \"_DirectionalLightHelper\";",
+                "        // Scene.add(DirectionalLightHelper);",
+                "    }",
+                "} else if (LightType == \"Spot Light\") {",
+                "    Intensity *= LightIntensityScale;",
+                "    Light = new THREE.SpotLight(`rgb(${RGB[0]}, ${RGB[1]}, ${RGB[2]})`, Intensity, Distance, gdjs.toRad(SpotAngle), SpotPenumbra, Decay);",
+                "    const Target = new THREE.Group();",
+                "    Target.translateX(1);",
+                "    Light.add(Target);",
+                "    Light.target = Target;",
+                "    //",
+                "    Light.shadow.camera.near = 0.5;// default",
+                "    Light.shadow.camera.far = ShadowRange;",
+                "    Light.shadow.focus = 1; // default",
+                "    //",
+                "    if (LightHelper && SpotAngle < 90) {",
+                "        const ConeHeight = Distance ? Distance : 1000;",
+                "\t\tconst ConeRadius = ConeHeight * Math.tan(gdjs.toRad(SpotAngle));",
+                "        const Geometry = new THREE.ConeGeometry(ConeRadius, ConeHeight, 8);",
+                "        Geometry.translate(0, -ConeHeight / 2, 0);",
+                "        Geometry.rotateZ(gdjs.toRad(90));",
+                "        const Material = new THREE.MeshBasicMaterial({color: `rgb(${RGB[0]}, ${RGB[1]}, ${RGB[2]})`, wireframe: true});",
+                "        const Cone = new THREE.Mesh(Geometry, Material);",
+                "        Cone.name = Object2D.name + Object2D.id + \"_SpotLightHelper\";",
+                "        Light.add(Cone);",
+                "        // const SpotLightHelper = new THREE.SpotLightHelper(Light);",
+                "        // SpotLightHelper.name = Object2D.name + Object2D.id + \"_SpotLightHelper\";",
+                "        // Scene.add(SpotLightHelper);",
+                "    }",
+                "} else {",
+                "    // Point",
+                "    Intensity *= LightIntensityScale;",
+                "    Light = new THREE.PointLight(`rgb(${RGB[0]}, ${RGB[1]}, ${RGB[2]})`, Intensity, Distance, Decay);",
+                "    //",
+                "    Light.shadow.camera.near = 0.5;// default",
+                "    Light.shadow.camera.far = ShadowRange;",
+                "    //",
+                "    if (LightHelper) {",
+                "        const Radius = Distance ? Distance : 1000;",
+                "        const Geometry = new THREE.IcosahedronGeometry(Radius, 2);",
+                "        const Material = new THREE.MeshBasicMaterial({color: `rgb(${RGB[0]}, ${RGB[1]}, ${RGB[2]})`, wireframe: true});",
+                "        const Icosahedron = new THREE.Mesh(Geometry, Material);",
+                "        Icosahedron.name = Object2D.name + Object2D.id + \"_PointLightHelper\";",
+                "        Light.add(Icosahedron);",
+                "        // const PointLightHelper = new THREE.PointLightHelper(Light, 16);",
+                "        // PointLightHelper.name = Object2D.name + Object2D.id + \"_PointLightHelper\";",
+                "        // Scene.add(PointLightHelper);",
+                "    }",
+                "}",
+                "Renderer.shadowMap.enabled = Renderer.shadowMap.enabled ? true : CastShadow;",
+                "Light.position.set(0, 0, 0);",
+                "Light.scale.x /= Object2D.getWidth();",
+                "Light.scale.y /= Object2D.getHeight();",
+                "Light.scale.z /= Object2D.getDepth();",
+                "Light.castShadow = CastShadow;",
+                "Light.shadow.mapSize.width = ShadowMapSize;",
+                "Light.shadow.mapSize.height = ShadowMapSize;",
+                "Light.shadow.bias = ShadowBias;",
+                "Light.shadow.normalBias = ShadowNormalBias;",
+                "Light.shadow.updateMatrices(Light);// 必須",
+                "Light.shadow.camera.updateProjectionMatrix();",
+                "//",
+                "Light.name = Object2D.name + Object2D.id + \"_Light\";",
+                "Object3D.add(Light);",
+                "//",
+                "if (ShadowHelper && CastShadow) {",
+                "    let CameraHelper;",
+                "    if (LightType == \"Directional Light\") {",
+                "        // const Geometry = new THREE.BoxGeometry(ShadowRange, ShadowRange, ShadowRange);",
+                "        const CylinderHeight = Light.shadow.camera.far;",
+                "        const CylinderRadius = Light.shadow.camera.top;",
+                "        const Geometry = new THREE.CylinderGeometry(CylinderRadius, CylinderRadius, CylinderHeight, 12, 1);",
+                "        Geometry.translate(0, -CylinderHeight / 2, 0);",
+                "        Geometry.rotateZ(gdjs.toRad(90));",
+                "        const Material = new THREE.MeshBasicMaterial({color: 0xff0000, wireframe: true});",
+                "        CameraHelper = new THREE.Mesh(Geometry, Material);",
+                "        // CameraHelper = new THREE.CameraHelper(Light.shadow.camera);",
+                "        // Scene.add(CameraHelper);",
+                "    } else if (LightType == \"Spot Light\") {",
+                "        const ConeHeight = Light.shadow.camera.far;",
+                "\t\tconst ConeRadius = ConeHeight * Math.tan(gdjs.toRad(SpotAngle));",
+                "        const Geometry = new THREE.ConeGeometry(ConeRadius, ConeHeight, 4);",
+                "        Geometry.translate(0, -ConeHeight / 2, 0);",
+                "        Geometry.rotateZ(gdjs.toRad(90));",
+                "        const Material = new THREE.MeshBasicMaterial({color: 0xff0000, wireframe: true});",
+                "        CameraHelper = new THREE.Mesh(Geometry, Material);",
+                "    } else {",
+                "        //Point",
+                "        const Geometry = new THREE.IcosahedronGeometry(Light.shadow.camera.far, 1);",
+                "        const Material = new THREE.MeshBasicMaterial({color: 0xff0000, wireframe: true});",
+                "        CameraHelper = new THREE.Mesh(Geometry, Material);",
+                "    }",
+                "    CameraHelper.name = Object2D.name + Object2D.id + \"_ShadowHelper\";",
+                "    Light.add(CameraHelper);",
+                "}"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "A3F::A3L",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onDestroy",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const Object2D = objects[0];\r",
+                "const Object3D = Object2D.get3DRendererObject();\r",
+                "Object3D.traverse((Child) => {\r",
+                "    // Light\r",
+                "    if (Child.isLight) {\r",
+                "        if (Child.castShadow) {\r",
+                "            Child.shadow.dispose();\r",
+                "        }\r",
+                "        Child.dispose();\r",
+                "    }\r",
+                "});"
+              ],
+              "parameterObjects": "Object",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "A3F::A3L",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "3D capability",
+          "description": "",
+          "group": "",
+          "extraInformation": [
+            "Scene3D::Base3DBehavior"
+          ],
+          "name": "Capability3d"
+        },
+        {
+          "value": "Directional Light",
+          "type": "Choice",
+          "label": "Type",
+          "description": "",
+          "group": "",
+          "extraInformation": [
+            "Directional Light",
+            "Point Light",
+            "Spot Light"
+          ],
+          "name": "Type"
+        },
+        {
+          "value": "255;255;255",
+          "type": "Color",
+          "label": "Color",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "name": "Color"
+        },
+        {
+          "value": "1",
+          "type": "Number",
+          "label": "Intensity (Default: 1)",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "name": "Intensity"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Distance (Default: 0)",
+          "description": "For Point and Spot Lights. 0 is no limit.",
+          "group": "",
+          "extraInformation": [],
+          "name": "Distance"
+        },
+        {
+          "value": "45",
+          "type": "Number",
+          "label": "Spot Angle (0 to 180)",
+          "description": "For Spot Lights. The narrower the angle, the better the shadow quality. If it is a multiple of 90, the shadow will not be cast correctly.",
+          "group": "",
+          "extraInformation": [],
+          "name": "SpotAngle"
+        },
+        {
+          "value": "0.5",
+          "type": "Number",
+          "label": "Spot Penumbra (0 to 1)",
+          "description": "For Spot Lights.",
+          "group": "",
+          "extraInformation": [],
+          "name": "SpotPenumbra"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Cast Shadow",
+          "description": "⚠️ This is expensive and requires tweaking to get shadows looking right.",
+          "group": "Shadow",
+          "extraInformation": [],
+          "name": "CastShadow"
+        },
+        {
+          "value": "512px",
+          "type": "Choice",
+          "label": "Shadow Map Size",
+          "description": "The larger the map, the better the shadow quality, but the greater the load.",
+          "group": "Shadow",
+          "extraInformation": [
+            "128px",
+            "256px",
+            "512px",
+            "1024px",
+            "2048px"
+          ],
+          "name": "ShadowMapSize"
+        },
+        {
+          "value": "256",
+          "type": "Number",
+          "label": "Range to Draw Shadows",
+          "description": "The smaller the range, the better the shadow quality. For Point and Spot Lights, this value is valid only if the Distance is 0.",
+          "group": "Shadow",
+          "extraInformation": [],
+          "name": "ShadowRange"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Shadow Depth Bias (Default: 0)",
+          "description": "It is mainly effective for filling gaps between objects and shadows. Reference value: [Directional Light: 0.002] [Point Light: 0.001] [Spot Light: 0.00001]",
+          "group": "Shadow Bias",
+          "extraInformation": [],
+          "name": "ShadowDepthBias"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Shadow Normal Bias (Default: 0)",
+          "description": "It is mainly effective in reducing striped patterns. Reference value: [Directional Light: 2] [Point Light: 1] [Spot Light: 1]",
+          "group": "Shadow Bias",
+          "extraInformation": [],
+          "name": "ShadowNormalBias"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Light Helper",
+          "description": "",
+          "group": "Helper",
+          "extraInformation": [],
+          "name": "LightHelper"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Shadow Range Helper",
+          "description": "",
+          "group": "Helper",
+          "extraInformation": [],
+          "name": "ShadowHelper"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}

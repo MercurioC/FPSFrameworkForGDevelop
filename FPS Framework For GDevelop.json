@@ -1,0 +1,1666 @@
+{
+  "firstLayout": "sandbox",
+  "gdVersion": {
+    "build": 228,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.mygame",
+    "pixelsRounding": false,
+    "projectUuid": "e4b4b6b7-1920-41f6-9753-1ed27362aa7d",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "c4c34729-d75f-4a91-9282-3818d3cbec7e",
+    "version": "1.0.0",
+    "name": "FPS Framework For GDevelop",
+    "description": "A 3D FPS framework made in GDevelop. Provides a stable base for developing a single-player first person shooter with physic interactions.",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "FPS thumbnail.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "TfmhaQWSuPcKOkZ38A8IL2cv8Ep1"
+    ],
+    "authorUsernames": [
+      "Giampiero"
+    ],
+    "categories": [
+      "shooter"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FPS thumbnail.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fps_collisionMesh.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "fps_collisionMesh.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/b5bbb809292849b98603db22ee38922a2e7380a0e09a2cb0bad3cd7516169dea-fps_collisionMesh.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fps_viewport.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "fps_viewport.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/757b9e1503981fd04f0b3c82c8c48965a712c489e90734c7dde7a77d01cfb1c8-fps_viewport.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/player_crouchHitbox.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "player_crouchHitbox.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e9001cbec17636b5248ac3e8ff1bf26e894cd40a7f4edfe657fef7db3a5ed405-player_crouchHitbox.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_barrel.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_barrel.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/6d78aa15bab8aa257eab56e4c1b1ffcfc5397d7ed47e92b1ddb8261ba4595701-obj_barrel.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_crowbar.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_crowbar.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/cb2bc9c82a2e994aad8d9ca495aaae4d68b31f05924cf7205f45f06a011be6d6-obj_crowbar.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/weapon_select_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "weapon_select_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/721dc0e43ccd45751cf978c058867a34c25b4570eedead0ed5db34bd401bd191-weapon_select_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/weapon_select_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "weapon_select_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/fa454b497b2d6cd2a2ff62b3c5a5f683cb556b3e359e7263f84ebb3652e2fe26-weapon_select_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/weapon_select_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "weapon_select_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/2b1d508ca5c554253a1eaa1673c6878c1430fe227693f618a4193eb418c52421-weapon_select_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/weapon_select_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "weapon_select_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d43b9bcf96c10b57bfde3d8ddd3e03178d7c473beb4c3cea1b4e76c025768605-weapon_select_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/weapon_select_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "weapon_select_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e82f02315908741c32e2200fa31c9eba85aa48dd8e941243f12e66e2b1664b6f-weapon_select_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_shotgun.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_shotgun.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/21498fd183c91c43001d589b17b805f105b3a1bed2fb8f150e7e83bf5327797b-obj_shotgun.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_pistol.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_pistol.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/cc716470962aeb9bb947e2f865d1ac627a3b97339440fa4cee666466bbe70930-obj_pistol.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/wep_ak_originFix.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "wep_ak_originFix.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/ced25b9e567920abd3db2c180b9396bfbc422e3f585fc7f331e89a13f1c722d1-wep_ak_originFix.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_health.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_health.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/c1bd9e7c01745fc03eb243855b4ed87ffc82f796872fb42bc5c104381559538f-ui_health.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_weaponBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_weaponBar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/cd574672261e3e34445fe91a2c944b8de3a91f8067461e0fe9f368cef47a2c72-ui_weaponBar.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/cubeAnimTest.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "cubeAnimTest.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/8dd8c97fcd6fbd51059db1a050c775ea76d115dc9d3a4a5df8eb85c25a3bf37f-cubeAnimTest.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_hitmarker1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_hitmarker1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a1c145ca5194e825eb567b678e6641b7c4bdb295076d2a05c7f1ca5f45070078-ui_hitmarker1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_hitmarker2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_hitmarker2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/2e58389c507fc036d797fd3c6d85caad6ed82b8d46377ba2443431745e8cdb97-ui_hitmarker2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/wep_grenade.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "wep_grenade.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0776db4cb7c691962ee561533c530dcd1f88049562ebdfe12b98e2b6a592e9a7-wep_grenade.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ent_explosion.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ent_explosion.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/26701f5e389b19ee4b57295d036884d8302b8d84503ec27959d55a01d5028bbb-ent_explosion.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/en_projectile.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "en_projectile.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/274517acdc5ca2189bb8ecbcb26349bc9cda53e14b3d7fe0b95d21a60397aa30-en_projectile.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/zone_trigger.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "zone_trigger.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d57ea59cfd58cd18431c6e5fc0c0871037f06c8e470964422c016b81f129ea9a-zone_trigger.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/pickup_base.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "pickup_base.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0571b7e77a2e7ee80b51d337f9209ce240de0e311c70160c27fea621e768b06c-pickup_base.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/pickup_health.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "pickup_health.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/b87072d7e0a264842a5127cd248f7702872908137425d7829d2f08eea8cef27a-pickup_health.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/pickup_ammoBox.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "pickup_ammoBox.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/158071773198445d0280f9293c438000e27202eef18fe7e7ff006026066f835c-pickup_ammoBox.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_weapon_ak_fire.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fx_weapon_ak_fire.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0f2bf488495afcb71415202e9e1cd83b150e5347202e218d79f7a8d2746e1ef8-fx_weapon_ak_fire.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_weapon_reload.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fx_weapon_reload.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/27e0600eedd1b2064ebb3182cd4d696abe1190585502b51cd55f59e5fafa5cf7-fx_weapon_reload.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_weapon_pistol_fire.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fx_weapon_pistol_fire.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d6e7d34280fea6b2b0e75e14f7f8bc0f157164c806bdb7a5d9ad0b899f4ff80e-fx_weapon_pistol_fire.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_hitmarker.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fx_hitmarker.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/8f3fa9ae9078bd94df5ebb9b8d1c356afa0a6c6b9d4e0ec36cfa036e7465665d-fx_hitmarker.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_player_footstep.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fx_player_footstep.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/8a282bb6f64aeae44af0057403ca37711b0602b69d30cd8e30da70102798a998-fx_player_footstep.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_player_jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fx_player_jump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/1ec79545bd8a9a8c20c23625f1a9824019ec5b1fd5adca047ca2fa4d74dbf2fc-fx_player_jump.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/decal_gunshot_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "decal_gunshot_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/163792a057426d955147502c30d23db89a24e50e212a58f34827fc643d11bbde-decal_gunshot_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/decal_gunshot_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "decal_gunshot_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/58760230ba18af78cac5ed0b57398d01bc60ccb357b043f81afb415856dbe8cf-decal_gunshot_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/decal_gunshot_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "decal_gunshot_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a340c9b51bd5f1e9cfabe7365dc78d99a84dcf10cdc6af26319b6fb55e9048f7-decal_gunshot_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/decal_gunshot_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "decal_gunshot_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/da6fc6f195b3eb254097cf4a99666977d857ccfc97ff0acaa6d707699308e1d3-decal_gunshot_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_wallhit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_wallhit.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/b9a40f7376c69401ac4b3f132a520441208610ac84dcec137c0b45064471faba-fx_wallhit.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_hurt.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d3ca139793f6b22c16c404337da598efb7638ab20351c8f8531547e1c93a477c-fx_hurt.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/zone_damage.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "zone_damage.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/80a39d6ada7e1ec3de1dfa53f2caac673292bea18c4d6f2300bd563a0bbfd101-zone_damage.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sound_player_death.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound_player_death.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/1270aea7eff503abc799274c6c82686b32ac04c2b83f465c5330a10be8e6217f-sound_player_death.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/music_death.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music_death.wav",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/af113b9b3ea7737886e113895f614db5415dd694fd196a03352987fa8fd9ed79-music_death.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sound_player_hurt1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound_player_hurt1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/af6ab7c0cb0dea01f497c9693e092426ba1545a3242e4461d2adec017d81f71e-sound_player_hurt1.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sound_player_hurt2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound_player_hurt2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/c48da87aaa105ec2b6726b24d09c59678a6558163fafe7f4093b0908bf3508c1-sound_player_hurt2.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sound_player_interact.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound_player_interact.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/4eabd3335897e8ac29d51e255d1af133cac3bfd72668cefb384ab3a19ca01278-sound_player_interact.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/en_target.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "en_target.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/7f63a967ac198025cea03a1f697fdc93d8642fcaf09dbda65c21030a31d7bccc-en_target.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_button2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_button2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0b7480f10b03d9ffb5a0c4c7a3e409953fdebb9853749d476b9aa2a4441646c3-obj_button2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/zone_spawn.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "zone_spawn.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/8f7e632715b6f8da4640cf095bb12e781f3c050a893bd7bb43ff43aa41d487bb-zone_spawn.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/quest_menuBackground.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "quest_menuBackground",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shootingRange.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "shootingRange.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a5d98937138cb175e96124af28902e4ac5eef6e3bc740e9698a3aded9cc9164e-shootingRange.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/player_shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/eaf09248999d41d6a58ed5b78e29e4ba895efbe41a4ed0730a8d7f126e3911c1-player_shadow.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_cheatOn.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Powerup 3\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.2,\\\"sustain\\\":0.6,\\\"sustainPunch\\\":50,\\\"decay\\\":0.1,\\\"tremoloDepth\\\":80,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":38.2084581189156,\\\"frequencySweep\\\":1280,\\\"frequencyDeltaSweep\\\":5800,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":60,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":25,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":36,\\\"vibratoFrequency\\\":9.17673483891491,\\\"squareDuty\\\":0,\\\"squareDutySweep\\\":10,\\\"flangerOffset\\\":2,\\\"flangerOffsetSweep\\\":-19,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":70}\",\"name\":\"sfx_cheatOn\"}}",
+        "name": "sfx_cheatOn",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/weapon_muzzleFlash.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "weapon_muzzleFlash.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e52c8050f81c5474830c6221067f95c5ec8ea111fab921ab4a9e68d09e047135-weapon_muzzleFlash.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_doorCollision_2_1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_doorCollision_2_1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e3445d847ecd02800e307915e3c89221d2525f928eeb3df3049ca2d697bb8559-obj_doorCollision_2_1.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/model_window.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "model_window.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/50f4ae5fc7faced3de0bd3c5b74147004528c837bf65c3ffaf13bcd71040ada9-model_window.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a9a8fc8f9b2e7c8fe153da851f14e4fa61b523041d4821d7ef531891dfa3d639-windowAnimation_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/ed319bc34a7cc99996109d12cf58571c7983162da03e3af030fd5f7c441693a7-windowAnimation_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d91433b078847a96e87907764d20b35c86b7cd1089cfe96352176c03b3e2193a-windowAnimation_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/516b428adfb2440df0e972cdf69a338125c03b3a89b060be90bd15a38c40fb0d-windowAnimation_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/3d8a04fe5dcc2ba52f78d7efaaf7535b3c9c1773102d175356603cbe18398850-windowAnimation_5.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e60b35b02e0c73ae7663c432c7515fbd0a57b1189c3fb4af4224f21861a43224-windowAnimation_6.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e57e44f05b9cfe6eaa9040cd09aeb329b1cf0cad3fc52bc3c4d0ab1fdfd6d90b-windowAnimation_7.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/6a9f447a51ab658290cb9be588e9bf45b8c4dd7968d626b769aaf771ae293d20-windowAnimation_8.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/334ec54e844bcd54be34f16942b9d8e797eb405459a9333e2ae74687db6ae6e7-windowAnimation_9.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/55da3e520c09b9dea2de3588f90ef3a8eac00a06ca39ea0828e1d8c1aa903d19-windowAnimation_10.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d13ee9c843243e519b51d886c871ee4e9d5f39f45b8d99f2650960b6348335fd-windowAnimation_11.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/486cce73ea10ecc2f6b9f9d54e671bf4c2853ab0c76d1bb7973b6de23eba3ec6-windowAnimation_12.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/c40691b034952b53f52f60dbac8cd047509e18b5c87b178328b306b92d6f6347-windowAnimation_13.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a345007724fb78d460e9ec42564c24387a132b9eb1d2a18bbe99744adcba0e81-windowAnimation_14.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a4e8cd774d7fd8bdaf120314f49f50774295120afd2368c885653e938a2ea5c9-windowAnimation_15.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/94f2357c2c3c14fda4e92cd068bd6fa4aec6f3ce38e8d4d66069022a6ae23e0e-windowAnimation_16.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_17.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/9d49b678ac8eb670c7f77512274a454aced29e23579ad1de16c542562f4d9c5a-windowAnimation_17.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_18.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/4e030d8f972f3848fdcd09875fe453174fe0a28c053a1080ea1d3ef5cfbee08b-windowAnimation_18.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_19.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/9e7cd21d0ee50293ab305017ab1fc4a3ac2f5c7c5ffc99842b69486d28485462-windowAnimation_19.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_20.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/a62998a1d395bef25a4ec4847b7eb2c289b0238ce22cd50529247d8f6e654374-windowAnimation_20.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_21.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/fde61b75cb8c40e58f302876ff437645020f7979d3b6641a3880bdb51b237cc4-windowAnimation_21.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_22.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/231e8edd548f09c6ad65fe9f13ad1aa2af0c5852accbbaa23901936716eb7016-windowAnimation_22.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_23.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/b58ba9310daf40a42c1f4cda7f046eafa1d5f84e7b8641003601528456e9df72-windowAnimation_23.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_24.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0d5b2aa321dfb3c36dbfd168ac984424175aeae81d50654596c0b8d2ba8b28d9-windowAnimation_24.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/windowAnimation_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "windowAnimation_25.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0d5b2aa321dfb3c36dbfd168ac984424175aeae81d50654596c0b8d2ba8b28d9-windowAnimation_25.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_player_launchObject.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx_player_launchObject.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/406cf5bb7a52d8a5b97a7d90310fbce49b6727b85c3c86a353cb173c98f7c11e-sfx_player_launchObject.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_object_collision.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx_object_collision.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/df9d93a2e1da99f6c904603b2dd2894b929973c9c8d017cf9e73492a48933f67-sfx_object_collision.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_windowBreak.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx_windowBreak.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/cb3e5b9f69762eacfd3d346ab0d5a7b409795f02f64278602662574c68c0ec5e-sfx_windowBreak.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_object_barrelFire.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx_object_barrelFire.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/91922729aeb0b407cae1170b2b78d7d26c69b838a206c192d70f6107ff687c0c-sfx_object_barrelFire.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ent_elevator2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ent_elevator2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/3d7689109173d5a6c88427708afd211528356e57e541e107fad6fce8d4134aa3-ent_elevator2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/movementTest4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "movementTest4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/6e46af8750bc69d47ff7de76a8362d02f04d8e6186ad7e61f2a5fe91c5cfef1d-movementTest4.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx_explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/1feb5c217250a50f093b9b19ec5f092f7406b1cf126e4be6ed6d1e8f0f82e611-sfx_explosion.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_glassBottle2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_glassBottle2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/662eaf25328bbc05227dfdfbea32c1f5f97879551e941d8269ee81bc10dce0fd-obj_glassBottle2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/sfx_checkpoint.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx_checkpoint.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/b48a0f9f441b76a4534e7e0cc57e346314e3b602119877c67daec0ebbb43d626-sfx_checkpoint.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_teleporter2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_teleporter2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/db2bd2bc49423651588248a4a628bcddc01e4c4caf0ed14fecfd03f3d04e2e60-obj_teleporter2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_keyCard2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_keyCard2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/2a53474d938a31fcd698ed4e437a89ca8e188f99861666187b345d901bcd7247-obj_keyCard2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_keyInventory_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_keyInventory_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/eeb836a7979d8382e077441560f0e6d77bb760461808ab5dcba9a5f4ef0bd891-ui_keyInventory_1.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_keyInventory_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_keyInventory_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/0908760db1c2d815900836361c40969e53727df12baff94fabcdf42bef38bd3d-ui_keyInventory_2.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_keyInventory_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_keyInventory_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/47c27a18e98c5f1332dab414d83495543a84426bd7378764aed7c87ba2741be7-ui_keyInventory_3.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_keyInventory_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_keyInventory_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/9fdcc872b7e2bed726231f395f54d912ac8c1c00651cd0bc3af808a62c2ff3d0-ui_keyInventory_4.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/enemy_accessories2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "enemy_accessories2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/97b0f7f4ba9b5ed05bddc51bc74a48cfda1147377b8496d0274bb3f0f42453e3-enemy_accessories2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ent_capsuleHitbox.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ent_capsuleHitbox.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/2be1d34a211ffe7765f63bcc2f97888a43992e795b8724c276b3b1801ff35b38-ent_capsuleHitbox.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/shooter_animation.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "shooter_animation.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/ea67c0664d2e15721be5cafa9100d9bde686dec239ad300057170d247ebb6a5c-shooter_animation.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/arenaTest2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "arenaTest2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/643637a34284f23159caf335b4d2e1ef4ca5d5d7ba33439b6509adf330175d31-arenaTest2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/obj_navMarker_fixed.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "obj_navMarker_fixed.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/dafd9d4d95522c0cab15f041626e68ba6ea4bdcd6f2cfbd3596892402ac51575-obj_navMarker_fixed.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/skydome2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "skydome2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/77005f3091849c70b0ef36b2c9ce91c9491224051986a8299f6dbf8c0a2f15dd-skydome2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/level_hubArea2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "level_hubArea2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/f9c0fc1c32700e7e300e85d89db99164ebbc4b050483c2e69320de7705c22912-level_hubArea2.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fx_objectHit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fx_objectHit.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/91dc50d0d074aa0673e3bec0559bf90f7b5ba45df6c610415e8c2fac8badc458-fx_objectHit.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_staminaBar_frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_staminaBar_frame.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/b0cf8f32b794d2a5608e67ab91102f7ef77e73e91ada40b4a0dac32cf775f3ce-ui_staminaBar_frame.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_staminaBar_bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_staminaBar_bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/764315165435890e37081e24304425f9610ec6ebae2fb65bf52b3476b8040b8b-ui_staminaBar_bar.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_enemyHealth_frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_enemyHealth_frame.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/e5c4ca7bf11b9ea1090b5ec549116a5696a7a4e4a22da5270f1a46aef25f4ac0-ui_enemyHealth_frame.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_enemyHealth_bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_enemyHealth_bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/93908f6519e434abba5bfc2cec2bd1f5f5fab69c9c39e3a6559362c288ef0b62-ui_enemyHealth_bar.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_transition.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_transition.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/d9afea5509a02b372cdf68853059f79380a17cae4a8daab014bb233b7ade97d7-ui_transition.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/ui_transitionTeleport.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui_transitionTeleport.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/98d452700dc8c78cc691654ee50cfc4f561d1294e3bbe683b9361b56250cd85b-ui_transitionTeleport.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/skydome5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "skydome5.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/91bd9b441991128374283939fa2994b068b9262d809e06e974658744362d5758-skydome5.glb",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/skydome_shootingRange1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "skydome_shootingRange1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/d7562ea9-5a24-4a49-970b-bdd9f5e8afe6/resources/09f101e9e08b815e50c8b4d5032faa91a647dbbea9be7ae8bc795d429205db00-skydome_shootingRange1.glb",
+          "name": "cloud-project-resource"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "game_quest1",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "game_quest2",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "game_quest3",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "quest1_uiText",
+      "type": "string",
+      "value": "textHere"
+    },
+    {
+      "name": "quest2_uiText",
+      "type": "string",
+      "value": "textHere"
+    },
+    {
+      "name": "quest3_uiText",
+      "type": "string",
+      "value": "textHere"
+    },
+    {
+      "name": "quest2_begin",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "quest2_start",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "quest2_result",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "quest2_end",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "quest2_scorePoints",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/sandbox"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/weapon_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemy_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/object_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/entity_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/quest_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/sound_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/level_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/testing"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectinteractions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/particleemitter3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/raycaster3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firstpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousepointerlock"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thirdpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicscharacter3dkeymapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/a3f"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dev_debugbehavior"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tween3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/extendedmath"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sprite3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cameraimpulse"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/konamicode"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicscharacter3danimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/countdowntimer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/soundvolumebasedondistance"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicsellipsemovement3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/hubarea"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/movementtest"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/shootingrange"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/bossarena"
+    }
+  ]
+}

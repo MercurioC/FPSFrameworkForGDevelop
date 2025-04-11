@@ -1,0 +1,922 @@
+{
+  "author": "add_, @Jurfix",
+  "category": "Advanced",
+  "extensionNamespace": "",
+  "fullName": "Extended math support",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZ1bmN0aW9uLXZhcmlhbnQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIuNDIsNS4yOUMxMS4zMiw1LjE5IDEwLjM1LDYgMTAuMjUsNy4xMUwxMCwxMEgxMi44MlYxMkg5LjgyTDkuMzgsMTcuMDdDOS4xOCwxOS4yNyA3LjI0LDIwLjkgNS4wNCwyMC43QzMuNzksMjAuNTkgMi42NiwxOS45IDIsMTguODNMMy41LDE3LjMzQzMuODMsMTguMzggNC45NiwxOC45NyA2LDE4LjYzQzYuNzgsMTguMzkgNy4zMywxNy43IDcuNCwxNi44OUw3LjgyLDEySDQuODJWMTBIOEw4LjI3LDYuOTNDOC40Niw0LjczIDEwLjM5LDMuMSAxMi42LDMuMjhDMTMuODYsMy4zOSAxNSw0LjA5IDE1LjY2LDUuMTdMMTQuMTYsNi42N0MxMy45MSw1LjkgMTMuMjMsNS4zNiAxMi40Miw1LjI5TTIyLDEzLjY1TDIwLjU5LDEyLjI0TDE3Ljc2LDE1LjA3TDE0LjkzLDEyLjI0TDEzLjUsMTMuNjVMMTYuMzUsMTYuNUwxMy41LDE5LjMxTDE0LjkzLDIwLjcyTDE3Ljc2LDE3Ljg5TDIwLjU5LDIwLjcyTDIyLDE5LjMxTDE5LjE3LDE2LjVMMjIsMTMuNjVaIiAvPjwvc3ZnPg==",
+  "name": "ExtendedMath",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/function-variant.svg",
+  "shortDescription": "Additional math functions and constants as expressions and conditions.",
+  "version": "1.1.1",
+  "description": [
+    "Expressions:",
+    " - Mathematical constants",
+    " - Greatest common factor/Lowest common multiple",
+    " - Factorial",
+    " - Coordinates conversion for polar and isometric systems",
+    " - ToFixedString: Formats a number into a string with the specified number of decimal places",
+    " - ToFixed: (Deprecated) Formats a number to use the specified number of decimal places",
+    "",
+    "Conditions:",
+    "- IsEven: Check if the number is even (divisible by 2)",
+    "",
+    "Release Notes:",
+    "",
+    "Version 1.0.7",
+    "- Added ToFixedString()",
+    "- Deprecated ToFixed() because it does not show any trailing zeros for whole numbers. Prefer using ToFixedString() to set values in text objects.",
+    ""
+  ],
+  "origin": {
+    "identifier": "ExtendedMath",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "math",
+    "constants",
+    "conversion",
+    "coordinates",
+    "convert",
+    "format",
+    "modulus"
+  ],
+  "authorIds": [
+    "AlZ3D1xkH0QDao7T37VZZUeYNpn1",
+    "dt0tRnf2kHWJnjkrpnzTzNj9Yc63"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Returns a term from the Fibonacci sequence.",
+      "fullName": "Fibonacci numbers",
+      "functionType": "Expression",
+      "name": "Fibonacci",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function fibonacci(n) {",
+            "    let initial = 0;",
+            "    let final = 1;",
+            "    let sum = 0;",
+            "",
+            "    let i = 0;",
+            "    for(i = 2; i <= n; i++) {",
+            "        sum = initial + final;",
+            "",
+            "        initial = final;",
+            "        final = sum;",
+            "    }",
+            "    return n ? final : initial;",
+            "}",
+            "",
+            "const n = eventsFunctionContext.getArgument(\"n\");",
+            "",
+            "eventsFunctionContext.returnValue = fibonacci(n);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "The desired term in the sequence",
+          "name": "n",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Calculates the steepness of a line between two points.",
+      "fullName": "Slope",
+      "functionType": "Expression",
+      "name": "Slope",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const x1 = eventsFunctionContext.getArgument(\"x1\");\r",
+            "const y1 = eventsFunctionContext.getArgument(\"y1\");\r",
+            "const x2 = eventsFunctionContext.getArgument(\"x2\");\r",
+            "const y2 = eventsFunctionContext.getArgument(\"y2\");\r",
+            "\r",
+            "eventsFunctionContext.returnValue = (y2 - y1) / (x2 - x1);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "X value of the first point",
+          "name": "x1",
+          "type": "expression"
+        },
+        {
+          "description": "Y value of the first point",
+          "name": "y1",
+          "type": "expression"
+        },
+        {
+          "description": "X value of the second point",
+          "name": "x2",
+          "type": "expression"
+        },
+        {
+          "description": "Y value of the second point",
+          "name": "y2",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Converts a number of one range e.g. 0-1 to another 0-255.",
+      "fullName": "Map",
+      "functionType": "Expression",
+      "name": "Map",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const n = eventsFunctionContext.getArgument(\"n\");",
+            "const min1 = eventsFunctionContext.getArgument(\"min1\");",
+            "const max1 = eventsFunctionContext.getArgument(\"max1\");",
+            "const min2 = eventsFunctionContext.getArgument(\"min2\");",
+            "const max2 = eventsFunctionContext.getArgument(\"max2\");",
+            "",
+            "eventsFunctionContext.returnValue = (n - min1) * (max2 - min2) / (max1 - min1) + min2;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "The value to convert",
+          "name": "n",
+          "type": "expression"
+        },
+        {
+          "description": "The lowest value of the first range",
+          "name": "min1",
+          "type": "expression"
+        },
+        {
+          "description": "The highest value of the first range",
+          "name": "max1",
+          "type": "expression"
+        },
+        {
+          "description": "The lowest value of the second range",
+          "name": "min2",
+          "type": "expression"
+        },
+        {
+          "description": "The highest value of the second range",
+          "name": "max2",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the value of the length of the hypotenuse.",
+      "fullName": "Hypotenuse length",
+      "functionType": "Expression",
+      "name": "Hypot",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const a = eventsFunctionContext.getArgument(\"a\");\r",
+            "const b = eventsFunctionContext.getArgument(\"b\");\r",
+            "\r",
+            "eventsFunctionContext.returnValue = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "First side of the triangle",
+          "name": "a",
+          "type": "expression"
+        },
+        {
+          "description": "Second side of the triangle",
+          "name": "b",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the greatest common factor of two numbers.",
+      "fullName": "Greatest common factor (gcf)",
+      "functionType": "Expression",
+      "name": "Gcf",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "//uses Euclid's algorithm",
+            "function gcf(a, b) {",
+            "    while (a != b) {",
+            "        if (a > b) {",
+            "            a = a - b;",
+            "        } else {",
+            "            b = b - a;",
+            "        }",
+            "    }",
+            "    return a;",
+            "}",
+            "",
+            "const a = eventsFunctionContext.getArgument(\"a\");",
+            "const b = eventsFunctionContext.getArgument(\"b\");",
+            "",
+            "if (Number.isInteger(a) === false || Number.isInteger(b) === false) {",
+            "    eventsFunctionContext.returnValue = 0;",
+            "} ",
+            "else if (a === 0) {",
+            "    eventsFunctionContext.returnValue = b;",
+            "} ",
+            "else if (b === 0) {",
+            "    eventsFunctionContext.returnValue = a;",
+            "} else {",
+            "    eventsFunctionContext.returnValue = gcf(a, b);",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Any integer",
+          "name": "a",
+          "type": "expression"
+        },
+        {
+          "description": "Any integer",
+          "name": "b",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the lowest common multiple of two numbers.",
+      "fullName": "Lowest common multiple (lcm)",
+      "functionType": "Expression",
+      "name": "Lcm",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function gcf(a, b) {\r",
+            "    while (a != b) {\r",
+            "        if (a > b) {\r",
+            "            a = a - b;\r",
+            "        } else {\r",
+            "            b = b - a;\r",
+            "        }\r",
+            "    }\r",
+            "    return a;\r",
+            "}\r",
+            "\r",
+            "function lcm(a, b) {\r",
+            "    return Math.abs(a * b) / gcf(a, b);\r",
+            "}\r",
+            "\r",
+            "const a = eventsFunctionContext.getArgument(\"a\");\r",
+            "const b = eventsFunctionContext.getArgument(\"b\");\r",
+            "\r",
+            "if (Number.isInteger(a) === false || Number.isInteger(b) === false) {\r",
+            "    eventsFunctionContext.returnValue = 0;\r",
+            "} \r",
+            "else if (a === 0) {\r",
+            "    eventsFunctionContext.returnValue = b;\r",
+            "} \r",
+            "else if (b === 0) {\r",
+            "    eventsFunctionContext.returnValue = a;\r",
+            "} else {\r",
+            "    eventsFunctionContext.returnValue = lcm(a, b);\r",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Any integer",
+          "name": "a",
+          "type": "expression"
+        },
+        {
+          "description": "Any integer",
+          "name": "b",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the input multiplied by all the previous whole numbers.",
+      "fullName": "Factorial",
+      "functionType": "Expression",
+      "name": "Factorial",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function factorial(n) {\r",
+            "    let result = 1;\r",
+            "\r",
+            "    let i = 1;\r",
+            "    for (i = 1; i <= n; i++) {\r",
+            "        result *= i;\r",
+            "    }\r",
+            "\r",
+            "    return result;\r",
+            "}\r",
+            "\r",
+            "const n = eventsFunctionContext.getArgument(\"n\");\r",
+            "\r",
+            "eventsFunctionContext.returnValue = factorial(n);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Any positive integer",
+          "name": "n",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Converts a polar coordinate into the Cartesian x value.",
+      "fullName": "Polar coordinate to Cartesian X value",
+      "functionType": "Expression",
+      "name": "PolarToCartesianX",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const r = eventsFunctionContext.getArgument(\"r\");",
+            "const theta = eventsFunctionContext.getArgument(\"theta\");",
+            "",
+            "eventsFunctionContext.returnValue = r * Math.cos(theta);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Radius",
+          "name": "r",
+          "type": "expression"
+        },
+        {
+          "description": "Angle or theta in radians",
+          "name": "theta",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Converts a polar coordinate into the Cartesian y value.",
+      "fullName": "Polar coordinate to Cartesian Y value",
+      "functionType": "Expression",
+      "name": "PolarToCartesianY",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const r = eventsFunctionContext.getArgument(\"r\");",
+            "const theta = eventsFunctionContext.getArgument(\"theta\");",
+            "",
+            "eventsFunctionContext.returnValue = r * Math.sin(theta);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Radius ",
+          "name": "r",
+          "type": "expression"
+        },
+        {
+          "description": "Angle or theta in radians",
+          "name": "theta",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Converts a isometric coordinate into the Cartesian x value.",
+      "fullName": "Isometric coordinate to Cartesian X value",
+      "functionType": "Expression",
+      "name": "IsoToCartesianX",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const x = eventsFunctionContext.getArgument(\"x\");",
+            "const y = eventsFunctionContext.getArgument(\"y\");",
+            "",
+            "eventsFunctionContext.returnValue = (2 * y + x) * 0.5;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Position on the x axis",
+          "name": "x",
+          "type": "expression"
+        },
+        {
+          "description": "Position on the y axis",
+          "name": "y",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Converts a isometric coordinate into the Cartesian y value.",
+      "fullName": "Isometric coordinate to Cartesian Y value",
+      "functionType": "Expression",
+      "name": "IisoToCartesianY",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const x = eventsFunctionContext.getArgument(\"x\");",
+            "const y = eventsFunctionContext.getArgument(\"y\");",
+            "",
+            "eventsFunctionContext.returnValue = (2 * y - x) * 0.5;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "Position on the x axis",
+          "name": "x",
+          "type": "expression"
+        },
+        {
+          "description": "Position on the y axis",
+          "name": "y",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the golden ratio.",
+      "fullName": "Golden ratio",
+      "functionType": "Expression",
+      "name": "GoldenRatio",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnNumber"
+              },
+              "parameters": [
+                "1.618033988749894"
+              ]
+            }
+          ]
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns Pi (π).",
+      "fullName": "Pi (π)",
+      "functionType": "Expression",
+      "name": "Pi",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.PI;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns half Pi.",
+      "fullName": "Half Pi",
+      "functionType": "Expression",
+      "name": "HalfPi",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.PI / 2;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the natural logarithm of e. (Euler's number).",
+      "fullName": "Natural logarithm of e",
+      "functionType": "Expression",
+      "name": "E",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.E;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the natural logarithm of 2.",
+      "fullName": "Natural logarithm of 2",
+      "functionType": "Expression",
+      "name": "Ln2",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.LN2;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the natural logarithm of 10.",
+      "fullName": "Natural logarithm of 10",
+      "functionType": "Expression",
+      "name": "Ln10",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.LN10;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the base 2 logarithm of e. (Euler's number).",
+      "fullName": "Base 2 logarithm of e",
+      "functionType": "Expression",
+      "name": "Log2e",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.LOG10E;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns the base 10 logarithm of e. (Euler's number).",
+      "fullName": "Base 10 logarithm of e",
+      "functionType": "Expression",
+      "name": "Log10e",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.LOG10E;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns square root of 2.",
+      "fullName": "Square root of 2",
+      "functionType": "Expression",
+      "name": "Sqrt2",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.SQRT2;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns square root of 1/2.",
+      "fullName": "Square root of 1/2",
+      "functionType": "Expression",
+      "name": "Sqrt1_2",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.SQRT1_2;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Returns quarter Pi.",
+      "fullName": "Quarter Pi",
+      "functionType": "Expression",
+      "name": "QuarterPi",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = Math.PI / 4;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Formats a number to use the specified number of decimal places (Deprecated).",
+      "fullName": "ToFixed",
+      "functionType": "Expression",
+      "name": "ToFixed",
+      "private": true,
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const valueToBeRounded = eventsFunctionContext.getArgument(\"ValueToBeRounded\");",
+            "const numberOfDecimalPlaces = eventsFunctionContext.getArgument(\"NumberOfDecimalPlaces\");",
+            "eventsFunctionContext.returnValue = Number(valueToBeRounded.toFixed(numberOfDecimalPlaces));"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "The value to be rounded",
+          "name": "ValueToBeRounded",
+          "type": "expression"
+        },
+        {
+          "description": "Number of decimal places",
+          "name": "NumberOfDecimalPlaces",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Formats a number to a string with the specified number of decimal places.",
+      "fullName": "ToFixed",
+      "functionType": "StringExpression",
+      "name": "ToFixedString",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const valueToBeRounded = eventsFunctionContext.getArgument(\"ValueToBeRounded\");",
+            "const numberOfDecimalPlaces = eventsFunctionContext.getArgument(\"NumberOfDecimalPlaces\");",
+            "eventsFunctionContext.returnValue = valueToBeRounded.toFixed(numberOfDecimalPlaces);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "The value to be rounded",
+          "name": "ValueToBeRounded",
+          "type": "expression"
+        },
+        {
+          "description": "Number of decimal places",
+          "name": "NumberOfDecimalPlaces",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Check if the number is even (divisible by 2).  To check for odd numbers, invert this condition.",
+      "fullName": "Is even?",
+      "functionType": "Condition",
+      "name": "IsEven",
+      "sentence": "_PARAM1_ is even",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Egal"
+              },
+              "parameters": [
+                "mod(Value,2)",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Value",
+          "name": "Value",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}

@@ -1,0 +1,553 @@
+{
+  "associatedLayout": "sandbox",
+  "name": "testing",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Define variables here"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "radarX",
+                "=",
+                "game_widthCenter - (game_widthCenter / 2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "radarY",
+                "=",
+                "game_heightCenter + (game_heightCenter / 2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "radarRange",
+                "=",
+                "800"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "radarRadius",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "iconRadius_player",
+                "=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "iconRadius_enemy",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "scaleFactor",
+                "=",
+                "0.12"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Formula to convert Angles in Radians; adds 90° to fix the World orientation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "player_angle_radians",
+                "=",
+                "(player_hitbox.Angle() + 90) * (Pi() / 180)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Draw the Player circle"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "radar_background",
+                "radarX",
+                "radarY",
+                "radarRadius"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Circle"
+              },
+              "parameters": [
+                "radar_player",
+                "radarX",
+                "radarY",
+                "iconRadius_player"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Draw the Compass indicator on North/angle 0°"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "compassX",
+                "=",
+                "radarX + radarRadius * cos(player_angle_radians)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "compassY",
+                "=",
+                "radarY - radarRadius * sin(player_angle_radians)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "compassAngle",
+                "=",
+                "- player_hitbox.Angle()"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dev_text3",
+                "Text",
+                "=",
+                "ToString(player_hitbox.Angle()) + NewLine() +\ncompassAngle"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::RegularPolygon"
+              },
+              "parameters": [
+                "radar_player",
+                "compassX",
+                "compassY",
+                "3",
+                "iconRadius_player",
+                "compassAngle"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "entity_navMarker",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Check the distance between Player and Enemy"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "distance",
+                    "=",
+                    "DistanceBetweenPositions(player_hitbox.X(), player_hitbox.Y(), entity_navMarker.X(), entity_navMarker.Y())"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Check if Enemy is within the Radar range, with the Distance var"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "distance",
+                    "<=",
+                    "radarRange"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Convert to relative positions"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "relativeX",
+                        "=",
+                        "entity_navMarker.X() - player_hitbox.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "relativeY",
+                        "=",
+                        "entity_navMarker.Y() - player_hitbox.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Rotate those positions with radians"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "rotatedX",
+                        "=",
+                        "relativeX * cos(player_angle_radians) + relativeY * sin(player_angle_radians)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "rotatedY",
+                        "=",
+                        "-relativeX * sin(player_angle_radians) + relativeY * cos(player_angle_radians)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Convert the coordinates and apply the scale factor"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "radarEnemyX",
+                        "=",
+                        "radarX + rotatedX * scaleFactor"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "radarEnemyY",
+                        "=",
+                        "radarY + rotatedY * scaleFactor"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Circle"
+                      },
+                      "parameters": [
+                        "radar_enemy",
+                        "radarEnemyX",
+                        "radarEnemyY",
+                        "iconRadius_enemy"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "radarX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "radarY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "radarEnemyX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "radarEnemyY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "radarRange",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "scaleFactor",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "player_angle_radians",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "relativeX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "relativeY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "rotatedX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "rotatedY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "compassX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "compassY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "compassOffset",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "compassAngle",
+          "type": "number",
+          "value": 90
+        },
+        {
+          "name": "radarRadius",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "iconRadius_player",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "iconRadius_enemy",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

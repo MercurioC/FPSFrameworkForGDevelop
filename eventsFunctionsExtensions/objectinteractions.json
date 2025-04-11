@@ -1,0 +1,884 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "ObjectInteractions",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "ObjectInteractions",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "Originally automatically extracted from events of the project",
+  "tags": [],
+  "authorIds": [
+    "TfmhaQWSuPcKOkZ38A8IL2cv8Ep1"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [
+    {
+      "name": "idVar",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "eventsFunctions": [
+    {
+      "description": "Respawn the Player at the initial position.",
+      "fullName": "Respawn the Player",
+      "functionType": "Action",
+      "name": "RespawnPlayer",
+      "sentence": "Respawn the Player Objective _PARAM1_ with a Z Offset of _PARAM3_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player_hitbox",
+                "=",
+                "0",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "player_hitbox",
+                "Object3D",
+                "=",
+                "z_offset"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "player_hitbox",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The Player 3D Object.",
+          "name": "player_hitbox",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "Object3D",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Z offset to spawn with.",
+          "name": "z_offset",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Bounce a Pickup Object",
+      "fullName": "Bounce a Pickup Object",
+      "functionType": "Action",
+      "name": "BounceMovement",
+      "sentence": "Bounce the pickup object _PARAM1_ with an offset of _PARAM4_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionZTween2"
+              },
+              "parameters": [
+                "object_pickup",
+                "Tween",
+                "Object3D",
+                "\"moveZ1\"",
+                "object_pickup.Object3D::CenterZ() + bounce_offset",
+                "\"easeOutCubic\"",
+                "0.8",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "object_pickup",
+                "Tween",
+                "\"moveZ2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionZTween2"
+              },
+              "parameters": [
+                "object_pickup",
+                "Tween",
+                "Object3D",
+                "\"moveZ1\"",
+                "object_pickup.Object3D::CenterZ() + bounce_offset",
+                "\"easeOutCubic\"",
+                "0.8",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "object_pickup",
+                "Tween",
+                "\"moveZ1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionZTween2"
+              },
+              "parameters": [
+                "object_pickup",
+                "Tween",
+                "Object3D",
+                "\"moveZ2\"",
+                "object_pickup.Object3D::CenterZ() - bounce_offset",
+                "\"easeInCubic\"",
+                "0.6",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Pickup object",
+          "name": "object_pickup",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "3D capability",
+          "name": "Object3D",
+          "supplementaryInformation": "Scene3D::Base3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Tween behavior",
+          "name": "Tween",
+          "supplementaryInformation": "Tween::TweenBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Bouncing offset",
+          "name": "bounce_offset",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Check if a 3D Object is inside a 3D Zone. Mostly useful for Triggers and interaction with the Player character.",
+      "fullName": "Collision inside a 3D Zone",
+      "functionType": "Condition",
+      "name": "ZoneCollision",
+      "sentence": "Check if _PARAM1_ is inside the 3D Zone _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "zone_trigger",
+                "main_object.BoundingBoxCenterX()",
+                "main_object.BoundingBoxCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Scene3D::Base3DBehavior::CenterZ"
+              },
+              "parameters": [
+                "main_object",
+                "Object3D",
+                "<",
+                "zone_trigger.Object3D::CenterZ() + (zone_trigger.Object3D::Depth() / 2)"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Scene3D::Base3DBehavior::CenterZ"
+              },
+              "parameters": [
+                "main_object",
+                "Object3D",
+                ">",
+                "zone_trigger.Object3D::CenterZ() - (zone_trigger.Object3D::Depth() / 2)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "zone_trigger",
+                "main_object.BoundingBoxCenterX()",
+                "main_object.BoundingBoxCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::CenterZ"
+              },
+              "parameters": [
+                "main_object",
+                "Object3D",
+                "<",
+                "zone_trigger.Object3D::CenterZ() + (zone_trigger.Object3D::Depth() / 2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::CenterZ"
+              },
+              "parameters": [
+                "main_object",
+                "Object3D",
+                ">",
+                "zone_trigger.Object3D::CenterZ() - (zone_trigger.Object3D::Depth() / 2)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "3D Object inside the Zone",
+          "name": "main_object",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "Trigger Zone",
+          "name": "zone_trigger",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Add an impulse force when hitting a physics object with a raycast bullet.",
+      "fullName": "Apply an impulse force to a physics object, when it is hit by a raycast bullet",
+      "functionType": "Action",
+      "name": "BulletPhysicsForce",
+      "sentence": "Apply a physics impulse when _PARAM1_ is hit by a raycast bullet, with a force of _PARAM3_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "distanceX",
+                    "=",
+                    "Raycaster3D::IntersectionX() - CameraCenterX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "distanceY",
+                    "=",
+                    "Raycaster3D::IntersectionY() - CameraCenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "distanceZ",
+                    "=",
+                    "Raycaster3D::IntersectionZ() - Scene3D::CameraZ()"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "distanceLength",
+                    "=",
+                    "sqrt((distanceX * distanceX) + (distanceY * distanceY) + (distanceZ * distanceZ))"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "normalizedX",
+                    "=",
+                    "distanceX / distanceLength"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "normalizedY",
+                    "=",
+                    "distanceY/ distanceLength"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "normalizedZ",
+                    "=",
+                    "distanceZ/ distanceLength"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Physics3DBehavior::ApplyImpulse"
+                  },
+                  "parameters": [
+                    "object_physics",
+                    "Physics3D",
+                    "normalizedX * bullet_strength",
+                    "normalizedY * bullet_strength",
+                    "normalizedZ * bullet_strength",
+                    "Raycaster3D::IntersectionX()",
+                    "Raycaster3D::IntersectionY()",
+                    "Raycaster3D::IntersectionZ()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "distanceX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "distanceY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "distanceZ",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "distanceLength",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "normalizedX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "normalizedY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "normalizedZ",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "object_physics",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "Physics3D",
+          "supplementaryInformation": "Physics3D::Physics3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "",
+          "name": "bullet_strength",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Create a blob shadow to place under a 3D object, useful for 3D characters",
+      "fullName": "Use a blob shadow",
+      "functionType": "Action",
+      "name": "CreateBlobShadow",
+      "sentence": "Create a blob shadow for _PARAM1_ using the 3D sprite _PARAM2_, which projects onto _PARAM3_ with an offset of _PARAM4_ px",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "object_shadowBlob",
+                "object_main.X()",
+                "object_main.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "object_shadowBlob",
+                "Object3D",
+                "=",
+                "object_main.Object3D::Z()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "object_shadowBlob",
+                "Resizable",
+                "object_main.Width() * 1.5",
+                "object_main.Width() * 1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Raycaster3D::RaycastWithAngle"
+              },
+              "parameters": [
+                "",
+                "surface_projected",
+                "object_main.CenterX()",
+                "object_main.CenterY()",
+                "object_main.Object3D::CenterZ() + 36",
+                "object_main.Angle()",
+                "270",
+                "Raycaster3D::Distance()",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "object_shadowBlob",
+                "=",
+                "Raycaster3D::IntersectionX()",
+                "=",
+                "Raycaster3D::IntersectionY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "object_shadowBlob",
+                "Object3D",
+                "=",
+                "Raycaster3D::IntersectionZ() + OffsetZ"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The main 3D Object that projects the shadow",
+          "name": "object_main",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "The 3D Sprite that is used as a shadow",
+          "name": "object_shadowBlob",
+          "supplementaryInformation": "Sprite3D::Sprite3D",
+          "type": "objectList"
+        },
+        {
+          "description": "The surface where the shadow is projected onto",
+          "name": "surface_projected",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "The offset on the Z axis, solves z-fighting",
+          "name": "OffsetZ",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Launch a physics object, using another one for the trajectory. A negative force pulls the Object instead",
+      "fullName": "Throw stuff around",
+      "functionType": "Action",
+      "name": "ThrowStuff",
+      "sentence": "Launch the physics object _PARAM1_ against the target _PARAM3_ , with a force of  _PARAM4_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "directionX",
+                    "=",
+                    "object_target.CenterX() - object_physics.CenterX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "directionY",
+                    "=",
+                    "object_target.CenterY() - object_physics.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "directionZ",
+                    "=",
+                    "object_target.Object3D::CenterZ() - object_physics.Object3D::CenterZ()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "distance",
+                    "=",
+                    "sqrt((directionX*directionX) + (directionY*directionY) + (directionZ*directionZ))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "normalizedDirX",
+                    "=",
+                    "directionX / distance"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "normalizedDirY",
+                    "=",
+                    "directionY / distance"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "normalizedDirZ",
+                    "=",
+                    "directionZ / distance"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Physics3DBehavior::ApplyImpulse"
+                  },
+                  "parameters": [
+                    "object_physics",
+                    "object_3dbehavior",
+                    "normalizedDirX * object_force",
+                    "normalizedDirY * object_force",
+                    "normalizedDirZ * object_force",
+                    "object_target.CenterX()",
+                    "object_target.CenterY()",
+                    "object_target.Object3D::CenterZ()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "directionX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "directionY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "directionZ",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "distance",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "normalizedDirX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "normalizedDirY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "normalizedDirZ",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "The object that will be launched",
+          "name": "object_physics",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "3d behavior for the thrown object",
+          "name": "object_3dbehavior",
+          "supplementaryInformation": "Physics3D::Physics3DBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "The target where the Physics object will be launched to",
+          "name": "object_target",
+          "supplementaryInformation": "Scene3D::Model3DObject",
+          "type": "objectList"
+        },
+        {
+          "description": "The force used to launch the object",
+          "name": "object_force",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Separates lines visually in the Action sheet. Does nothing in the main game.",
+      "fullName": "Action Separator",
+      "functionType": "Action",
+      "name": "ActionSeparator",
+      "sentence": "------------------------",
+      "events": [],
+      "parameters": [],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
