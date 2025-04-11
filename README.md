@@ -24,5 +24,5 @@ Included is a script that converts `.OBJ` models into `.JSON` layouts compatible
 
 ### **Free and Open for the Community**
 
-This framework is released entirely for free to support the growth of the **BGTGallery** ecosystem and to help more developers explore 3D FPS development in GDevelop.  
+This framework is released entirely for free to support the growth of this amazing engine and to help more developers explore 3D FPS development in GDevelop.  
 If you find this project useful and want to support future development, you can consider making a donation via [**Ko-Fi**](https://ko-fi.com/yourprofile). Your support is sincerely appreciated!
