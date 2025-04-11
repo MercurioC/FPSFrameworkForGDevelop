@@ -1,7 +1,7 @@
 ## **FPS Framework for GDevelop**  
 **Build your own classic-inspired FPS with 3D physics in GDevelop!**  
 
-[**Support me on Ko-Fi**](https://ko-fi.com/yourprofile) *(optional, but very appreciated!)*
+[**Support me on Ko-Fi**](https://ko-fi.com/giampiero) *(optional, but very appreciated!)*
 
 **FPS Framework for GDevelop** is a free and open-source toolkit designed to help you create single-player first-person shooters in GDevelop, powered by the Jolt 3D physics engine. Inspired by classic titles like *GoldenEye*, *Half-Life*, and *Halo*, this framework provides everything you need to build a fully-featured retro-style FPS with the ease of use of GDevelop.
 
