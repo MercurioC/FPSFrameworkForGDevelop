@@ -1423,8 +1423,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
@@ -1435,9 +1433,6 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Horizontal rotation speed factor",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HorizontalSpeed"
         },
         {
@@ -1445,9 +1440,6 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Vertical rotation speed factor",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "VerticalSpeed"
         },
         {
@@ -1455,9 +1447,6 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Minimum vertical camera angle",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "VerticalAngleMin"
         },
         {
@@ -1465,9 +1454,6 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Maximum vertical camera angle",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "VerticalAngleMax"
         },
         {
@@ -1475,18 +1461,12 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Z position offset",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "OffsetZ"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Lock the pointer on click",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ShouldLock"
         }
       ],

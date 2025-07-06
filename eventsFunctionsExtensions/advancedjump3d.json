@@ -1624,8 +1624,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -1636,18 +1634,14 @@
           "type": "Number",
           "unit": "Second",
           "label": "Coyote time duration",
-          "description": "",
           "group": "Coyote time",
-          "extraInformation": [],
           "name": "CoyoteTimeFrameDuration"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Can coyote jump",
-          "description": "",
           "group": "Coyote time",
-          "extraInformation": [],
           "hidden": true,
           "name": "CanCoyoteJump"
         },
@@ -1655,9 +1649,7 @@
           "value": "",
           "type": "Boolean",
           "label": "Was in the air",
-          "description": "",
           "group": "Coyote time",
-          "extraInformation": [],
           "hidden": true,
           "name": "WasInTheAir"
         },
@@ -1665,27 +1657,21 @@
           "value": "1",
           "type": "Number",
           "label": "Number of air jumps",
-          "description": "",
           "group": "Air jump",
-          "extraInformation": [],
           "name": "AirJumpCountMaximum"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Floor jumps count as air jumps",
-          "description": "",
           "group": "Air jump",
-          "extraInformation": [],
           "name": "AreFloorJumpCountedAsAirJump"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
           "group": "Air jump",
-          "extraInformation": [],
           "hidden": true,
           "name": "AirJumpCount"
         },
@@ -1693,9 +1679,7 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
           "group": "Air jump",
-          "extraInformation": [],
           "hidden": true,
           "name": "WasJumpKeyReleased"
         }

@@ -3816,8 +3816,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
@@ -3827,8 +3825,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Scalable capacity",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "ScalableCapability::ScalableBehavior"
           ],
@@ -3838,8 +3834,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Tween",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Tween::TweenBehavior"
           ],
@@ -5043,9 +5037,7 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Minimum scale volume",
-          "description": "",
           "group": "Scale",
-          "extraInformation": [],
           "name": "ScaleMin"
         },
         {
@@ -5053,9 +5045,7 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Maximum scale volume",
-          "description": "",
           "group": "Scale",
-          "extraInformation": [],
           "name": "ScaleMax"
         },
         {
@@ -5063,9 +5053,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "Cycle duration",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "PeriodDuration"
         },
         {
@@ -5073,9 +5060,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Scale cycle offset",
-          "description": "",
           "group": "Scale",
-          "extraInformation": [],
           "name": "ScalePeriodOffset"
         },
         {
@@ -5083,9 +5068,7 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Minimum stretch",
-          "description": "",
           "group": "Stretch",
-          "extraInformation": [],
           "name": "StretchMin"
         },
         {
@@ -5093,9 +5076,7 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Maximum stretch",
-          "description": "",
           "group": "Stretch",
-          "extraInformation": [],
           "name": "StretchMax"
         },
         {
@@ -5103,9 +5084,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Stretch cycle offset",
-          "description": "",
           "group": "Stretch",
-          "extraInformation": [],
           "name": "StretchPeriodOffset"
         },
         {
@@ -5113,9 +5092,6 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Angle"
         },
@@ -5124,9 +5100,6 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMinTweenTarget"
         },
@@ -5135,9 +5108,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMinTweenDuration"
         },
@@ -5145,9 +5115,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMinTweenEasing"
         },
@@ -5156,9 +5123,6 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMaxTweenTarget"
         },
@@ -5167,9 +5131,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMaxTweenDuration"
         },
@@ -5177,9 +5138,6 @@
           "value": "",
           "type": "String",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMaxTweenEasing"
         },
@@ -5188,9 +5146,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMinTweenTime"
         },
@@ -5199,9 +5154,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMaxTweenTime"
         },
@@ -5209,9 +5161,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMinTweenInitialValue"
         },
@@ -5219,9 +5168,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ScaleMaxTweenInitialValue"
         },
@@ -5229,8 +5175,6 @@
           "value": "Z+",
           "type": "Choice",
           "label": "Top orientation",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Z+",
             "Y-"
@@ -5241,8 +5185,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D tween",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Tween3D::Tween3D"
           ],

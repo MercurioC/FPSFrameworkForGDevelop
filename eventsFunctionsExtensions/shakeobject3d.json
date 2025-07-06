@@ -2616,9 +2616,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Translation amplitude on X axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TranslationAmplitudeX"
         },
         {
@@ -2626,9 +2623,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Translation amplitude on Y axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TranslationAmplitudeY"
         },
         {
@@ -2636,9 +2630,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Translation amplitude on Z axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "TranslationAmplitudeZ"
         },
         {
@@ -2646,9 +2637,6 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation amplitude around X axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "RotationAmplitudeX"
         },
         {
@@ -2656,9 +2644,6 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation amplitude around Y axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "RotationAmplitudeY"
         },
         {
@@ -2666,18 +2651,12 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation amplitude around Z axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "RotationAmplitudeZ"
         },
         {
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Time"
         },
@@ -2685,9 +2664,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Duration"
         },
@@ -2695,9 +2671,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "StartEasingDuration"
         },
@@ -2705,9 +2678,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "StopEasingDuration"
         },
@@ -2715,18 +2685,12 @@
           "value": "",
           "type": "Number",
           "label": "Frequency",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Frequency"
         },
         {
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DeltaX"
         },
@@ -2734,9 +2698,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DeltaY"
         },
@@ -2744,9 +2705,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DeltaZ"
         },
@@ -2754,9 +2712,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DeltaAngleX"
         },
@@ -2764,9 +2719,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DeltaAngleY"
         },
@@ -2774,9 +2726,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DeltaAngleZ"
         },
@@ -2784,9 +2733,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "NoiseTime"
         },
@@ -2794,8 +2740,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
@@ -2805,9 +2749,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Start to shake at the object creation",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsStartingAtCreation"
         }
       ],
@@ -2816,9 +2757,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "EasingFactor"
         }

@@ -633,8 +633,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -644,63 +642,42 @@
           "value": "Space",
           "type": "String",
           "label": "Jump key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Jump"
         },
         {
           "value": "w",
           "type": "String",
           "label": "Up key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Up"
         },
         {
           "value": "a",
           "type": "String",
           "label": "Left key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Left"
         },
         {
           "value": "s",
           "type": "String",
           "label": "Down key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Down"
         },
         {
           "value": "d",
           "type": "String",
           "label": "Right key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Right"
         },
         {
           "value": "LCtrl",
           "type": "String",
           "label": "Crouch key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Crouch"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CameraAngle"
         },
@@ -708,9 +685,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Camera is locked for the frame",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LockedCameraAngle"
         }
@@ -876,8 +850,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -887,54 +859,36 @@
           "value": "Space",
           "type": "String",
           "label": "Jump key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Jump"
         },
         {
           "value": "w",
           "type": "String",
           "label": "Up key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Up"
         },
         {
           "value": "a",
           "type": "String",
           "label": "Left key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Left"
         },
         {
           "value": "s",
           "type": "String",
           "label": "Down key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Down"
         },
         {
           "value": "d",
           "type": "String",
           "label": "Right key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Right"
         },
         {
           "value": "LCtrl",
           "type": "String",
           "label": "Crouch key",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Crouch"
         }
       ],

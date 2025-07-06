@@ -898,17 +898,12 @@
           "unit": "Second",
           "label": "Half period ",
           "description": "Time that the object is invisible",
-          "group": "",
-          "extraInformation": [],
           "name": "HalfPeriodTime"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsFlashing"
         },
@@ -918,8 +913,6 @@
           "unit": "Second",
           "label": "Flash duration",
           "description": "Use \"0\" to keep flashing until stopped",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "FlashDuration"
         }
@@ -1472,17 +1465,12 @@
           "unit": "Second",
           "label": "Half period",
           "description": "Time between flashes",
-          "group": "",
-          "extraInformation": [],
           "name": "HalfPeriodTime"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsFlashing"
         },
@@ -1492,8 +1480,6 @@
           "unit": "Second",
           "label": "Flash duration",
           "description": "Use \"0\" to keep flashing until stopped",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "FlashDuration"
         },
@@ -1501,9 +1487,6 @@
           "value": "\"255;255;255\"",
           "type": "String",
           "label": "Tint color",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TintColor"
         }
@@ -2103,8 +2086,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Opacity capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "OpacityCapability::OpacityBehavior"
           ],
@@ -2114,8 +2095,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Tween Behavior (required)",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Tween::TweenBehavior"
           ],
@@ -2127,17 +2106,12 @@
           "unit": "Second",
           "label": "Half period",
           "description": "Time between flashes",
-          "group": "",
-          "extraInformation": [],
           "name": "HalfPeriodTime"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsFlashing"
         },
@@ -2147,8 +2121,6 @@
           "unit": "Second",
           "label": "Flash duration",
           "description": "Use \"0\" to keep flashing until stopped",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "FlashDuration"
         },
@@ -2158,8 +2130,6 @@
           "unit": "Dimensionless",
           "label": "Target opacity (Range: 0 - 255)",
           "description": "Opacity will fade between the starting value and a target value",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TargetOpacity"
         },
@@ -2169,8 +2139,6 @@
           "unit": "Dimensionless",
           "label": "Starting opacity",
           "description": "Opacity will fade between the starting value and a target value",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "StartingOpacity"
         }
@@ -2985,8 +2953,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Effect capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "EffectCapability::EffectBehavior"
           ],
@@ -2998,17 +2964,12 @@
           "unit": "Second",
           "label": "Half period",
           "description": "Time between flashes",
-          "group": "",
-          "extraInformation": [],
           "name": "HalfPeriodTime"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsFlashing"
         },
@@ -3018,8 +2979,6 @@
           "unit": "Second",
           "label": "Flash duration",
           "description": "Use \"0\" to keep flashing until stopped",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "FlashDuration"
         },
@@ -3027,9 +2986,6 @@
           "value": "",
           "type": "String",
           "label": "Name of effect",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "EffectName"
         }

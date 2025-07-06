@@ -4618,18 +4618,14 @@
           "value": "100",
           "type": "Number",
           "label": "Starting health",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "name": "Health"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Current health (life) points",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentHealth"
         },
@@ -4639,7 +4635,6 @@
           "label": "Maximum health",
           "description": "Use 0 for no maximum.",
           "group": "Health",
-          "extraInformation": [],
           "name": "MaxHealth"
         },
         {
@@ -4647,18 +4642,14 @@
           "type": "Number",
           "unit": "Second",
           "label": "Damage cooldown",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "name": "DamageCooldown"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Allow heals to increase health above max health (regen will never exceed max health)",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "advanced": true,
           "name": "AllowOverHealing"
         },
@@ -4666,9 +4657,7 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsHealthJustDamaged"
         },
@@ -4676,9 +4665,7 @@
           "value": "0",
           "type": "Number",
           "label": "Damage to health from the previous incoming damage",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "hidden": true,
           "name": "DamageToBeApplied"
         },
@@ -4686,9 +4673,7 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "hidden": true,
           "name": "HitAtLeastOnce"
         },
@@ -4698,7 +4683,6 @@
           "label": "Chance to dodge incoming damage (between 0 and 1)",
           "description": "When a damage is dodged, no damage is applied.",
           "group": "Health",
-          "extraInformation": [],
           "advanced": true,
           "name": "ChanceToDodge"
         },
@@ -4706,9 +4690,7 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsJustDodged"
         },
@@ -4716,9 +4698,7 @@
           "value": "0",
           "type": "Number",
           "label": "Health points gained from the previous heal",
-          "description": "",
           "group": "Health",
-          "extraInformation": [],
           "hidden": true,
           "name": "HealToBeApplied"
         },
@@ -4726,9 +4706,7 @@
           "value": "0",
           "type": "Number",
           "label": "Rate of health regeneration (points per second)",
-          "description": "",
           "group": "Health regeneration",
-          "extraInformation": [],
           "advanced": true,
           "name": "HealthRegenRate"
         },
@@ -4739,7 +4717,6 @@
           "label": "Health regeneration delay ",
           "description": "Delay before health regeneration starts after a hit.",
           "group": "Health regeneration",
-          "extraInformation": [],
           "advanced": true,
           "name": "HealthRegenDelay"
         },
@@ -4747,9 +4724,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsJustHealed"
         },
@@ -4757,9 +4731,7 @@
           "value": "",
           "type": "Number",
           "label": "Current shield points",
-          "description": "",
           "group": "Shield",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentShieldPoints"
         },
@@ -4769,7 +4741,6 @@
           "label": "Maximum shield",
           "description": "Leave 0 for unlimited.",
           "group": "Shield",
-          "extraInformation": [],
           "advanced": true,
           "name": "MaxShieldPoints"
         },
@@ -4780,7 +4751,6 @@
           "label": "Duration of shield",
           "description": "Use 0 to make the shield permanent.",
           "group": "Shield",
-          "extraInformation": [],
           "advanced": true,
           "name": "ShieldDuration"
         },
@@ -4788,9 +4758,7 @@
           "value": "0",
           "type": "Number",
           "label": "Rate of shield regeneration (points per second)",
-          "description": "",
           "group": "Shield regeneration",
-          "extraInformation": [],
           "advanced": true,
           "name": "ShieldRegenRate"
         },
@@ -4798,9 +4766,7 @@
           "value": "",
           "type": "Boolean",
           "label": "Block excess damage when shield is broken",
-          "description": "",
           "group": "Shield",
-          "extraInformation": [],
           "advanced": true,
           "name": "BlockExcessDamage"
         },
@@ -4811,7 +4777,6 @@
           "label": "Shield regeneration delay",
           "description": "Delay before shield regeneration starts after a hit.",
           "group": "Shield regeneration",
-          "extraInformation": [],
           "advanced": true,
           "name": "ShieldRegenDelay"
         },
@@ -4819,9 +4784,7 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
           "group": "Shield",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsShieldJustDamaged"
         },
@@ -4829,9 +4792,7 @@
           "value": "",
           "type": "Number",
           "label": "Damage to shield from the previous incoming damage",
-          "description": "",
           "group": "Shield",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShieldDamageTaken"
         },
@@ -4841,7 +4802,6 @@
           "label": "Flat damage reduction from armor",
           "description": "Incoming damages are reduced by this value.",
           "group": "Armor",
-          "extraInformation": [],
           "advanced": true,
           "name": "FlatDamageReduction"
         },
@@ -4849,9 +4809,7 @@
           "value": "0",
           "type": "Number",
           "label": "Percentage damage reduction from armor (between 0 and 1)",
-          "description": "",
           "group": "Armor",
-          "extraInformation": [],
           "advanced": true,
           "name": "PercentDamageReduction"
         }

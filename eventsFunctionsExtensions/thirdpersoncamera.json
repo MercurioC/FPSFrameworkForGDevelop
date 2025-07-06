@@ -2188,8 +2188,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
@@ -2200,9 +2198,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Halfway  time for rotation",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "RotationHalfwayDuration"
         },
         {
@@ -2210,9 +2206,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Halfway time on Z axis",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "TranslationZHalfwayDuration"
         },
         {
@@ -2220,9 +2214,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Camera distance",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "Distance"
         },
         {
@@ -2230,9 +2222,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Lateral distance offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "OffsetX"
         },
         {
@@ -2240,9 +2230,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Ahead distance offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "OffsetY"
         },
         {
@@ -2250,9 +2238,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Z offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "OffsetZ"
         },
         {
@@ -2260,9 +2246,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation angle offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "RotationAngleOffset"
         },
         {
@@ -2270,9 +2254,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Elevation angle offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "ElevationAngleOffset"
         },
         {
@@ -2280,9 +2262,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area top border on Z axis",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "FollowFreeAreaZMax"
         },
@@ -2291,9 +2271,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area bottom border on Z axis",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "FollowFreeAreaZMin"
         },
@@ -2301,9 +2279,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "RotationLogSpeed"
         },
@@ -2311,9 +2286,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TranslationZLogSpeed"
         },
@@ -2321,9 +2293,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsCalledManually"
         },
@@ -2332,9 +2301,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CameraZ"
         },
@@ -2342,9 +2308,6 @@
           "value": "true",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "HasJustBeenCreated"
         },
@@ -2352,9 +2315,6 @@
           "value": "true",
           "type": "Boolean",
           "label": "Automatically rotate the camera with the object",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "IsRotatingWithObject"
         },
         {
@@ -2363,8 +2323,6 @@
           "unit": "DegreeAngle",
           "label": "Targeted camera rotation angle",
           "description": "When this angle is set, the camera follow this value instead of the object angle.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TargetedRotationAngle"
         }

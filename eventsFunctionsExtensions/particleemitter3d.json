@@ -6783,6 +6783,71 @@
       "is3D": true,
       "isUsingLegacyInstancesRenderer": true,
       "name": "ParticleEmitter3D",
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Particle",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Image",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Particle"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [],
       "eventsFunctions": [
         {
           "fullName": "",
@@ -9507,18 +9572,14 @@
           "value": "255;0;0",
           "type": "Color",
           "label": "Start color",
-          "description": "",
           "group": "Color",
-          "extraInformation": [],
           "name": "StartColor"
         },
         {
           "value": "255;255;0",
           "type": "Color",
           "label": "End color",
-          "description": "",
           "group": "Color",
-          "extraInformation": [],
           "name": "EndColor"
         },
         {
@@ -9526,9 +9587,7 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Start opacity",
-          "description": "",
           "group": "Color",
-          "extraInformation": [],
           "name": "StartOpacity"
         },
         {
@@ -9536,18 +9595,13 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "End opacity",
-          "description": "",
           "group": "Color",
-          "extraInformation": [],
           "name": "EndOpacity"
         },
         {
           "value": "50",
           "type": "Number",
           "label": "Flow of particles (particles per second)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Flow"
         },
         {
@@ -9555,9 +9609,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Start min size",
-          "description": "",
           "group": "Size",
-          "extraInformation": [],
           "name": "StartSizeMin"
         },
         {
@@ -9565,9 +9617,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Start max size",
-          "description": "",
           "group": "Size",
-          "extraInformation": [],
           "name": "StartSizeMax"
         },
         {
@@ -9575,9 +9625,7 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "End scale",
-          "description": "",
           "group": "Size",
-          "extraInformation": [],
           "name": "EndScale"
         },
         {
@@ -9585,9 +9633,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Start min speed",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "StartSpeedMin"
         },
         {
@@ -9595,9 +9641,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Start max speed",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "StartSpeedMax"
         },
         {
@@ -9605,9 +9649,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "Min lifespan",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "LifespanMin"
         },
         {
@@ -9615,9 +9656,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "Max lifespan",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "LifespanMax"
         },
         {
@@ -9625,18 +9663,13 @@
           "type": "Number",
           "unit": "Second",
           "label": "Emission duration",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "Duration"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Particles move with the emitter",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "AreParticlesRelative"
         },
         {
@@ -9644,16 +9677,13 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Spay cone angle",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "SpayConeAngle"
         },
         {
           "value": "Additive",
           "type": "Choice",
           "label": "Blending",
-          "description": "",
           "group": "Color",
           "extraInformation": [
             "Normal",
@@ -9668,7 +9698,6 @@
           "value": "Y-",
           "type": "Choice",
           "label": "Gravity top",
-          "description": "",
           "group": "Speed",
           "extraInformation": [
             "Y-",
@@ -9681,18 +9710,13 @@
           "type": "Number",
           "unit": "PixelAcceleration",
           "label": "Gravity",
-          "description": "",
           "group": "Speed",
-          "extraInformation": [],
           "name": "Gravity"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Delete when emission ends",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ShouldAutodestruct"
         },
         {
@@ -9700,8 +9724,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ParentOrigin"
         },
@@ -9712,7 +9734,6 @@
           "label": "Z (elevation)",
           "description": "Deprecated",
           "group": "Position",
-          "extraInformation": [],
           "hidden": true,
           "name": "Z"
         },
@@ -9721,9 +9742,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation on X axis",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "hidden": true,
           "name": "RotationX"
         },
@@ -9732,78 +9751,12 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Rotation on Y axis",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "hidden": true,
           "name": "RotationY"
         }
       ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Particle",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Image",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Particle"
-          }
-        ]
-      },
-      "objectsGroups": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "instances": []
+      "variants": []
     }
   ]
 }

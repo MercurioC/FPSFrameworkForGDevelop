@@ -443,8 +443,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Text capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TextContainerCapability::TextContainerBehavior"
           ],
@@ -454,9 +452,6 @@
           "value": "FPS: ",
           "type": "String",
           "label": "FPS counter prefix",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "prefix"
         },
         {
@@ -464,9 +459,6 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "Number of decimal digits",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "DecimalDigits"
         }
       ],

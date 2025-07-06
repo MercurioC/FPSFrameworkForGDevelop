@@ -1514,9 +1514,6 @@
           "type": "Number",
           "unit": "Second",
           "label": "Spawn period",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "SpawnPeriod"
         },
         {
@@ -1524,9 +1521,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Offset X (relative to position of spawner)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OffsetX"
         },
@@ -1535,9 +1529,6 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Offset Y (relative to position of spawner)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OffsetY"
         },
@@ -1545,9 +1536,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "JustSpawnedAnObject"
         },
@@ -1555,9 +1543,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MaxQuantityReached"
         },
@@ -1566,8 +1551,6 @@
           "type": "Number",
           "label": "Max objects in the scene (per spawner)",
           "description": "Limits the number of objects in the scene that were created by this spawner. Set this to 0 for no limit.",
-          "group": "",
-          "extraInformation": [],
           "name": "MaxQuantity"
         },
         {
@@ -1575,17 +1558,12 @@
           "type": "Number",
           "label": "Spawner capacity",
           "description": "Number of objects that can be created by this spawner. This is reduced everytime an objects is spawned.",
-          "group": "",
-          "extraInformation": [],
           "name": "SpawnerCapacity"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Unlimited capacity",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "UnlimitedCapacity"
         },
         {
@@ -1593,8 +1571,6 @@
           "type": "Boolean",
           "label": "Use random positions",
           "description": "Objects will be created at a random position inside the spawner. Useful for making large spawner areas.",
-          "group": "",
-          "extraInformation": [],
           "name": "RandomPosition"
         }
       ],

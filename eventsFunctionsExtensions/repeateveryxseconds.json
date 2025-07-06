@@ -901,9 +901,6 @@
           "value": "MyTimer",
           "type": "String",
           "label": "The name of the timer to repeat",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "deprecated": true,
           "name": "TimerName"
         },
@@ -911,9 +908,6 @@
           "value": "1",
           "type": "Number",
           "label": "The time between each trigger (in seconds)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "deprecated": true,
           "name": "TimerLength"
         },
@@ -921,9 +915,6 @@
           "value": "-1",
           "type": "Number",
           "label": "How many times should the timer trigger? -1 for forever.",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "deprecated": true,
           "name": "Limit"
         },
@@ -931,9 +922,6 @@
           "value": "0",
           "type": "Number",
           "label": "An internal counter",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Counter"
         }

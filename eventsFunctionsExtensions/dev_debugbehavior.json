@@ -707,44 +707,30 @@
           "value": "dev",
           "type": "String",
           "label": "The name of the layer where Dev objects are stored",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "dev_layer"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Start the Scene with the Debug layer visible",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "dev_showDebugLayer"
         },
         {
           "value": "",
           "type": "Boolean",
           "label": "Game should close itself after a period of testing time",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "dev_gameCloses"
         },
         {
           "value": "30",
           "type": "Number",
           "label": "Close the game after X seconds",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "dev_closeAfter"
         },
         {
           "value": "3",
           "type": "Choice",
           "label": "Integer scaling used by your game screen",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "x2",
             "x3",

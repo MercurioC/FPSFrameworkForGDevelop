@@ -480,36 +480,24 @@
           "value": "0",
           "type": "Number",
           "label": "Value",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "CurrentValue"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Minimum value",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "MinValue"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Maximum value",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "MaxValue"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Step size",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "StepSize"
         }
       ],
@@ -1562,8 +1550,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Should check hovering",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldCheckHovering"
         },
@@ -1571,8 +1557,6 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Idle",
             "Hovered",
@@ -1587,9 +1571,6 @@
           "value": "0",
           "type": "Number",
           "label": "Touch id",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -1597,9 +1578,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Touch is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIsInside"
         },
@@ -1607,9 +1585,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Mouse is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MouseIsInside"
         },
@@ -1617,9 +1592,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         }
@@ -1640,6 +1612,173 @@
       "fullName": "Slider",
       "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteSlider",
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Label",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Thumb",
+          "rightMargin": 0,
+          "texture": "",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": false
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "FillBar",
+          "rightMargin": 0,
+          "texture": "",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Slider",
+              "type": "PanelSpriteSlider::Slider",
+              "Value": 0,
+              "MinValue": 0,
+              "MaxValue": 1,
+              "StepSize": 1
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Background",
+          "rightMargin": 0,
+          "texture": "",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "PanelSpriteSlider::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Label"
+          },
+          {
+            "objectName": "Thumb"
+          },
+          {
+            "objectName": "FillBar"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [],
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3542,7 +3681,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar left margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3554,7 +3692,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar top margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3566,7 +3703,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar right margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3578,7 +3714,6 @@
           "value": "0",
           "type": "Number",
           "label": "Bar bottom margin",
-          "description": "",
           "group": "Bar",
           "extraInformation": [
             "Label",
@@ -3590,54 +3725,42 @@
           "value": "true",
           "type": "Boolean",
           "label": "Show the label when the value is changed",
-          "description": "",
           "group": "Label",
-          "extraInformation": [],
           "name": "ShowLabelAtChanges"
         },
         {
           "value": "8",
           "type": "Number",
           "label": "Label margin",
-          "description": "",
           "group": "Label",
-          "extraInformation": [],
           "name": "LabelMargin"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Minimum value",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "MinValue"
         },
         {
           "value": "100",
           "type": "Number",
           "label": "Maximum value",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "MaxValue"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Step size",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "StepSize"
         },
         {
           "value": "50",
           "type": "Number",
           "label": "Initial value",
-          "description": "",
           "group": "Value",
-          "extraInformation": [],
           "name": "InitialValue"
         },
         {
@@ -3645,8 +3768,6 @@
           "type": "Number",
           "label": "",
           "description": "It's used to detect a change at hot reload.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "PreviousInitialValue"
         },
@@ -3655,7 +3776,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Thumb"
           ],
@@ -3667,7 +3787,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "FillBar"
           ],
@@ -3679,7 +3798,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Label"
           ],
@@ -3687,173 +3805,7 @@
           "name": "ShowLabel"
         }
       ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Label",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "It displays the value when it changes.",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "It displays the value when it changes.",
-            "font": "",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "Thumb",
-          "rightMargin": 0,
-          "texture": "",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": false
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "FillBar",
-          "rightMargin": 0,
-          "texture": "",
-          "tiled": true,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Slider",
-              "type": "PanelSpriteSlider::Slider",
-              "Value": 0,
-              "MinValue": 0,
-              "MaxValue": 1,
-              "StepSize": 1
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "Background",
-          "rightMargin": 0,
-          "texture": "",
-          "tiled": true,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "PanelSpriteSlider::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 0
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Label"
-          },
-          {
-            "objectName": "Thumb"
-          },
-          {
-            "objectName": "FillBar"
-          },
-          {
-            "objectName": "Background"
-          }
-        ]
-      },
-      "objectsGroups": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "instances": []
+      "variants": []
     }
   ]
 }

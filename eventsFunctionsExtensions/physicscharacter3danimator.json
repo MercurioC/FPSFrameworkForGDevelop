@@ -395,8 +395,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -406,8 +404,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Animatable capacity",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "AnimatableCapability::AnimatableBehavior"
           ],
@@ -417,36 +413,28 @@
           "value": "Idle",
           "type": "String",
           "label": "\"Idle\" animation name ",
-          "description": "",
           "group": "Animation names",
-          "extraInformation": [],
           "name": "IdleAnimationName"
         },
         {
           "value": "Run",
           "type": "String",
           "label": "\"Run\" animation name",
-          "description": "",
           "group": "Animation names",
-          "extraInformation": [],
           "name": "RunAnimationName"
         },
         {
           "value": "Jump",
           "type": "String",
           "label": "\"Jump\" animation name",
-          "description": "",
           "group": "Animation names",
-          "extraInformation": [],
           "name": "JumpAnimationName"
         },
         {
           "value": "Fall",
           "type": "String",
           "label": "\"Fall\" animation name",
-          "description": "",
           "group": "Animation names",
-          "extraInformation": [],
           "name": "FallAnimationName"
         },
         {
@@ -454,9 +442,6 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OldAngle"
         },
@@ -465,9 +450,6 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Rotation speed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "RotationSpeed"
         }
       ],

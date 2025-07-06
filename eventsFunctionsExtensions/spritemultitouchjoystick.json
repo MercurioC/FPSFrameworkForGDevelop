@@ -3040,18 +3040,12 @@
           "value": "1",
           "type": "Number",
           "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "String",
           "label": "Joystick name",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "JoystickIdentifier"
         },
         {
@@ -3059,17 +3053,12 @@
           "type": "Number",
           "label": "Dead zone radius (range: 0 to 1)",
           "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
-          "group": "",
-          "extraInformation": [],
           "name": "DeadZoneRadius"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Joystick angle (range: -180 to 180)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "JoystickAngle"
         },
@@ -3077,9 +3066,6 @@
           "value": "0",
           "type": "Number",
           "label": "Joystick force (range: 0 to 1)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "JoystickForce"
         },
@@ -3087,9 +3073,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -3097,9 +3080,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIndex"
         }
@@ -3497,27 +3477,18 @@
           "value": "1",
           "type": "Number",
           "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "A",
           "type": "String",
           "label": "Button identifier",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ButtonIdentifier"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "TouchID",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -3525,9 +3496,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIndex"
         },
@@ -3535,9 +3503,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Button released",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsReleased"
         },
@@ -3547,8 +3512,6 @@
           "unit": "Pixel",
           "label": "Triggering circle radius",
           "description": "This circle adds up to the object collision mask.",
-          "group": "",
-          "extraInformation": [],
           "name": "Radius"
         }
       ],
@@ -3736,8 +3699,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Platform character behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
@@ -3747,16 +3708,12 @@
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Primary",
@@ -3768,9 +3725,7 @@
           "value": "A",
           "type": "String",
           "label": "Jump button name",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "JumpButton"
         }
       ],
@@ -3879,8 +3834,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -3890,16 +3843,12 @@
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Walk joystick",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Primary",
@@ -3911,9 +3860,7 @@
           "value": "A",
           "type": "String",
           "label": "Jump button name",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "JumpButton"
         }
       ],
@@ -4011,8 +3958,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D physics character",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
@@ -4022,16 +3967,12 @@
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Walk joystick",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Primary",
@@ -4043,9 +3984,7 @@
           "value": "A",
           "type": "String",
           "label": "Jump button name",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "JumpButton"
         }
       ],
@@ -4976,8 +4915,6 @@
           "value": "",
           "type": "Behavior",
           "label": "3D capability",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
@@ -4987,16 +4924,12 @@
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Secondary",
           "type": "Choice",
           "label": "Camera joystick",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Primary",
@@ -5009,27 +4942,21 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Maximum rotation speed",
-          "description": "",
           "group": "Horizontal rotation",
-          "extraInformation": [],
           "name": "HorizontalRotationSpeedMax"
         },
         {
           "value": "360",
           "type": "Number",
           "label": "Rotation acceleration",
-          "description": "",
           "group": "Horizontal rotation",
-          "extraInformation": [],
           "name": "HorizontalRotationAcceleration"
         },
         {
           "value": "720",
           "type": "Number",
           "label": "Rotation deceleration",
-          "description": "",
           "group": "Horizontal rotation",
-          "extraInformation": [],
           "name": "HorizontalRotationDeceleration"
         },
         {
@@ -5037,27 +4964,21 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Maximum rotation speed",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalRotationSpeedMax"
         },
         {
           "value": "240",
           "type": "Number",
           "label": "Rotation acceleration",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalRotationAcceleration"
         },
         {
           "value": "480",
           "type": "Number",
           "label": "Rotation deceleration",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalRotationDeceleration"
         },
         {
@@ -5065,9 +4986,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Minimum angle",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalAngleMin"
         },
         {
@@ -5075,9 +4994,7 @@
           "type": "Number",
           "unit": "DegreeAngle",
           "label": "Maximum angle",
-          "description": "",
           "group": "Vertical rotation",
-          "extraInformation": [],
           "name": "VerticalAngleMax"
         },
         {
@@ -5085,9 +5002,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Z position offset",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "OffsetZ"
         },
         {
@@ -5095,9 +5010,6 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Current rotation speed Z",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentRotationSpeedZ"
         },
@@ -5106,9 +5018,6 @@
           "type": "Number",
           "unit": "AngularSpeed",
           "label": "Current rotation speed Y",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CurrentRotationSpeedY"
         }
@@ -5630,8 +5539,6 @@
           "value": "",
           "type": "Behavior",
           "label": "Top-down movement behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TopDownMovementBehavior::TopDownMovementBehavior"
           ],
@@ -5641,17 +5548,12 @@
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Primary",
             "Secondary"
@@ -5662,7 +5564,6 @@
           "value": "Analog",
           "type": "Choice",
           "label": "Stick mode",
-          "description": "",
           "group": "Controls",
           "extraInformation": [
             "Analog",
@@ -5688,6 +5589,110 @@
       "fullName": "Multitouch Joystick",
       "isUsingLegacyInstancesRenderer": true,
       "name": "SpriteMultitouchJoystick",
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Thumb",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Border",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultitouchJoystick",
+              "type": "SpriteMultitouchJoystick::MultitouchJoystick",
+              "ControllerIdentifier": 1,
+              "JoystickIdentifier": "Primary",
+              "FloatingEnabled": false,
+              "DeadZoneRadius": 0.4,
+              "JoystickAngle": 0,
+              "JoystickForce": 0,
+              "TouchId": 0,
+              "TouchIndex": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Thumb"
+          },
+          {
+            "objectName": "Border"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [],
       "eventsFunctions": [
         {
           "fullName": "",
@@ -6796,17 +6801,12 @@
           "value": "1",
           "type": "Number",
           "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "Primary",
             "Secondary"
@@ -6818,8 +6818,6 @@
           "type": "Number",
           "label": "Dead zone radius (range: 0 to 1)",
           "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
-          "group": "",
-          "extraInformation": [],
           "name": "DeadZoneRadius"
         },
         {
@@ -6827,7 +6825,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Thumb"
           ],
@@ -6839,8 +6836,6 @@
           "type": "Number",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ThumbAnchorTarget"
         },
@@ -6849,7 +6844,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Thumb"
           ],
@@ -6861,8 +6855,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ParentOrigin"
         },
@@ -6870,117 +6862,11 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldBeHiddenWhenReleased"
         }
       ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Thumb",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Border",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "MultitouchJoystick",
-              "type": "SpriteMultitouchJoystick::MultitouchJoystick",
-              "ControllerIdentifier": 1,
-              "JoystickIdentifier": "Primary",
-              "FloatingEnabled": false,
-              "DeadZoneRadius": 0.4,
-              "JoystickAngle": 0,
-              "JoystickForce": 0,
-              "TouchId": 0,
-              "TouchIndex": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Thumb"
-          },
-          {
-            "objectName": "Border"
-          }
-        ]
-      },
-      "objectsGroups": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "instances": []
+      "variants": []
     }
   ]
 }
