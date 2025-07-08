@@ -10758,17 +10758,17 @@
           "effectType": "Scene3D::DirectionalLight",
           "name": "SunLight",
           "doubleParameters": {
-            "distanceFromCamera": 12000,
+            "distanceFromCamera": 16000,
             "elevation": 60,
             "frustumSize": 4000,
-            "intensity": 1.2,
+            "intensity": 1.6,
             "minimumShadowBias": 0.001,
-            "rotation": 0
+            "rotation": 210
           },
           "stringParameters": {
-            "color": "255;244;215",
+            "color": "255;255;255",
             "shadowQuality": "high",
-            "top": "Y-"
+            "top": "Z+"
           },
           "booleanParameters": {
             "isCastingShadow": true
