@@ -1943,6 +1943,7 @@
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
+          "choices": [],
           "name": "Capability3d"
         },
         {
@@ -1958,12 +1959,27 @@
           "label": "Blend mode",
           "description": "This affects all 3d objects that use the same material.",
           "group": "Effect",
-          "extraInformation": [
-            "Keep model blend mode",
-            "Normal",
-            "Additive",
-            "Subtractive",
-            "Multiply"
+          "choices": [
+            {
+              "label": "Keep model blend mode",
+              "value": "Keep model blend mode"
+            },
+            {
+              "label": "Normal",
+              "value": "Normal"
+            },
+            {
+              "label": "Additive",
+              "value": "Additive"
+            },
+            {
+              "label": "Subtractive",
+              "value": "Subtractive"
+            },
+            {
+              "label": "Multiply",
+              "value": "Multiply"
+            }
           ],
           "name": "Blend"
         },
@@ -2223,16 +2239,26 @@
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
+          "choices": [],
           "name": "Capability3d"
         },
         {
           "value": "Directional Light",
           "type": "Choice",
           "label": "Type",
-          "extraInformation": [
-            "Directional Light",
-            "Point Light",
-            "Spot Light"
+          "choices": [
+            {
+              "label": "Directional Light",
+              "value": "Directional Light"
+            },
+            {
+              "label": "Point Light",
+              "value": "Point Light"
+            },
+            {
+              "label": "Spot Light",
+              "value": "Spot Light"
+            }
           ],
           "name": "Type"
         },
@@ -2283,12 +2309,27 @@
           "label": "Shadow Map Size",
           "description": "The larger the map, the better the shadow quality, but the greater the load.",
           "group": "Shadow",
-          "extraInformation": [
-            "128px",
-            "256px",
-            "512px",
-            "1024px",
-            "2048px"
+          "choices": [
+            {
+              "label": "128px",
+              "value": "128px"
+            },
+            {
+              "label": "256px",
+              "value": "256px"
+            },
+            {
+              "label": "512px",
+              "value": "512px"
+            },
+            {
+              "label": "1024px",
+              "value": "1024px"
+            },
+            {
+              "label": "2048px",
+              "value": "2048px"
+            }
           ],
           "name": "ShadowMapSize"
         },

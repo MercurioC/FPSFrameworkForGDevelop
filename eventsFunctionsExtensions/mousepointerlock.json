@@ -1426,6 +1426,7 @@
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
+          "choices": [],
           "name": "Object3D"
         },
         {

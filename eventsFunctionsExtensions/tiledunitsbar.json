@@ -1599,6 +1599,7 @@
           "extraInformation": [
             "Background"
           ],
+          "choices": [],
           "name": "ShowBackground"
         },
         {
@@ -1609,6 +1610,7 @@
             "FillBar",
             "Bar"
           ],
+          "choices": [],
           "name": "BarLeftPadding"
         },
         {
@@ -1619,6 +1621,7 @@
             "FillBar",
             "Bar"
           ],
+          "choices": [],
           "name": "BarRightPadding"
         },
         {
@@ -1630,6 +1633,7 @@
             "FillBar",
             "Bar"
           ],
+          "choices": [],
           "hidden": true,
           "name": "BarVerticalAnchorOrigin"
         },
@@ -1641,6 +1645,7 @@
           "extraInformation": [
             "Background"
           ],
+          "choices": [],
           "hidden": true,
           "name": "BarVerticalAnchorTarget"
         }

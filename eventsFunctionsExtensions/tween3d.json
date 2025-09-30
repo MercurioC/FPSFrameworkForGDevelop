@@ -3819,6 +3819,7 @@
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
+          "choices": [],
           "name": "Object3D"
         },
         {
@@ -3828,6 +3829,7 @@
           "extraInformation": [
             "ScalableCapability::ScalableBehavior"
           ],
+          "choices": [],
           "name": "Scale"
         },
         {
@@ -3837,6 +3839,7 @@
           "extraInformation": [
             "Tween::TweenBehavior"
           ],
+          "choices": [],
           "name": "Tween"
         }
       ],
@@ -5175,9 +5178,15 @@
           "value": "Z+",
           "type": "Choice",
           "label": "Top orientation",
-          "extraInformation": [
-            "Z+",
-            "Y-"
+          "choices": [
+            {
+              "label": "Z+",
+              "value": "Z+"
+            },
+            {
+              "label": "Y-",
+              "value": "Y-"
+            }
           ],
           "name": "Top"
         },
@@ -5188,6 +5197,7 @@
           "extraInformation": [
             "Tween3D::Tween3D"
           ],
+          "choices": [],
           "name": "Tween3D"
         }
       ],

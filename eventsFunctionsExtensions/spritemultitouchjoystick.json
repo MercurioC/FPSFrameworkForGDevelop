@@ -3702,6 +3702,7 @@
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
+          "choices": [],
           "name": "Property"
         },
         {
@@ -3715,9 +3716,15 @@
           "type": "Choice",
           "label": "Joystick name",
           "group": "Controls",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -3837,6 +3844,7 @@
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
+          "choices": [],
           "name": "PhysicsCharacter3D"
         },
         {
@@ -3850,9 +3858,15 @@
           "type": "Choice",
           "label": "Walk joystick",
           "group": "Controls",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -3961,6 +3975,7 @@
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
+          "choices": [],
           "name": "PhysicsCharacter3D"
         },
         {
@@ -3974,9 +3989,15 @@
           "type": "Choice",
           "label": "Walk joystick",
           "group": "Controls",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -4918,6 +4939,7 @@
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
+          "choices": [],
           "name": "Object3D"
         },
         {
@@ -4931,9 +4953,15 @@
           "type": "Choice",
           "label": "Camera joystick",
           "group": "Controls",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "CameraStick"
         },
@@ -5542,6 +5570,7 @@
           "extraInformation": [
             "TopDownMovementBehavior::TopDownMovementBehavior"
           ],
+          "choices": [],
           "name": "TopDownMovement"
         },
         {
@@ -5554,9 +5583,15 @@
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -5565,10 +5600,19 @@
           "type": "Choice",
           "label": "Stick mode",
           "group": "Controls",
-          "extraInformation": [
-            "Analog",
-            "360°",
-            "8 Directions"
+          "choices": [
+            {
+              "label": "Analog",
+              "value": "Analog"
+            },
+            {
+              "label": "360°",
+              "value": "360°"
+            },
+            {
+              "label": "8 Directions",
+              "value": "8 Directions"
+            }
           ],
           "name": "StickMode"
         }
@@ -6807,9 +6851,15 @@
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -6828,6 +6878,7 @@
           "extraInformation": [
             "Thumb"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ThumbAnchorOrigin"
         },
@@ -6847,6 +6898,7 @@
           "extraInformation": [
             "Thumb"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ThumbIsScaledProportionally"
         },

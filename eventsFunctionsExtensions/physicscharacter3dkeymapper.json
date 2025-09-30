@@ -636,6 +636,7 @@
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
+          "choices": [],
           "name": "PhysicsCharacter3D"
         },
         {
@@ -853,6 +854,7 @@
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
+          "choices": [],
           "name": "PhysicsCharacter3D"
         },
         {

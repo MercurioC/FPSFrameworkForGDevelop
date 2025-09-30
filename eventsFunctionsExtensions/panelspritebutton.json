@@ -1125,12 +1125,27 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "extraInformation": [
-            "Idle",
-            "Hovered",
-            "PressedInside",
-            "PressedOutside",
-            "Validated"
+          "choices": [
+            {
+              "label": "Idle",
+              "value": "Idle"
+            },
+            {
+              "label": "Hovered",
+              "value": "Hovered"
+            },
+            {
+              "label": "PressedInside",
+              "value": "PressedInside"
+            },
+            {
+              "label": "PressedOutside",
+              "value": "PressedOutside"
+            },
+            {
+              "label": "Validated",
+              "value": "Validated"
+            }
           ],
           "hidden": true,
           "name": "State"
@@ -1220,6 +1235,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -2662,6 +2678,7 @@
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "LeftPadding"
         },
         {
@@ -2672,6 +2689,7 @@
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "RightPadding"
         },
         {
@@ -2682,6 +2700,7 @@
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "TopPadding"
         },
         {
@@ -2692,6 +2711,7 @@
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "BottomPadding"
         },
         {

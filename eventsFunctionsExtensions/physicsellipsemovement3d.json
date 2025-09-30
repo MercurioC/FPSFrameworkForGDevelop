@@ -1714,6 +1714,7 @@
           "extraInformation": [
             "Scene3D::Base3DBehavior"
           ],
+          "choices": [],
           "name": "Object3D"
         },
         {
@@ -1723,6 +1724,7 @@
           "extraInformation": [
             "Physics3D::Physics3DBehavior"
           ],
+          "choices": [],
           "name": "Physics3D"
         },
         {
@@ -1745,10 +1747,19 @@
           "value": "Z",
           "type": "Choice",
           "label": "",
-          "extraInformation": [
-            "Z",
-            "Y",
-            "X"
+          "choices": [
+            {
+              "label": "Z",
+              "value": "Z"
+            },
+            {
+              "label": "Y",
+              "value": "Y"
+            },
+            {
+              "label": "X",
+              "value": "X"
+            }
           ],
           "name": "Plane"
         },

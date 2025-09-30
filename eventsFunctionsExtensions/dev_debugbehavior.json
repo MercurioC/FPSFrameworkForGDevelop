@@ -731,10 +731,19 @@
           "value": "3",
           "type": "Choice",
           "label": "Integer scaling used by your game screen",
-          "extraInformation": [
-            "x2",
-            "x3",
-            "x4"
+          "choices": [
+            {
+              "label": "x2",
+              "value": "x2"
+            },
+            {
+              "label": "x3",
+              "value": "x3"
+            },
+            {
+              "label": "x4",
+              "value": "x4"
+            }
           ],
           "name": "dev_integerScaling"
         }
