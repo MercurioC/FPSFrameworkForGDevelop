@@ -1557,12 +1557,27 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "extraInformation": [
-            "Idle",
-            "Hovered",
-            "PressedInside",
-            "PressedOutside",
-            "Validated"
+          "choices": [
+            {
+              "label": "Idle",
+              "value": "Idle"
+            },
+            {
+              "label": "Hovered",
+              "value": "Hovered"
+            },
+            {
+              "label": "PressedInside",
+              "value": "PressedInside"
+            },
+            {
+              "label": "PressedOutside",
+              "value": "PressedOutside"
+            },
+            {
+              "label": "Validated",
+              "value": "Validated"
+            }
           ],
           "hidden": true,
           "name": "State"
@@ -1652,6 +1667,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -3686,6 +3702,7 @@
             "Label",
             "FillBar"
           ],
+          "choices": [],
           "name": "BarLeftPadding"
         },
         {
@@ -3697,6 +3714,7 @@
             "Label",
             "FillBar"
           ],
+          "choices": [],
           "name": "BarTopPadding"
         },
         {
@@ -3708,6 +3726,7 @@
             "Label",
             "FillBar"
           ],
+          "choices": [],
           "name": "BarRightPadding"
         },
         {
@@ -3719,6 +3738,7 @@
             "Label",
             "FillBar"
           ],
+          "choices": [],
           "name": "BarBottomPadding"
         },
         {
@@ -3779,6 +3799,7 @@
           "extraInformation": [
             "Thumb"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ThumbAnchorOrigin"
         },
@@ -3790,6 +3811,7 @@
           "extraInformation": [
             "FillBar"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ThumbAnchorTarget"
         },
@@ -3801,6 +3823,7 @@
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ShowLabel"
         }

@@ -36,6 +36,7 @@
           "comment": "* Initial properties"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -208,8 +209,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
-          "folded": true,
           "name": "0. Debug",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -227,6 +226,7 @@
               "comment": "* Debug"
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -256,6 +256,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -273,6 +274,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -386,6 +388,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -450,6 +453,119 @@
                         "game_currentLevel",
                         "=",
                         "\"bossArena\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectInteractions::RespawnPlayer"
+                      },
+                      "parameters": [
+                        "",
+                        "player_hitbox",
+                        "Object3D",
+                        "2",
+                        "Object3D"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectInteractions::RespawnPlayer"
+                      },
+                      "parameters": [
+                        "",
+                        "player_hitbox_crouch",
+                        "Object3D",
+                        "- 128",
+                        "Object3D"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "game_changeLevel",
+                        "True",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"n\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "game_changeLevel",
+                        "False",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "group_flushLevel",
+                        "\"movementTest\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "\"rogueArena\"",
+                        "0",
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "game_currentLevel",
+                        "=",
+                        "\"rogueArena\""
                       ]
                     },
                     {

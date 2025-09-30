@@ -446,6 +446,7 @@
           "extraInformation": [
             "TextContainerCapability::TextContainerBehavior"
           ],
+          "choices": [],
           "name": "Text"
         },
         {

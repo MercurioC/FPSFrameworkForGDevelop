@@ -2054,6 +2054,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 24,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -2278,6 +2279,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -3360,6 +3362,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -3402,6 +3405,7 @@
         "textAlignment": "right",
         "verticalTextAlignment": "center",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -3765,6 +3769,7 @@
         "textAlignment": "right",
         "verticalTextAlignment": "center",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -3807,6 +3812,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "center",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -3849,6 +3855,7 @@
         "textAlignment": "right",
         "verticalTextAlignment": "center",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -4183,6 +4190,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 24,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -4785,6 +4793,7 @@
         "textAlignment": "right",
         "verticalTextAlignment": "center",
         "characterSize": 48,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -9416,6 +9425,7 @@
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 24,
+            "lineHeight": 0,
             "color": "255;255;255"
           }
         },
@@ -9503,6 +9513,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "221;221;221"
           }
         },

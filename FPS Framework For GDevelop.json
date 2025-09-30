@@ -1,7 +1,7 @@
 {
   "firstLayout": "sandbox",
   "gdVersion": {
-    "build": 236,
+    "build": 242,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1756,6 +1756,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/bossarena"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/roguearena"
     }
   ]
 }

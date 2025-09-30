@@ -2089,6 +2089,7 @@
           "extraInformation": [
             "OpacityCapability::OpacityBehavior"
           ],
+          "choices": [],
           "name": "Opacity"
         },
         {
@@ -2098,6 +2099,7 @@
           "extraInformation": [
             "Tween::TweenBehavior"
           ],
+          "choices": [],
           "name": "TweenBehavior"
         },
         {
@@ -2956,6 +2958,7 @@
           "extraInformation": [
             "EffectCapability::EffectBehavior"
           ],
+          "choices": [],
           "name": "Effect"
         },
         {

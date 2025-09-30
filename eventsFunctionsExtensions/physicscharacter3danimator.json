@@ -398,6 +398,7 @@
           "extraInformation": [
             "Physics3D::PhysicsCharacter3D"
           ],
+          "choices": [],
           "name": "PhysicsCharacter3D"
         },
         {
@@ -407,6 +408,7 @@
           "extraInformation": [
             "AnimatableCapability::AnimatableBehavior"
           ],
+          "choices": [],
           "name": "Animation"
         },
         {

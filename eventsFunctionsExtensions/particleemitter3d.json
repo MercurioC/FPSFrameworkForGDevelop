@@ -9685,12 +9685,27 @@
           "type": "Choice",
           "label": "Blending",
           "group": "Color",
-          "extraInformation": [
-            "Normal",
-            "Additive",
-            "Subtractive",
-            "Multiply",
-            "None"
+          "choices": [
+            {
+              "label": "Normal",
+              "value": "Normal"
+            },
+            {
+              "label": "Additive",
+              "value": "Additive"
+            },
+            {
+              "label": "Subtractive",
+              "value": "Subtractive"
+            },
+            {
+              "label": "Multiply",
+              "value": "Multiply"
+            },
+            {
+              "label": "None",
+              "value": "None"
+            }
           ],
           "name": "Blending"
         },
@@ -9699,9 +9714,15 @@
           "type": "Choice",
           "label": "Gravity top",
           "group": "Speed",
-          "extraInformation": [
-            "Y-",
-            "Z+"
+          "choices": [
+            {
+              "label": "Y-",
+              "value": "Y-"
+            },
+            {
+              "label": "Z+",
+              "value": "Z+"
+            }
           ],
           "name": "GravityTop"
         },
