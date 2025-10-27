@@ -2312,7 +2312,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "left",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -5863,7 +5864,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "left",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -5894,7 +5896,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "center",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -5925,7 +5928,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "center",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -6014,7 +6018,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "right",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -7518,7 +7523,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "center",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -9036,7 +9042,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "center",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -9342,7 +9349,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "center",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -9571,7 +9579,8 @@
         "color": "255;255;255",
         "fontFamily": "Arial",
         "align": "left",
-        "wordWrap": true
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
       }
     },
     {
@@ -9601,7 +9610,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "prop_desk1",
+      "name": "prop_desk_01",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9615,8 +9624,8 @@
           "fixedRotation": false,
           "shape": "Box",
           "shapeOrientation": "Z",
-          "shapeDimensionA": 128,
-          "shapeDimensionB": 76,
+          "shapeDimensionA": 124,
+          "shapeDimensionB": 74,
           "shapeDimensionC": 42,
           "shapeOffsetX": 0,
           "shapeOffsetY": 0,
@@ -9638,24 +9647,24 @@
       "content": {
         "centerLocation": "ObjectCenter",
         "crossfadeDuration": 0.10000000149011612,
-        "depth": 42.00001558562735,
-        "height": 76.0000104799908,
+        "depth": 42.000015451268496,
+        "height": 74.00001021127309,
         "isCastingShadow": true,
         "isReceivingShadow": true,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "assets\\props\\prop_desk_03.glb",
+        "modelResourceName": "assets\\props\\prop_desk_01.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 0,
         "rotationZ": 0,
-        "width": 128,
+        "width": 124,
         "animations": []
       }
     },
     {
       "assetStoreId": "",
-      "name": "prop_desk2",
+      "name": "prop_desk_02",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9698,7 +9707,7 @@
         "isReceivingShadow": true,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "assets\\props\\prop_desk_04.glb",
+        "modelResourceName": "assets\\props\\prop_desk_02.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 0,
@@ -9709,7 +9718,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "prop_cabinet1",
+      "name": "prop_cabinet_01",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9758,6 +9767,276 @@
         "rotationY": 0,
         "rotationZ": 0,
         "width": 36,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_cabinet_02",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 112,
+          "shapeDimensionB": 32,
+          "shapeDimensionC": 68,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 68.00001343588565,
+        "height": 32.00001343588565,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_cabinet_02.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 112,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_cabinet_03",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 48,
+          "shapeDimensionB": 26,
+          "shapeDimensionC": 116,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 116.00001907895762,
+        "height": 26.00001907895762,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_cabinet_03.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 48,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_library_01",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 200,
+          "shapeDimensionB": 30,
+          "shapeDimensionC": 116,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 116.00001907895762,
+        "height": 30.000009673837667,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_library_01.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 200,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_partition_01",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 224,
+          "shapeDimensionB": 160,
+          "shapeDimensionC": 80,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 80.00003224612556,
+        "height": 160.00003224612556,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_partition_01.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 224,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_item_book_01",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 4,
+          "shapeDimensionB": 12,
+          "shapeDimensionC": 16,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 16.00000376204798,
+        "height": 12.000003762047982,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_item_book_01.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 4,
         "animations": []
       }
     }
@@ -9938,13 +10217,28 @@
         "folderName": "object_props",
         "children": [
           {
-            "objectName": "prop_desk1"
+            "objectName": "prop_desk_01"
           },
           {
-            "objectName": "prop_desk2"
+            "objectName": "prop_desk_02"
           },
           {
-            "objectName": "prop_cabinet1"
+            "objectName": "prop_cabinet_01"
+          },
+          {
+            "objectName": "prop_cabinet_02"
+          },
+          {
+            "objectName": "prop_cabinet_03"
+          },
+          {
+            "objectName": "prop_library_01"
+          },
+          {
+            "objectName": "prop_partition_01"
+          },
+          {
+            "objectName": "prop_item_book_01"
           }
         ]
       },

@@ -1,0 +1,47 @@
+mtllib prop_item_book_01.mtl
+# vertices
+v -2 0 -6
+v -2 0 6
+v -2 16 6
+v -2 16 -6
+v 2 16 6
+v 2 0 6
+v 2 0 -6
+v 2 16 -6
+
+# texture coordinates
+vt 0.25 -0
+vt -0.125 -0
+vt -0.125 1
+vt 0.25 1
+vt 0 1
+vt -1 1
+vt -1 -0
+vt 0 -0
+vt 0 0.625
+vt -1 0.625
+vt -1 1.625
+vt 0 1.625
+
+# normals
+vn -1 0 -0
+vn 0 0 1
+vn 0 -1 -0
+vn 0 1 -0
+vn 0 0 -1
+vn 1 0 -0
+
+o entity0_brush0
+usemtl chunksTextures/obj_book_01
+f  1/1/1  2/2/1  3/3/1  4/4/1
+usemtl chunksTextures/obj_book_01
+f  5/5/2  3/6/2  2/7/2  6/8/2
+usemtl chunksTextures/obj_book_02
+f  6/8/3  2/7/3  1/6/3  7/5/3
+usemtl chunksTextures/obj_book_02
+f  8/5/4  4/6/4  3/7/4  5/8/4
+usemtl chunksTextures/obj_book_03
+f  7/9/5  1/10/5  4/11/5  8/12/5
+usemtl chunksTextures/obj_book_01
+f  8/4/6  5/3/6  6/2/6  7/1/6
+

@@ -1,0 +1,9 @@
+newmtl chunksTextures/obj_book_01
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_book_01.png
+
+newmtl chunksTextures/obj_book_02
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_book_02.png
+
+newmtl chunksTextures/obj_book_03
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_book_03.png
+

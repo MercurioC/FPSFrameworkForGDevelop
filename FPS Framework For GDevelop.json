@@ -1,7 +1,7 @@
 {
   "firstLayout": "sandbox",
   "gdVersion": {
-    "build": 243,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1537,6 +1537,41 @@
         "kind": "model3D",
         "metadata": "",
         "name": "assets\\props\\prop_cabinet_01.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_cabinet_02.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_cabinet_02.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_cabinet_03.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_cabinet_03.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_library_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_library_01.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_partition_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_partition_01.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_item_book_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_item_book_01.glb",
         "userAdded": false
       }
     ],

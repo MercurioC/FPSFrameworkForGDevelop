@@ -1,0 +1,21 @@
+newmtl chunksTextures/color_02
+map_Kd ../../../chunksMaps/textures/chunksTextures/color_02.png
+
+newmtl chunksTextures/color_03
+map_Kd ../../../chunksMaps/textures/chunksTextures/color_03.png
+
+newmtl chunksTextures/dev_nodraw
+map_Kd ../../../chunksMaps/textures/chunksTextures/dev_nodraw.png
+
+newmtl chunksTextures/obj_cabinet_04
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_cabinet_04.png
+
+newmtl chunksTextures/obj_scaffold_01
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_scaffold_01.png
+
+newmtl chunksTextures/obj_scaffold_02
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_scaffold_02.png
+
+newmtl chunksTextures/obj_scaffold_03
+map_Kd ../../../chunksMaps/textures/chunksTextures/obj_scaffold_03.png
+

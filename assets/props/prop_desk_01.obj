@@ -1,794 +1,284 @@
 mtllib prop_desk_01.mtl
 # vertices
-v 69 16 -32
-v 69 16 32
-v 69 48 32
-v 69 48 -32
-v 71 48 32
-v 71 16 32
-v 71 16 -32
-v 71 48 -32
-v 68 0 32
-v 68 0 36
-v 68 48 36
-v 68 48 32
-v 72 48 36
-v 72 0 36
-v 72 0 32
-v 72 48 32
-v -68 40 33
-v -68 40 35
-v -68 48 35
-v -68 48 33
-v 68 48 35
-v 68 40 35
-v 68 40 33
-v 68 48 33
-v -74 48 -38
-v -74 48 38
-v -74 52 38
-v -74 52 -38
-v 74 52 38
-v 74 48 38
-v 74 48 -38
-v 74 52 -38
-v 68 0 -36
-v 68 0 -32
-v 68 48 -32
-v 68 48 -36
-v 72 48 -32
-v 72 0 -32
-v 72 0 -36
-v 72 48 -36
-v -68 40 -35
-v -68 40 -33
-v -68 48 -33
-v -68 48 -35
-v 68 48 -33
-v 68 40 -33
-v 68 40 -35
-v 68 48 -35
-v -72 0 -36
-v -72 0 -32
-v -72 48 -32
-v -72 48 -36
-v -68 48 -32
-v -68 0 -32
-v -68 0 -36
-v -68 48 -36
-v -71 16 -32
-v -71 16 32
-v -71 48 32
-v -71 48 -32
-v -69 48 32
-v -69 16 32
-v -69 16 -32
-v -69 48 -32
-v -72 0 32
-v -72 0 36
-v -72 48 36
-v -72 48 32
-v -68 48 36
-v -68 0 36
-v -68 0 32
-v -68 48 32
-v -66 0 -26
-v -66 0 26
-v -66 8 26
-v -66 8 -26
-v -38 8 26
-v -38 0 26
-v -38 0 -26
-v -38 8 -26
-v -66 8 -28
-v -66 8 -26
-v -66 20 -26
-v -66 20 -28
-v -38 20 -26
-v -38 8 -26
-v -38 8 -28
-v -38 20 -28
-v -66 32 -28
-v -66 32 -26
-v -66 40 -26
-v -66 40 -28
-v -38 40 -26
-v -38 32 -26
-v -38 32 -28
-v -38 40 -28
-v -68 8 -26
-v -68 8 28
-v -68 48 28
-v -68 48 -26
-v -36 48 28
-v -36 8 28
-v -36 8 -26
-v -36 48 -26
-v -68 8 -28
-v -68 8 -26
-v -68 40 -26
-v -68 40 -28
-v -66 40 -26
-v -66 8 -26
-v -66 8 -28
-v -66 40 -28
-v -38 8 -28
-v -38 8 -26
-v -38 40 -26
-v -38 40 -28
-v -36 40 -26
-v -36 8 -26
-v -36 8 -28
-v -36 40 -28
-v -68 40 -28
-v -68 40 -26
-v -68 48 -26
-v -68 48 -28
-v -36 48 -26
-v -36 40 -26
-v -36 40 -28
-v -36 48 -28
-v -66 22 -28
-v -66 22 -26
-v -66 30 -26
-v -66 30 -28
-v -38 30 -26
-v -38 22 -26
-v -38 22 -28
-v -38 30 -28
-v 38 0 -26
-v 38 0 26
-v 38 8 26
-v 38 8 -26
-v 66 8 26
-v 66 0 26
-v 66 0 -26
-v 66 8 -26
-v 38 8 -28
-v 38 8 -26
-v 38 26 -26
-v 38 26 -28
-v 66 26 -26
-v 66 8 -26
-v 66 8 -28
-v 66 26 -28
-v 38 28 -28
-v 38 28 -26
-v 38 40 -26
-v 38 40 -28
-v 66 40 -26
-v 66 28 -26
-v 66 28 -28
-v 66 40 -28
-v 36 8 -26
-v 36 8 28
-v 36 48 28
-v 36 48 -26
-v 68 48 28
-v 68 8 28
-v 68 8 -26
-v 68 48 -26
-v 36 8 -28
-v 36 8 -26
-v 36 40 -26
-v 36 40 -28
-v 38 40 -26
-v 38 8 -26
-v 38 8 -28
-v 38 40 -28
-v 66 8 -28
-v 66 8 -26
-v 66 40 -26
-v 66 40 -28
-v 68 40 -26
-v 68 8 -26
-v 68 8 -28
-v 68 40 -28
-v 36 40 -28
-v 36 40 -26
-v 36 48 -26
-v 36 48 -28
-v 68 48 -26
-v 68 40 -26
-v 68 40 -28
-v 68 48 -28
+v -62 40 -37
+v -62 40 37
+v -62 42 37
+v -62 42 -37
+v 62 42 37
+v 62 40 37
+v 62 40 -37
+v 62 42 -37
+v -59 38 -6
+v -59 38 6
+v -59 40 6
+v -59 40 -6
+v 59 40 6
+v 59 38 6
+v 59 38 -6
+v 59 40 -6
+v -61 8 -8
+v -61 8 8
+v -61 40 8
+v -61 40 -8
+v -59 40 8
+v -59 8 8
+v -59 8 -8
+v -59 40 -8
+v -61 0 -36
+v -61 0 36
+v -61 8 36
+v -61 8 -36
+v -59 8 36
+v -59 0 36
+v -59 0 -36
+v -59 8 -36
+v 59 0 -36
+v 59 0 36
+v 59 8 36
+v 59 8 -36
+v 61 8 36
+v 61 0 36
+v 61 0 -36
+v 61 8 -36
+v 59 8 -8
+v 59 8 8
+v 59 40 8
+v 59 40 -8
+v 61 40 8
+v 61 8 8
+v 61 8 -8
+v 61 40 -8
+v -59 8 -24
+v -59 8 24
+v -59 34 24
+v -59 34 -24
+v -35 34 24
+v -35 8 24
+v -35 8 -24
+v -35 34 -24
+v 35 8 -24
+v 35 8 24
+v 35 34 24
+v 35 34 -24
+v 59 34 24
+v 59 8 24
+v 59 8 -24
+v 59 34 -24
 
 # texture coordinates
-vt -1 0.25
-vt 1 0.25
-vt 1 1.25
-vt -1 1.25
-vt 1.96875 0.125
-vt 1.9375 0.125
-vt 1.9375 -0.375
-vt 1.96875 -0.375
-vt 1 2.9375
-vt 1 2.875
-vt -1 2.875
-vt -1 2.9375
-vt -0.5 1.96875
-vt -0.5 1.9375
-vt 0.5 1.9375
-vt 0.5 1.96875
-vt -1 -0
-vt -1.125 -0
-vt -1.125 1.5
-vt -1 1.5
-vt 3 1.5
-vt 2.875 1.5
-vt 2.875 -0
-vt 3 -0
-vt 3 -1.125
-vt 2.875 -1.125
-vt 2.875 -1
-vt 3 -1
-vt 1.5 -1
-vt 1.4375 -1
-vt 1.4375 -1.0625
-vt 1.5 -1.0625
-vt -1.03125 -0
-vt -1.0625 -0
-vt -1.0625 0.125
-vt -1.03125 0.125
-vt 3 1.25
-vt -1.25 1.25
-vt -1.25 1
-vt 3 1
-vt -1.25 -1.125
-vt -1.25 -1.0625
-vt 3 -1.0625
-vt 1.5 -1.03125
-vt -0.625 -1.03125
-vt -0.625 -1.0625
 vt 1.125 2
-vt -1.25 2
-vt -1.25 2.125
-vt 1.125 2.125
-vt 3 2.125
-vt -1.625 2.125
-vt -1.625 2
-vt 3 2
-vt 1.2162162 -1.1578947
-vt 0.21621622 -1.1578947
-vt 0.21621622 -0.15789473
-vt 1.2162162 -0.15789473
-vt 1.2162162 0.2631579
-vt 0.21621622 0.2631579
-vt 0.21621622 -0.7368421
-vt 1.2162162 -0.7368421
-vt 1 -0
-vt 0.875 -0
-vt 0.875 1.5
-vt 1 1.5
-vt 3 0.875
-vt 2.875 0.875
-vt 2.875 1
-vt 1.5 -0
-vt 1.4375 -0
-vt 1.4375 -0.0625
-vt 1.5 -0.0625
-vt -0.03125 -0
-vt -0.0625 -0
-vt -0.0625 0.125
-vt -0.03125 0.125
-vt -1.25 0.875
-vt -1.25 0.9375
-vt 3 0.9375
-vt 1.5 -0.03125
-vt -0.625 -0.03125
-vt -0.625 -0.0625
-vt -2 1.5
-vt -2.125 1.5
-vt -2.125 -0
-vt -2 -0
-vt -2 0.875
-vt -2.125 0.875
-vt -2.125 1
-vt -2 1
+vt -1.1875 2
+vt -1.1875 2.0625
+vt 1.125 2.0625
+vt 2.375 2.0625
+vt -1.5 2.0625
+vt -1.5 2
+vt 2.375 2
+vt 0.5 -0.7105263
+vt -0.46875 -0.7105263
+vt -0.46875 0.2631579
+vt 0.5 0.2631579
+vt -0.453125 0.09375
+vt -0.640625 0.09375
+vt -0.640625 0.125
+vt -0.453125 0.125
+vt 2.40625 1.25
+vt -1.28125 1.25
+vt -1.28125 1.1875
+vt 2.40625 1.1875
+vt 2.40625 -0.28125
+vt -1.28125 -0.28125
+vt -1.28125 0.09375
+vt 2.40625 0.09375
+vt 1.203125 -0.453125
+vt -0.640625 -0.453125
+vt -0.640625 -0.640625
+vt 1.203125 -0.640625
+vt 0 -0
 vt -0.5 -0
-vt -0.5625 -0
-vt -0.5625 -0.0625
-vt -0.5 -0.0625
-vt -1.0625 -0.375
-vt -1.03125 -0.375
-vt 1 -2.0625
-vt 1 -2.125
-vt -1 -2.125
-vt -1 -2.0625
-vt -0.5 -1.03125
-vt -0.5 -1.0625
-vt 0.5 -1.0625
-vt 0.5 -1.03125
-vt -2 -1.125
-vt -2.125 -1.125
-vt -2.125 -1
-vt -2 -1
-vt -0.5 -1
-vt -0.5625 -1
-vt -0.5625 -1.0625
-vt 0.625 -0
-vt 0.625 0.25
-vt -1.125 0.25
-vt -2 0.25
-vt -1.125 -1
-vt -2 0.625
-vt -1.125 0.625
-vt -0.5625 -0.1875
-vt -1 -0.1875
-vt -1 -1
-vt -0.125 0.625
-vt -0.15625 0.625
-vt -0.15625 0.8125
-vt -0.125 0.8125
-vt -0.53125 0.8125
-vt -0.96875 0.8125
-vt -0.96875 0.625
-vt -0.53125 0.625
-vt -1.0625 0.6875
-vt -1.9375 0.6875
-vt -1.9375 0.75
-vt -1.0625 0.75
-vt -1.0625 0.25
-vt -1.9375 0.25
-vt -1.9375 0.625
-vt -1.0625 0.625
-vt -0.15625 0.75
-vt -0.125 0.75
-vt -0.53125 0.75
-vt -0.96875 0.75
-vt -0.53125 -0.125
-vt -0.96875 -0.125
-vt -0.96875 -0.15625
-vt -0.53125 -0.15625
-vt -1.0625 1.25
-vt -1.9375 1.25
-vt -1.9375 1.5
-vt -1.0625 1.5
-vt 0.6875 0.25
-vt 0.6875 1.5
-vt -2 0.6875
-vt -1 0.6875
-vt 0.75 0.25
-vt 0.6875 1.25
-vt 0.75 1.25
-vt -0.53125 1.125
-vt -0.5625 1.125
-vt -0.5625 0.625
-vt -2.0625 0.6875
-vt -2.125 0.6875
-vt -2.125 0.75
-vt -2.0625 0.75
-vt -0.5625 -0.125
-vt -0.5625 -0.15625
-vt -2.0625 0.25
-vt -2.125 0.25
-vt -2.125 1.25
-vt -2.0625 1.25
-vt -1.125 0.6875
-vt -1.125 0.75
-vt -1.125 1.25
-vt 0.75 1.5
-vt -0.5 0.75
-vt -1 0.75
-vt -1 0.625
-vt -0.5 0.625
-vt -0.5 -0.15625
-vt -1 -0.15625
-vt -1 -0.125
-vt -0.5 -0.125
-vt -2 0.75
-vt -2 1.25
-vt 2.875 0.25
-vt 2 0.25
+vt -0.5 1
+vt 0 1
+vt -1 1
+vt -1.0625 1
+vt -1.0625 -0
+vt -1 -0
+vt 0 -0.75
+vt -0.03125 -0.75
+vt -0.03125 -0.5
+vt 0 -0.5
+vt -0.53125 -0
+vt -0.53125 -0.25
+vt -0.5 -0.25
+vt -0.4027778 1
+vt -0.43055555 1
+vt -0.43055555 -0
+vt -0.4027778 -0
+vt 1.125 -1.0625
+vt 1.125 -1.125
+vt -1.125 -1.125
+vt -1.125 -1.0625
+vt 1.5972222 1
+vt 1.5694444 1
+vt 1.5694444 -0
+vt 1.5972222 -0
+vt 1.125 1.9375
+vt 1.125 1.875
+vt -1.125 1.875
+vt -1.125 1.9375
+vt 2 1
+vt 1.9375 1
+vt 1.9375 -0
 vt 2 -0
-vt 2 -1
-vt 2 0.625
-vt 2.875 0.625
-vt 1.4375 -0.1875
-vt 1 -0.1875
-vt 1 -1
-vt -0.15625 0.90625
-vt -0.125 0.90625
-vt 1.46875 0.90625
-vt 1.03125 0.90625
-vt 1.03125 0.625
-vt 1.46875 0.625
-vt 2.9375 0.6875
-vt 2.0625 0.6875
-vt 2.0625 0.75
-vt 2.9375 0.75
-vt 2.9375 0.25
-vt 2.0625 0.25
-vt 2.0625 0.8125
-vt 2.9375 0.8125
-vt -0.125 0.5625
-vt -0.15625 0.5625
-vt 1.46875 0.75
-vt 1.03125 0.75
-vt 1.03125 0.5625
-vt 1.46875 0.5625
-vt 1.46875 -0.125
-vt 1.03125 -0.125
-vt 1.03125 -0.15625
-vt 1.46875 -0.15625
-vt 2.9375 1.125
-vt 2.0625 1.125
-vt 2.0625 1.5
-vt 2.9375 1.5
-vt 2 1.5
-vt 3 0.25
-vt 2 0.6875
-vt 3 0.6875
-vt 1.46875 1.125
-vt 1.4375 1.125
-vt 1.4375 0.625
-vt 1.9375 0.6875
-vt 1.875 0.6875
-vt 1.875 0.75
-vt 1.9375 0.75
-vt 1.4375 -0.125
-vt 1.4375 -0.15625
-vt 1.9375 0.25
-vt 1.875 0.25
-vt 1.875 1.25
-vt 1.9375 1.25
-vt 2.875 0.6875
-vt 2.875 0.75
-vt 2.875 1.25
-vt 2.9375 1.25
-vt 1.5 0.75
-vt 1 0.75
-vt 1 0.625
-vt 1.5 0.625
-vt 1.5 -0.15625
-vt 1 -0.15625
-vt 1 -0.125
-vt 1.5 -0.125
-vt 3 0.75
-vt 2 0.75
-vt 2 1.25
+vt 1 -0.75
+vt 0.96875 -0.75
+vt 0.96875 -0.5
+vt 1 -0.5
+vt 1.5 -0
+vt 1.46875 -0
+vt 1.46875 -0.25
+vt 1.5 -0.25
+vt 0.125 0.375
+vt 1.625 0.375
+vt 1.625 1.1875
+vt 0.125 1.1875
+vt -2 1
+vt -2 -0
+vt 0.25 1.625
+vt 1 1.625
+vt 1 0.125
+vt 0.25 0.125
+vt 0.25 0.375
+vt 1 0.375
+vt 1 1.1875
+vt 0.25 1.1875
+vt 3 1
+vt 3 -0
+vt -2.75 1.625
+vt -2 1.625
+vt -2 0.125
+vt -2.75 0.125
+vt -2.75 0.375
+vt -2 0.375
+vt -2 1.1875
+vt -2.75 1.1875
 
 # normals
 vn -1 0 -0
 vn 0 0 1
 vn 0 -1 -0
-vn -0 1 -0
-vn -0 0 -1
-vn 1 -0 -0
+vn 0 1 -0
+vn 0 0 -1
+vn 1 0 -0
 
 o entity1_brush0
-usemtl chunksTextures/color_01
+usemtl chunksTextures/prop_desk02_tableBorder
 f  1/1/1  2/2/1  3/3/1  4/4/1
-usemtl chunksTextures/dev_nodraw
+usemtl chunksTextures/prop_desk02_tableBorder
 f  5/5/2  3/6/2  2/7/2  6/8/2
-usemtl chunksTextures/color_01
+usemtl chunksTextures/prop_desk02_table
 f  6/9/3  2/10/3  1/11/3  7/12/3
-usemtl chunksTextures/dev_nodraw
-f  8/13/4  4/14/4  3/15/4  5/16/4
-usemtl chunksTextures/dev_nodraw
+usemtl chunksTextures/prop_desk02_table
+f  8/12/4  4/11/4  3/10/4  5/9/4
+usemtl chunksTextures/prop_desk02_tableBorder
 f  7/8/5  1/7/5  4/6/5  8/5/5
-usemtl chunksTextures/color_01
+usemtl chunksTextures/prop_desk02_tableBorder
 f  8/4/6  5/3/6  6/2/6  7/1/6
 
 o entity1_brush1
-usemtl chunksTextures/color_01
-f  9/17/1  10/18/1  11/19/1  12/20/1
-usemtl chunksTextures/color_01
-f  13/21/2  11/22/2  10/23/2  14/24/2
-usemtl chunksTextures/color_01
-f  14/25/3  10/26/3  9/27/3  15/28/3
 usemtl chunksTextures/dev_nodraw
-f  16/29/4  12/30/4  11/31/4  13/32/4
-usemtl chunksTextures/color_01
-f  15/24/5  9/23/5  12/22/5  16/21/5
-usemtl chunksTextures/color_01
-f  16/20/6  13/19/6  14/18/6  15/17/6
+f  9/13/1  10/14/1  11/15/1  12/16/1
+usemtl chunksTextures/prop_desk02_leg
+f  13/17/2  11/18/2  10/19/2  14/20/2
+usemtl chunksTextures/prop_desk02_leg
+f  14/21/3  10/22/3  9/23/3  15/24/3
+usemtl chunksTextures/dev_nodraw
+f  16/25/4  12/26/4  11/27/4  13/28/4
+usemtl chunksTextures/prop_desk02_leg
+f  15/20/5  9/19/5  12/18/5  16/17/5
+usemtl chunksTextures/dev_nodraw
+f  16/16/6  13/15/6  14/14/6  15/13/6
 
 o entity1_brush2
+usemtl chunksTextures/prop_desk02_leg
+f  17/29/1  18/30/1  19/31/1  20/32/1
+usemtl chunksTextures/prop_desk02_leg
+f  21/33/2  19/34/2  18/35/2  22/36/2
 usemtl chunksTextures/dev_nodraw
-f  17/33/1  18/34/1  19/35/1  20/36/1
-usemtl chunksTextures/color_01
-f  21/37/2  19/38/2  18/39/2  22/40/2
-usemtl chunksTextures/color_01
-f  22/25/3  18/41/3  17/42/3  23/43/3
+f  22/37/3  18/38/3  17/39/3  23/40/3
 usemtl chunksTextures/dev_nodraw
-f  24/44/4  20/45/4  19/46/4  21/32/4
-usemtl chunksTextures/color_01
-f  23/40/5  17/39/5  20/38/5  24/37/5
-usemtl chunksTextures/dev_nodraw
-f  24/36/6  21/35/6  22/34/6  23/33/6
+f  24/30/4  20/41/4  19/42/4  21/43/4
+usemtl chunksTextures/prop_desk02_leg
+f  23/36/5  17/35/5  20/34/5  24/33/5
+usemtl chunksTextures/prop_desk02_leg
+f  24/32/6  21/31/6  22/30/6  23/29/6
 
 o entity1_brush3
-usemtl chunksTextures/color_06
-f  25/47/1  26/48/1  27/49/1  28/50/1
-usemtl chunksTextures/color_06
-f  29/51/2  27/52/2  26/53/2  30/54/2
-usemtl chunksTextures/obj_table_01
-f  30/55/3  26/56/3  25/57/3  31/58/3
-usemtl chunksTextures/obj_table_01
-f  32/59/4  28/60/4  27/61/4  29/62/4
-usemtl chunksTextures/color_06
-f  31/54/5  25/53/5  28/52/5  32/51/5
-usemtl chunksTextures/color_06
-f  32/50/6  29/49/6  30/48/6  31/47/6
+usemtl chunksTextures/prop_desk02_base
+f  25/29/1  26/36/1  27/33/1  28/32/1
+usemtl chunksTextures/prop_desk02_base
+f  29/44/2  27/45/2  26/46/2  30/47/2
+usemtl chunksTextures/prop_desk02_base2
+f  30/48/3  26/49/3  25/50/3  31/51/3
+usemtl chunksTextures/prop_desk02_base2
+f  32/51/4  28/50/4  27/49/4  29/48/4
+usemtl chunksTextures/prop_desk02_base
+f  31/47/5  25/46/5  28/45/5  32/44/5
+usemtl chunksTextures/prop_desk02_base
+f  32/32/6  29/33/6  30/36/6  31/29/6
 
 o entity1_brush4
-usemtl chunksTextures/color_01
-f  33/63/1  34/64/1  35/65/1  36/66/1
-usemtl chunksTextures/color_01
-f  37/21/2  35/22/2  34/23/2  38/24/2
-usemtl chunksTextures/color_01
-f  38/67/3  34/68/3  33/69/3  39/40/3
-usemtl chunksTextures/dev_nodraw
-f  40/70/4  36/71/4  35/72/4  37/73/4
-usemtl chunksTextures/color_01
-f  39/24/5  33/23/5  36/22/5  40/21/5
-usemtl chunksTextures/color_01
-f  40/66/6  37/65/6  38/64/6  39/63/6
+usemtl chunksTextures/prop_desk02_base
+f  33/29/1  34/36/1  35/33/1  36/32/1
+usemtl chunksTextures/prop_desk02_base
+f  37/52/2  35/53/2  34/54/2  38/55/2
+usemtl chunksTextures/prop_desk02_base2
+f  38/56/3  34/57/3  33/58/3  39/59/3
+usemtl chunksTextures/prop_desk02_base2
+f  40/59/4  36/58/4  35/57/4  37/56/4
+usemtl chunksTextures/prop_desk02_base
+f  39/55/5  33/54/5  36/53/5  40/52/5
+usemtl chunksTextures/prop_desk02_base
+f  40/32/6  37/33/6  38/36/6  39/29/6
 
 o entity1_brush5
+usemtl chunksTextures/prop_desk02_leg
+f  41/29/1  42/30/1  43/31/1  44/32/1
+usemtl chunksTextures/prop_desk02_leg
+f  45/60/2  43/61/2  42/62/2  46/63/2
 usemtl chunksTextures/dev_nodraw
-f  41/74/1  42/75/1  43/76/1  44/77/1
-usemtl chunksTextures/color_01
-f  45/37/2  43/38/2  42/39/2  46/40/2
-usemtl chunksTextures/color_01
-f  46/67/3  42/78/3  41/79/3  47/80/3
+f  46/64/3  42/65/3  41/66/3  47/67/3
 usemtl chunksTextures/dev_nodraw
-f  48/81/4  44/82/4  43/83/4  45/73/4
-usemtl chunksTextures/color_01
-f  47/40/5  41/39/5  44/38/5  48/37/5
-usemtl chunksTextures/dev_nodraw
-f  48/77/6  45/76/6  46/75/6  47/74/6
+f  48/68/4  44/69/4  43/70/4  45/71/4
+usemtl chunksTextures/prop_desk02_leg
+f  47/63/5  41/62/5  44/61/5  48/60/5
+usemtl chunksTextures/prop_desk02_leg
+f  48/32/6  45/31/6  46/30/6  47/29/6
 
 o entity1_brush6
-usemtl chunksTextures/color_01
-f  49/63/1  50/64/1  51/65/1  52/66/1
-usemtl chunksTextures/color_01
-f  53/84/2  51/85/2  50/86/2  54/87/2
-usemtl chunksTextures/color_01
-f  54/88/3  50/89/3  49/90/3  55/91/3
-usemtl chunksTextures/dev_nodraw
-f  56/92/4  52/93/4  51/94/4  53/95/4
-usemtl chunksTextures/color_01
-f  55/87/5  49/86/5  52/85/5  56/84/5
-usemtl chunksTextures/color_01
-f  56/66/6  53/65/6  54/64/6  55/63/6
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  49/72/1  50/73/1  51/74/1  52/75/1
+usemtl chunksTextures/prop_desk02_cabinet_front
+f  53/33/2  51/76/2  50/77/2  54/36/2
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  54/78/3  50/79/3  49/80/3  55/81/3
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  56/81/4  52/80/4  51/79/4  53/78/4
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  55/82/5  49/83/5  52/84/5  56/85/5
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  56/75/6  53/74/6  54/73/6  55/72/6
 
 o entity1_brush7
-usemtl chunksTextures/color_01
-f  57/1/1  58/2/1  59/3/1  60/4/1
-usemtl chunksTextures/dev_nodraw
-f  61/36/2  59/35/2  58/96/2  62/97/2
-usemtl chunksTextures/color_01
-f  62/98/3  58/99/3  57/100/3  63/101/3
-usemtl chunksTextures/dev_nodraw
-f  64/102/4  60/103/4  59/104/4  61/105/4
-usemtl chunksTextures/dev_nodraw
-f  63/97/5  57/96/5  60/35/5  64/36/5
-usemtl chunksTextures/color_01
-f  64/4/6  61/3/6  62/2/6  63/1/6
-
-o entity1_brush8
-usemtl chunksTextures/color_01
-f  65/17/1  66/18/1  67/19/1  68/20/1
-usemtl chunksTextures/color_01
-f  69/84/2  67/85/2  66/86/2  70/87/2
-usemtl chunksTextures/color_01
-f  70/106/3  66/107/3  65/108/3  71/109/3
-usemtl chunksTextures/dev_nodraw
-f  72/110/4  68/111/4  67/112/4  69/103/4
-usemtl chunksTextures/color_01
-f  71/87/5  65/86/5  68/85/5  72/84/5
-usemtl chunksTextures/color_01
-f  72/20/6  69/19/6  70/18/6  71/17/6
-
-o entity2_brush0
-usemtl chunksTextures/color_05
-f  73/113/1  74/17/1  75/1/1  76/114/1
-usemtl chunksTextures/color_05
-f  77/115/2  75/116/2  74/87/2  78/18/2
-usemtl chunksTextures/color_05
-f  78/117/3  74/109/3  73/118/3  79/119/3
-usemtl chunksTextures/dev_nodraw
-f  80/120/4  76/121/4  75/122/4  77/111/4
-usemtl chunksTextures/color_05
-f  79/18/5  73/87/5  76/116/5  80/115/5
-usemtl chunksTextures/color_05
-f  80/114/6  77/1/6  78/17/6  79/113/6
-
-o entity2_brush1
-usemtl chunksTextures/dev_nodraw
-f  81/123/1  82/124/1  83/125/1  84/126/1
-usemtl chunksTextures/dev_nodraw
-f  85/127/2  83/128/2  82/129/2  86/130/2
-usemtl chunksTextures/color_03
-f  86/131/3  82/132/3  81/133/3  87/134/3
-usemtl chunksTextures/color_03
-f  88/134/4  84/133/4  83/132/4  85/131/4
-usemtl chunksTextures/color_02
-f  87/135/5  81/136/5  84/137/5  88/138/5
-usemtl chunksTextures/dev_nodraw
-f  88/126/6  85/125/6  86/124/6  87/123/6
-
-o entity2_brush2
-usemtl chunksTextures/dev_nodraw
-f  89/123/1  90/124/1  91/139/1  92/140/1
-usemtl chunksTextures/dev_nodraw
-f  93/141/2  91/142/2  90/129/2  94/130/2
-usemtl chunksTextures/color_03
-f  94/131/3  90/132/3  89/133/3  95/134/3
-usemtl chunksTextures/dev_nodraw
-f  96/143/4  92/144/4  91/145/4  93/146/4
-usemtl chunksTextures/color_02
-f  95/147/5  89/148/5  92/149/5  96/150/5
-usemtl chunksTextures/dev_nodraw
-f  96/140/6  93/139/6  94/124/6  95/123/6
-
-o entity2_brush3
-usemtl chunksTextures/color_01
-f  97/151/1  98/1/1  99/20/1  100/152/1
-usemtl chunksTextures/color_01
-f  101/20/2  99/84/2  98/116/2  102/1/2
-usemtl chunksTextures/color_05
-f  102/122/3  98/109/3  97/153/3  103/154/3
-usemtl chunksTextures/color_01
-f  104/154/4  100/153/4  99/109/4  101/122/4
-usemtl chunksTextures/color_01
-f  103/1/5  97/116/5  100/84/5  104/20/5
-usemtl chunksTextures/color_01
-f  104/152/6  101/20/6  102/1/6  103/151/6
-
-o entity2_brush4
-usemtl chunksTextures/color_01
-f  105/155/1  106/151/1  107/156/1  108/157/1
-usemtl chunksTextures/dev_nodraw
-f  109/158/2  107/159/2  106/160/2  110/130/2
-usemtl chunksTextures/color_05
-f  110/161/3  106/162/3  105/163/3  111/164/3
-usemtl chunksTextures/dev_nodraw
-f  112/143/4  108/165/4  107/166/4  109/146/4
-usemtl chunksTextures/color_01
-f  111/167/5  105/168/5  108/169/5  112/170/5
-usemtl chunksTextures/color_01
-f  112/157/6  109/156/6  110/151/6  111/155/6
-
-o entity2_brush5
-usemtl chunksTextures/color_01
-f  113/155/1  114/151/1  115/156/1  116/157/1
-usemtl chunksTextures/dev_nodraw
-f  117/158/2  115/159/2  114/160/2  118/130/2
-usemtl chunksTextures/color_05
-f  118/131/3  114/171/3  113/172/3  119/134/3
-usemtl chunksTextures/dev_nodraw
-f  120/143/4  116/165/4  115/166/4  117/146/4
-usemtl chunksTextures/color_01
-f  119/135/5  113/115/5  116/173/5  120/147/5
-usemtl chunksTextures/color_01
-f  120/157/6  117/156/6  118/151/6  119/155/6
-
-o entity2_brush6
-usemtl chunksTextures/color_01
-f  121/157/1  122/156/1  123/152/1  124/174/1
-usemtl chunksTextures/dev_nodraw
-f  125/175/2  123/176/2  122/177/2  126/178/2
-usemtl chunksTextures/dev_nodraw
-f  126/179/3  122/180/3  121/181/3  127/182/3
-usemtl chunksTextures/color_01
-f  128/176/4  124/183/4  123/153/4  125/154/4
-usemtl chunksTextures/color_01
-f  127/4/5  121/184/5  124/84/5  128/20/5
-usemtl chunksTextures/color_01
-f  128/174/6  125/152/6  126/156/6  127/157/6
-
-o entity2_brush7
-usemtl chunksTextures/dev_nodraw
-f  129/123/1  130/124/1  131/139/1  132/140/1
-usemtl chunksTextures/dev_nodraw
-f  133/141/2  131/142/2  130/129/2  134/130/2
-usemtl chunksTextures/color_03
-f  134/131/3  130/132/3  129/133/3  135/134/3
-usemtl chunksTextures/color_03
-f  136/134/4  132/133/4  131/132/4  133/131/4
-usemtl chunksTextures/color_02
-f  135/147/5  129/148/5  132/149/5  136/150/5
-usemtl chunksTextures/dev_nodraw
-f  136/140/6  133/139/6  134/124/6  135/123/6
-
-o entity3_brush0
-usemtl chunksTextures/color_05
-f  137/113/1  138/17/1  139/1/1  140/114/1
-usemtl chunksTextures/color_05
-f  141/185/2  139/186/2  138/187/2  142/23/2
-usemtl chunksTextures/color_05
-f  142/27/3  138/188/3  137/189/3  143/190/3
-usemtl chunksTextures/dev_nodraw
-f  144/191/4  140/192/4  139/193/4  141/30/4
-usemtl chunksTextures/color_05
-f  143/23/5  137/187/5  140/186/5  144/185/5
-usemtl chunksTextures/color_05
-f  144/114/6  141/1/6  142/17/6  143/113/6
-
-o entity3_brush1
-usemtl chunksTextures/dev_nodraw
-f  145/123/1  146/124/1  147/194/1  148/195/1
-usemtl chunksTextures/dev_nodraw
-f  149/196/2  147/197/2  146/198/2  150/199/2
-usemtl chunksTextures/color_03
-f  150/200/3  146/201/3  145/202/3  151/203/3
-usemtl chunksTextures/color_03
-f  152/203/4  148/202/4  147/201/4  149/200/4
-usemtl chunksTextures/color_02
-f  151/204/5  145/205/5  148/206/5  152/207/5
-usemtl chunksTextures/dev_nodraw
-f  152/195/6  149/194/6  150/124/6  151/123/6
-
-o entity3_brush2
-usemtl chunksTextures/dev_nodraw
-f  153/208/1  154/209/1  155/139/1  156/140/1
-usemtl chunksTextures/dev_nodraw
-f  157/210/2  155/211/2  154/212/2  158/213/2
-usemtl chunksTextures/color_03
-f  158/200/3  154/201/3  153/202/3  159/203/3
-usemtl chunksTextures/dev_nodraw
-f  160/214/4  156/215/4  155/216/4  157/217/4
-usemtl chunksTextures/color_02
-f  159/218/5  153/219/5  156/220/5  160/221/5
-usemtl chunksTextures/dev_nodraw
-f  160/140/6  157/139/6  158/209/6  159/208/6
-
-o entity3_brush3
-usemtl chunksTextures/color_01
-f  161/151/1  162/1/1  163/20/1  164/152/1
-usemtl chunksTextures/color_01
-f  165/21/2  163/222/2  162/186/2  166/223/2
-usemtl chunksTextures/color_05
-f  166/28/3  162/188/3  161/224/3  167/225/3
-usemtl chunksTextures/color_01
-f  168/225/4  164/224/4  163/188/4  165/28/4
-usemtl chunksTextures/color_01
-f  167/223/5  161/186/5  164/222/5  168/21/5
-usemtl chunksTextures/color_01
-f  168/152/6  165/20/6  166/1/6  167/151/6
-
-o entity3_brush4
-usemtl chunksTextures/color_01
-f  169/155/1  170/151/1  171/156/1  172/157/1
-usemtl chunksTextures/dev_nodraw
-f  173/226/2  171/227/2  170/228/2  174/199/2
-usemtl chunksTextures/color_05
-f  174/229/3  170/230/3  169/231/3  175/232/3
-usemtl chunksTextures/dev_nodraw
-f  176/214/4  172/233/4  171/234/4  173/217/4
-usemtl chunksTextures/color_01
-f  175/235/5  169/236/5  172/237/5  176/238/5
-usemtl chunksTextures/color_01
-f  176/157/6  173/156/6  174/151/6  175/155/6
-
-o entity3_brush5
-usemtl chunksTextures/color_01
-f  177/155/1  178/151/1  179/156/1  180/157/1
-usemtl chunksTextures/dev_nodraw
-f  181/226/2  179/227/2  178/228/2  182/199/2
-usemtl chunksTextures/color_05
-f  182/200/3  178/239/3  177/240/3  183/203/3
-usemtl chunksTextures/dev_nodraw
-f  184/214/4  180/233/4  179/234/4  181/217/4
-usemtl chunksTextures/color_01
-f  183/204/5  177/185/5  180/241/5  184/242/5
-usemtl chunksTextures/color_01
-f  184/157/6  181/156/6  182/151/6  183/155/6
-
-o entity3_brush6
-usemtl chunksTextures/color_01
-f  185/157/1  186/156/1  187/152/1  188/174/1
-usemtl chunksTextures/dev_nodraw
-f  189/243/2  187/244/2  186/245/2  190/246/2
-usemtl chunksTextures/dev_nodraw
-f  190/247/3  186/248/3  185/249/3  191/250/3
-usemtl chunksTextures/color_01
-f  192/251/4  188/252/4  187/224/4  189/225/4
-usemtl chunksTextures/color_01
-f  191/37/5  185/253/5  188/222/5  192/21/5
-usemtl chunksTextures/color_01
-f  192/174/6  189/152/6  190/156/6  191/157/6
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  57/72/1  58/73/1  59/74/1  60/75/1
+usemtl chunksTextures/prop_desk02_cabinet_front2
+f  61/86/2  59/60/2  58/63/2  62/87/2
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  62/88/3  58/89/3  57/90/3  63/91/3
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  64/91/4  60/90/4  59/89/4  61/88/4
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  63/92/5  57/93/5  60/94/5  64/95/5
+usemtl chunksTextures/prop_desk02_cabinet_ext
+f  64/75/6  61/74/6  62/73/6  63/72/6
 

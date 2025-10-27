@@ -1,0 +1,15 @@
+newmtl chunksTextures/color_05
+map_Kd ../../../chunksMaps/textures/chunksTextures/color_05.png
+
+newmtl chunksTextures/dev_nodraw
+map_Kd ../../../chunksMaps/textures/chunksTextures/dev_nodraw.png
+
+newmtl chunksTextures/prop_desk02_base
+map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_base.png
+
+newmtl chunksTextures/prop_desk02_base3
+map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_base3.png
+
+newmtl chunksTextures/prop_library_back
+map_Kd ../../../chunksMaps/textures/chunksTextures/prop_library_back.png
+

@@ -1,0 +1,589 @@
+mtllib prop_cabinet_01.mtl
+# vertices
+v -18 0 -16
+v -18 0 16
+v -18 6 16
+v -18 6 -16
+v 18 6 16
+v 18 0 16
+v 18 0 -16
+v 18 6 -16
+v -18 6 -12
+v -18 6 16
+v -18 78 16
+v -18 78 -12
+v -16 78 16
+v -16 6 16
+v -16 6 -12
+v -16 78 -12
+v 16 6 -12
+v 16 6 16
+v 16 78 16
+v 16 78 -12
+v 18 78 16
+v 18 6 16
+v 18 6 -12
+v 18 78 -12
+v -18 78 -16
+v -18 78 16
+v -18 80 16
+v -18 80 -16
+v 18 80 16
+v 18 78 16
+v 18 78 -16
+v 18 80 -16
+v -18 6 -16
+v -18 6 -12
+v -18 78 -12
+v -18 78 -16
+v 18 78 -12
+v 18 6 -12
+v 18 6 -16
+v 18 78 -16
+v -16 30 14
+v -16 30 15
+v -16 54 15
+v -16 54 14
+v 16 54 15
+v 16 30 15
+v 16 30 14
+v 16 54 14
+v -16 30 -8
+v -16 30 14
+v -16 54 14
+v -16 54 -8
+v -15 54 14
+v -15 30 14
+v -15 30 -8
+v -15 54 -8
+v -15 30 -8
+v -15 30 14
+v -15 48 14
+v -15 52 -8
+v 15 48 14
+v 15 30 14
+v 15 52 -8
+v 15 30 -8
+v -16 30 -9
+v -16 30 -8
+v -16 54 -8
+v -16 54 -9
+v 16 54 -8
+v 16 30 -8
+v 16 30 -9
+v 16 54 -9
+v 15 30 -8
+v 15 30 14
+v 15 54 14
+v 15 54 -8
+v 16 54 14
+v 16 30 14
+v 16 30 -8
+v 16 54 -8
+v -16 6 14
+v -16 6 15
+v -16 30 15
+v -16 30 14
+v 16 30 15
+v 16 6 15
+v 16 6 14
+v 16 30 14
+v -16 6 -8
+v -16 6 14
+v -16 30 14
+v -16 30 -8
+v -15 30 14
+v -15 6 14
+v -15 6 -8
+v -15 30 -8
+v -15 6 -8
+v -15 6 14
+v -15 24 14
+v -15 28 -8
+v 15 24 14
+v 15 6 14
+v 15 28 -8
+v 15 6 -8
+v -16 6 -9
+v -16 6 -8
+v -16 30 -8
+v -16 30 -9
+v 16 30 -8
+v 16 6 -8
+v 16 6 -9
+v 16 30 -9
+v 15 6 -8
+v 15 6 14
+v 15 30 14
+v 15 30 -8
+v 16 30 14
+v 16 6 14
+v 16 6 -8
+v 16 30 -8
+v -16 54 14
+v -16 54 15
+v -16 78 15
+v -16 78 14
+v 16 78 15
+v 16 54 15
+v 16 54 14
+v 16 78 14
+v -16 54 -8
+v -16 54 14
+v -16 78 14
+v -16 78 -8
+v -15 78 14
+v -15 54 14
+v -15 54 -8
+v -15 78 -8
+v -15 54 -8
+v -15 54 14
+v -15 72 14
+v -15 76 -8
+v 15 72 14
+v 15 54 14
+v 15 76 -8
+v 15 54 -8
+v -16 54 -9
+v -16 54 -8
+v -16 78 -8
+v -16 78 -9
+v 16 78 -8
+v 16 54 -8
+v 16 54 -9
+v 16 78 -9
+v 15 54 -8
+v 15 54 14
+v 15 78 14
+v 15 78 -8
+v 16 78 14
+v 16 54 14
+v 16 54 -8
+v 16 78 -8
+
+# texture coordinates
+vt -0.055555556 -0
+vt -0.9444444 -0
+vt -0.9444444 1
+vt -0.055555556 1
+vt -1 1
+vt 0 1
+vt 0 -0
+vt -1 -0
+vt 0.0625 -0.5
+vt -1.0625 -0.5
+vt -1.0625 0.5
+vt 0.0625 0.5
+vt 0 -0.6875
+vt 0 0.4375
+vt -1 0.4375
+vt -1 -0.6875
+vt -0.125 0.1875
+vt -1 0.1875
+vt -1 2.4375
+vt -0.125 2.4375
+vt 0.375 2.4375
+vt 0.4375 2.4375
+vt 0.4375 0.1875
+vt 0.375 0.1875
+vt -0.5 0.6875
+vt -0.5 0.71875
+vt -0.0625 0.71875
+vt -0.0625 0.6875
+vt 0.6875 0.09375
+vt 0.71875 0.09375
+vt 0.71875 1.21875
+vt 0.6875 1.21875
+vt -0.4375 2.4375
+vt -0.375 2.4375
+vt -0.375 0.1875
+vt -0.4375 0.1875
+vt -0.5 0.28125
+vt -0.5 0.3125
+vt -0.0625 0.3125
+vt -0.0625 0.28125
+vt 0.28125 0.09375
+vt 0.3125 0.09375
+vt 0.3125 1.21875
+vt 0.28125 1.21875
+vt -0.055555556 13.833333
+vt -0.9444444 13.833333
+vt -0.9444444 14.166667
+vt -0.055555556 14.166667
+vt -1 14.166667
+vt 0 14.166667
+vt 0 13.833333
+vt -1 13.833333
+vt 0 0.1875
+vt 0 2.4375
+vt 0.15625 1.21875
+vt 0.15625 0.09375
+vt -0.0625 0.15625
+vt 0 0.71875
+vt 0 0.15625
+vt -0.6875 0.1875
+vt -0.6875 2.4375
+vt -2 2
+vt -2.125 2
+vt -2.125 3
+vt -2 3
+vt -1 3
+vt 0 3
+vt 0 2
+vt -1 2
+vt -0.9375 -0.625
+vt -0.9375 0.375
+vt -0.90625 0.375
+vt -0.90625 -0.625
+vt 2.75 2
+vt -1.25 2
+vt -1.25 3
+vt 2.75 3
+vt 0.75 2
+vt 0.75 3
+vt -0.03125 3
+vt -0.03125 2
+vt -0.90625 0.34375
+vt -0.21875 0.375
+vt -0.21875 0.34375
+vt 0.671875 1.0625
+vt 0.6875 1.0625
+vt 0.6875 1.4375
+vt 0.671875 1.4375
+vt -0.359375 -0.875
+vt -0.015625 -0.875
+vt -0.015625 -1.15625
+vt -0.359375 -1.21875
+vt 0.015625 0.90625
+vt 0.484375 0.90625
+vt 0.484375 0.625
+vt 0.015625 0.625
+vt 0 2.2
+vt -1 2.2
+vt -0.90625 -0.59375
+vt -0.21875 -0.59375
+vt 0.203125 1.0625
+vt 0.671875 1.40625
+vt 0.203125 1.40625
+vt 0.875 2
+vt 0.875 3
+vt -0.21875 -0.625
+vt -0.1875 0.375
+vt -0.1875 -0.625
+vt 0.1875 1.0625
+vt 0.1875 1.4375
+vt -0.96875 3
+vt -0.96875 2
+vt 0.203125 1.4375
+vt -2 1
+vt -2.125 1
+vt 2.75 1
+vt -1.25 1
+vt 0.75 1
+vt -0.03125 1
+vt 0.875 1
+vt -0.96875 1
+vt -2.125 4
+vt -2 4
+vt -1 4
+vt 0 4
+vt -1.25 4
+vt 2.75 4
+vt 0.75 4
+vt -0.03125 4
+vt 0.015625 1.90625
+vt 0.484375 1.90625
+vt 0.484375 1.625
+vt 0.015625 1.625
+vt 0.875 4
+vt -0.96875 4
+
+# normals
+vn -1 0 -0
+vn 0 0 1
+vn 0 -1 -0
+vn 0 1 -0
+vn 0 -0 -1
+vn 1 0 -0
+vn 0 0.9838699100999074 0.17888543819998318
+
+o entity1_brush0
+usemtl chunksTextures/obj_scaffold_02
+f  1/1/1  2/2/1  3/3/1  4/4/1
+usemtl chunksTextures/obj_scaffold_02
+f  5/5/2  3/6/2  2/7/2  6/8/2
+usemtl chunksTextures/color_02
+f  6/9/3  2/10/3  1/11/3  7/12/3
+usemtl chunksTextures/color_03
+f  8/13/4  4/14/4  3/15/4  5/16/4
+usemtl chunksTextures/obj_scaffold_02
+f  7/8/5  1/7/5  4/6/5  8/5/5
+usemtl chunksTextures/obj_scaffold_02
+f  8/4/6  5/3/6  6/2/6  7/1/6
+
+o entity1_brush1
+usemtl chunksTextures/color_02
+f  9/17/1  10/18/1  11/19/1  12/20/1
+usemtl chunksTextures/color_02
+f  13/21/2  11/22/2  10/23/2  14/24/2
+usemtl chunksTextures/dev_nodraw
+f  14/25/3  10/26/3  9/27/3  15/28/3
+usemtl chunksTextures/dev_nodraw
+f  16/28/4  12/27/4  11/26/4  13/25/4
+usemtl chunksTextures/dev_nodraw
+f  15/29/5  9/30/5  12/31/5  16/32/5
+usemtl chunksTextures/color_03
+f  16/20/6  13/19/6  14/18/6  15/17/6
+
+o entity1_brush2
+usemtl chunksTextures/color_03
+f  17/17/1  18/18/1  19/19/1  20/20/1
+usemtl chunksTextures/color_02
+f  21/33/2  19/34/2  18/35/2  22/36/2
+usemtl chunksTextures/dev_nodraw
+f  22/37/3  18/38/3  17/39/3  23/40/3
+usemtl chunksTextures/dev_nodraw
+f  24/40/4  20/39/4  19/38/4  21/37/4
+usemtl chunksTextures/dev_nodraw
+f  23/41/5  17/42/5  20/43/5  24/44/5
+usemtl chunksTextures/color_02
+f  24/20/6  21/19/6  22/18/6  23/17/6
+
+o entity1_brush3
+usemtl chunksTextures/obj_scaffold_02
+f  25/45/1  26/46/1  27/47/1  28/48/1
+usemtl chunksTextures/obj_scaffold_02
+f  29/49/2  27/50/2  26/51/2  30/52/2
+usemtl chunksTextures/color_03
+f  30/16/3  26/15/3  25/14/3  31/13/3
+usemtl chunksTextures/color_02
+f  32/13/4  28/14/4  27/15/4  29/16/4
+usemtl chunksTextures/obj_scaffold_02
+f  31/52/5  25/51/5  28/50/5  32/49/5
+usemtl chunksTextures/obj_scaffold_02
+f  32/48/6  29/47/6  30/46/6  31/45/6
+
+o entity1_brush4
+usemtl chunksTextures/color_02
+f  33/53/1  34/17/1  35/20/1  36/54/1
+usemtl chunksTextures/dev_nodraw
+f  37/55/2  35/31/2  34/30/2  38/56/2
+usemtl chunksTextures/dev_nodraw
+f  38/57/3  34/27/3  33/58/3  39/59/3
+usemtl chunksTextures/dev_nodraw
+f  40/59/4  36/58/4  35/27/4  37/57/4
+usemtl chunksTextures/color_02
+f  39/60/5  33/23/5  36/22/5  40/61/5
+usemtl chunksTextures/color_02
+f  40/54/6  37/20/6  38/17/6  39/53/6
+
+o entity2_brush0
+usemtl chunksTextures/obj_scaffold_03
+f  41/62/1  42/63/1  43/64/1  44/65/1
+usemtl chunksTextures/obj_scaffold_01
+f  45/66/2  43/67/2  42/68/2  46/69/2
+usemtl chunksTextures/color_02
+f  46/70/3  42/71/3  41/72/3  47/73/3
+usemtl chunksTextures/color_03
+f  48/73/4  44/72/4  43/71/4  45/70/4
+usemtl chunksTextures/obj_scaffold_03
+f  47/74/5  41/75/5  44/76/5  48/77/5
+usemtl chunksTextures/obj_scaffold_03
+f  48/65/6  45/64/6  46/63/6  47/62/6
+
+o entity2_brush1
+usemtl chunksTextures/obj_scaffold_03
+f  49/78/1  50/62/1  51/65/1  52/79/1
+usemtl chunksTextures/obj_scaffold_01
+f  53/80/2  51/67/2  50/68/2  54/81/2
+usemtl chunksTextures/color_02
+f  54/82/3  50/72/3  49/83/3  55/84/3
+usemtl chunksTextures/color_03
+f  56/84/4  52/83/4  51/72/4  53/82/4
+usemtl chunksTextures/dev_nodraw
+f  55/85/5  49/86/5  52/87/5  56/88/5
+usemtl chunksTextures/obj_scaffold_03
+f  56/79/6  53/65/6  54/62/6  55/78/6
+
+o entity2_brush2
+usemtl chunksTextures/dev_nodraw
+f  57/89/1  58/90/1  59/91/1  60/92/1
+usemtl chunksTextures/dev_nodraw
+f  61/93/2  59/94/2  58/95/2  62/96/2
+usemtl chunksTextures/obj_cabinet_04
+f  63/8/7  60/7/7  59/97/7  61/98/7
+usemtl chunksTextures/color_02
+f  62/99/3  58/82/3  57/84/3  64/100/3
+usemtl chunksTextures/dev_nodraw
+f  64/101/5  57/85/5  60/102/5  63/103/5
+usemtl chunksTextures/dev_nodraw
+f  61/91/6  62/90/6  64/89/6  63/92/6
+
+o entity2_brush3
+usemtl chunksTextures/obj_scaffold_03
+f  65/104/1  66/78/1  67/79/1  68/105/1
+usemtl chunksTextures/obj_scaffold_03
+f  69/77/2  67/76/2  66/75/2  70/74/2
+usemtl chunksTextures/color_02
+f  70/106/3  66/83/3  65/107/3  71/108/3
+usemtl chunksTextures/color_03
+f  72/108/4  68/107/4  67/83/4  69/106/4
+usemtl chunksTextures/dev_nodraw
+f  71/109/5  65/86/5  68/87/5  72/110/5
+usemtl chunksTextures/obj_scaffold_03
+f  72/105/6  69/79/6  70/78/6  71/104/6
+
+o entity2_brush4
+usemtl chunksTextures/obj_scaffold_03
+f  73/78/1  74/62/1  75/65/1  76/79/1
+usemtl chunksTextures/obj_scaffold_01
+f  77/66/2  75/111/2  74/112/2  78/69/2
+usemtl chunksTextures/color_02
+f  78/73/3  74/99/3  73/100/3  79/106/3
+usemtl chunksTextures/color_03
+f  80/106/4  76/100/4  75/99/4  77/73/4
+usemtl chunksTextures/dev_nodraw
+f  79/109/5  73/101/5  76/113/5  80/110/5
+usemtl chunksTextures/obj_scaffold_03
+f  80/79/6  77/65/6  78/62/6  79/78/6
+
+o entity3_brush0
+usemtl chunksTextures/obj_scaffold_03
+f  81/114/1  82/115/1  83/63/1  84/62/1
+usemtl chunksTextures/obj_scaffold_01
+f  85/69/2  83/68/2  82/6/2  86/5/2
+usemtl chunksTextures/color_02
+f  86/70/3  82/71/3  81/72/3  87/73/3
+usemtl chunksTextures/color_03
+f  88/73/4  84/72/4  83/71/4  85/70/4
+usemtl chunksTextures/obj_scaffold_03
+f  87/116/5  81/117/5  84/75/5  88/74/5
+usemtl chunksTextures/obj_scaffold_03
+f  88/62/6  85/63/6  86/115/6  87/114/6
+
+o entity3_brush1
+usemtl chunksTextures/obj_scaffold_03
+f  89/118/1  90/114/1  91/62/1  92/78/1
+usemtl chunksTextures/obj_scaffold_01
+f  93/81/2  91/68/2  90/6/2  94/119/2
+usemtl chunksTextures/color_02
+f  94/82/3  90/72/3  89/83/3  95/84/3
+usemtl chunksTextures/color_03
+f  96/84/4  92/83/4  91/72/4  93/82/4
+usemtl chunksTextures/dev_nodraw
+f  95/85/5  89/86/5  92/87/5  96/88/5
+usemtl chunksTextures/obj_scaffold_03
+f  96/78/6  93/62/6  94/114/6  95/118/6
+
+o entity3_brush2
+usemtl chunksTextures/dev_nodraw
+f  97/89/1  98/90/1  99/91/1  100/92/1
+usemtl chunksTextures/dev_nodraw
+f  101/93/2  99/94/2  98/95/2  102/96/2
+usemtl chunksTextures/obj_cabinet_04
+f  103/8/7  100/7/7  99/97/7  101/98/7
+usemtl chunksTextures/color_02
+f  102/99/3  98/82/3  97/84/3  104/100/3
+usemtl chunksTextures/dev_nodraw
+f  104/101/5  97/85/5  100/102/5  103/103/5
+usemtl chunksTextures/dev_nodraw
+f  101/91/6  102/90/6  104/89/6  103/92/6
+
+o entity3_brush3
+usemtl chunksTextures/obj_scaffold_03
+f  105/120/1  106/118/1  107/78/1  108/104/1
+usemtl chunksTextures/obj_scaffold_03
+f  109/74/2  107/75/2  106/117/2  110/116/2
+usemtl chunksTextures/color_02
+f  110/106/3  106/83/3  105/107/3  111/108/3
+usemtl chunksTextures/color_03
+f  112/108/4  108/107/4  107/83/4  109/106/4
+usemtl chunksTextures/dev_nodraw
+f  111/109/5  105/86/5  108/87/5  112/110/5
+usemtl chunksTextures/obj_scaffold_03
+f  112/104/6  109/78/6  110/118/6  111/120/6
+
+o entity3_brush4
+usemtl chunksTextures/obj_scaffold_03
+f  113/118/1  114/114/1  115/62/1  116/78/1
+usemtl chunksTextures/obj_scaffold_01
+f  117/69/2  115/112/2  114/121/2  118/5/2
+usemtl chunksTextures/color_02
+f  118/73/3  114/99/3  113/100/3  119/106/3
+usemtl chunksTextures/color_03
+f  120/106/4  116/100/4  115/99/4  117/73/4
+usemtl chunksTextures/dev_nodraw
+f  119/109/5  113/101/5  116/113/5  120/110/5
+usemtl chunksTextures/obj_scaffold_03
+f  120/78/6  117/62/6  118/114/6  119/118/6
+
+o entity4_brush0
+usemtl chunksTextures/obj_scaffold_03
+f  121/65/1  122/64/1  123/122/1  124/123/1
+usemtl chunksTextures/obj_scaffold_01
+f  125/124/2  123/125/2  122/67/2  126/66/2
+usemtl chunksTextures/color_02
+f  126/70/3  122/71/3  121/72/3  127/73/3
+usemtl chunksTextures/color_03
+f  128/73/4  124/72/4  123/71/4  125/70/4
+usemtl chunksTextures/obj_scaffold_03
+f  127/77/5  121/76/5  124/126/5  128/127/5
+usemtl chunksTextures/obj_scaffold_03
+f  128/123/6  125/122/6  126/64/6  127/65/6
+
+o entity4_brush1
+usemtl chunksTextures/obj_scaffold_03
+f  129/79/1  130/65/1  131/123/1  132/128/1
+usemtl chunksTextures/obj_scaffold_01
+f  133/129/2  131/125/2  130/67/2  134/80/2
+usemtl chunksTextures/color_02
+f  134/82/3  130/72/3  129/83/3  135/84/3
+usemtl chunksTextures/color_03
+f  136/84/4  132/83/4  131/72/4  133/82/4
+usemtl chunksTextures/dev_nodraw
+f  135/85/5  129/86/5  132/87/5  136/88/5
+usemtl chunksTextures/obj_scaffold_03
+f  136/128/6  133/123/6  134/65/6  135/79/6
+
+o entity4_brush2
+usemtl chunksTextures/dev_nodraw
+f  137/89/1  138/90/1  139/91/1  140/92/1
+usemtl chunksTextures/dev_nodraw
+f  141/130/2  139/131/2  138/132/2  142/133/2
+usemtl chunksTextures/obj_cabinet_04
+f  143/8/7  140/7/7  139/97/7  141/98/7
+usemtl chunksTextures/color_02
+f  142/99/3  138/82/3  137/84/3  144/100/3
+usemtl chunksTextures/dev_nodraw
+f  144/101/5  137/85/5  140/102/5  143/103/5
+usemtl chunksTextures/dev_nodraw
+f  141/91/6  142/90/6  144/89/6  143/92/6
+
+o entity4_brush3
+usemtl chunksTextures/obj_scaffold_03
+f  145/105/1  146/79/1  147/128/1  148/134/1
+usemtl chunksTextures/obj_scaffold_03
+f  149/127/2  147/126/2  146/76/2  150/77/2
+usemtl chunksTextures/color_02
+f  150/106/3  146/83/3  145/107/3  151/108/3
+usemtl chunksTextures/color_03
+f  152/108/4  148/107/4  147/83/4  149/106/4
+usemtl chunksTextures/dev_nodraw
+f  151/109/5  145/86/5  148/87/5  152/110/5
+usemtl chunksTextures/obj_scaffold_03
+f  152/134/6  149/128/6  150/79/6  151/105/6
+
+o entity4_brush4
+usemtl chunksTextures/obj_scaffold_03
+f  153/79/1  154/65/1  155/123/1  156/128/1
+usemtl chunksTextures/obj_scaffold_01
+f  157/124/2  155/135/2  154/111/2  158/66/2
+usemtl chunksTextures/color_02
+f  158/73/3  154/99/3  153/100/3  159/106/3
+usemtl chunksTextures/color_03
+f  160/106/4  156/100/4  155/99/4  157/73/4
+usemtl chunksTextures/dev_nodraw
+f  159/109/5  153/101/5  156/113/5  160/110/5
+usemtl chunksTextures/obj_scaffold_03
+f  160/128/6  157/123/6  158/65/6  159/79/6
+

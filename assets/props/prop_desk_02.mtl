@@ -7,14 +7,14 @@ map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_base.png
 newmtl chunksTextures/prop_desk02_base2
 map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_base2.png
 
+newmtl chunksTextures/prop_desk02_base3
+map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_base3.png
+
 newmtl chunksTextures/prop_desk02_cabinet_ext
 map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_cabinet_ext.png
 
-newmtl chunksTextures/prop_desk02_cabinet_front
-map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_cabinet_front.png
-
-newmtl chunksTextures/prop_desk02_cabinet_front2
-map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_cabinet_front2.png
+newmtl chunksTextures/prop_desk02_cabinet_front3
+map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_cabinet_front3.png
 
 newmtl chunksTextures/prop_desk02_leg
 map_Kd ../../../chunksMaps/textures/chunksTextures/prop_desk02_leg.png
