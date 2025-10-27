@@ -36,7 +36,6 @@
           "comment": "* Initial properties"
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -552,7 +551,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"rogueArena\"",
+                        "\"office_zoo\"",
                         "0",
                         "0",
                         "0"
@@ -565,7 +564,7 @@
                       "parameters": [
                         "game_currentLevel",
                         "=",
-                        "\"rogueArena\""
+                        "\"office_zoo\""
                       ]
                     },
                     {

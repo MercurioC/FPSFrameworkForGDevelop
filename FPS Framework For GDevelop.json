@@ -1,7 +1,7 @@
 {
   "firstLayout": "sandbox",
   "gdVersion": {
-    "build": 242,
+    "build": 243,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1496,6 +1496,48 @@
         "name": "ui_pauseBackground.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_desk_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_desk_01.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_desk_02.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_desk_02.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/dev_layoutMeasures.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\dev_layoutMeasures.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_desk_03.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_desk_03.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_desk_04.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_desk_04.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_cabinet_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_cabinet_01.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1759,7 +1801,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/roguearena"
+      "referenceTo": "/externalLayouts/arena_01"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/office_zoo"
     }
   ]
 }
