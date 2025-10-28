@@ -213,14 +213,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 80,
-      "height": 160,
+      "height": 4,
       "keepRatio": true,
       "layer": "",
       "name": "prop_partition_01",
       "persistentUuid": "881e1dfa-fa19-4ed9-a18c-4740745f3811",
       "width": 224,
-      "x": -425,
-      "y": -84,
+      "x": -420,
+      "y": -80,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -382,6 +382,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 80,
+      "height": 4,
+      "keepRatio": true,
+      "layer": "",
+      "name": "prop_partition_02",
+      "persistentUuid": "ceb46bb2-efbc-4da9-b4b0-953ff8341ddf",
+      "width": 160,
+      "x": -534,
+      "y": -2,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -394,7 +411,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140104504,
+    "zoomFactor": 0.4950840073748897,
     "windowMask": false,
     "selectedLayer": ""
   }

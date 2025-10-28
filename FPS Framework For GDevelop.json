@@ -1573,6 +1573,13 @@
         "metadata": "",
         "name": "assets\\props\\prop_item_book_01.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_partition_02.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_partition_02.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
