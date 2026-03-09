@@ -1,6 +1,7 @@
 {
   "author": "PANDAKO-GitHub",
   "category": "Input",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Mouse Pointer Lock",
   "gdevelopVersion": "",
@@ -1471,7 +1472,32 @@
           "name": "ShouldLock"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "propertyName": "HorizontalSpeed"
+          },
+          {
+            "propertyName": "VerticalSpeed"
+          },
+          {
+            "propertyName": "VerticalAngleMin"
+          },
+          {
+            "propertyName": "VerticalAngleMax"
+          },
+          {
+            "propertyName": "OffsetZ"
+          },
+          {
+            "propertyName": "ShouldLock"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

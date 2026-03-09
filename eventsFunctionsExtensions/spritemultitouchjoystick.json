@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Input",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Multitouch joystick and buttons (sprite)",
   "gdevelopVersion": "",
@@ -3084,7 +3085,32 @@
           "name": "TouchIndex"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "JoystickIdentifier"
+          },
+          {
+            "propertyName": "DeadZoneRadius"
+          },
+          {
+            "propertyName": "JoystickAngle"
+          },
+          {
+            "propertyName": "JoystickForce"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIndex"
+          }
+        ]
+      }
     },
     {
       "description": "Detect button presses made on a touchscreen.",
@@ -3515,7 +3541,29 @@
           "name": "Radius"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "ButtonIdentifier"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIndex"
+          },
+          {
+            "propertyName": "IsReleased"
+          },
+          {
+            "propertyName": "Radius"
+          }
+        ]
+      }
     },
     {
       "description": "Control a platformer character with a multitouch controller.",
@@ -3736,7 +3784,28 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Property"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control a 3D physics character with a multitouch controller.",
@@ -3878,7 +3947,28 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control a 3D physics character with a multitouch controller.",
@@ -4009,7 +4099,28 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control camera rotations with a multitouch controller.",
@@ -5050,7 +5161,73 @@
           "name": "CurrentRotationSpeedY"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "CameraStick"
+              }
+            ]
+          },
+          {
+            "folderName": "Horizontal rotation",
+            "children": [
+              {
+                "propertyName": "HorizontalRotationSpeedMax"
+              },
+              {
+                "propertyName": "HorizontalRotationAcceleration"
+              },
+              {
+                "propertyName": "HorizontalRotationDeceleration"
+              }
+            ]
+          },
+          {
+            "folderName": "Vertical rotation",
+            "children": [
+              {
+                "propertyName": "VerticalRotationSpeedMax"
+              },
+              {
+                "propertyName": "VerticalRotationAcceleration"
+              },
+              {
+                "propertyName": "VerticalRotationDeceleration"
+              },
+              {
+                "propertyName": "VerticalAngleMin"
+              },
+              {
+                "propertyName": "VerticalAngleMax"
+              }
+            ]
+          },
+          {
+            "folderName": "Position",
+            "children": [
+              {
+                "propertyName": "OffsetZ"
+              }
+            ]
+          },
+          {
+            "propertyName": "CurrentRotationSpeedZ"
+          },
+          {
+            "propertyName": "CurrentRotationSpeedY"
+          }
+        ]
+      }
     },
     {
       "description": "Control a top-down character with a multitouch controller.",
@@ -5617,7 +5794,28 @@
           "name": "StickMode"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "TopDownMovement"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "JoystickIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "StickMode"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -5711,6 +5909,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -6919,6 +7118,35 @@
           "name": "ShouldBeHiddenWhenReleased"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "JoystickIdentifier"
+          },
+          {
+            "propertyName": "DeadZoneRadius"
+          },
+          {
+            "propertyName": "ThumbAnchorOrigin"
+          },
+          {
+            "propertyName": "ThumbAnchorTarget"
+          },
+          {
+            "propertyName": "ThumbIsScaledProportionally"
+          },
+          {
+            "propertyName": "ParentOrigin"
+          },
+          {
+            "propertyName": "ShouldBeHiddenWhenReleased"
+          }
+        ]
+      },
       "variants": []
     }
   ]

@@ -1,9 +1,9 @@
 {
   "firstLayout": "sandbox",
   "gdVersion": {
-    "build": 244,
+    "build": 261,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -88,7 +88,9 @@
       "shooter"
     ],
     "playableDevices": [
-      "keyboard"
+      "keyboard",
+      "mobile",
+      "mobile"
     ],
     "extensionProperties": [],
     "platforms": [
@@ -1580,9 +1582,44 @@
         "metadata": "",
         "name": "assets\\props\\prop_partition_02.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_item_clock_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_item_clock_01.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/props/prop_sofa_01.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\props\\prop_sofa_01.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/map_chunk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "map_chunk",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Untitled.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/zoo_map/zoo_map.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\zoo_map\\zoo_map.glb",
+        "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -1688,6 +1725,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level_manager"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/roguemap_generation"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1848,6 +1889,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/office_zoo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/roguemap_base"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/chunk_00"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/chunk_01"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/zoo_map"
     }
   ]
 }

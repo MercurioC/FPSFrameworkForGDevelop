@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Game mechanic",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Object spawner area",
   "gdevelopVersion": "",
@@ -1574,7 +1575,38 @@
           "name": "RandomPosition"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "SpawnPeriod"
+          },
+          {
+            "propertyName": "OffsetX"
+          },
+          {
+            "propertyName": "OffsetY"
+          },
+          {
+            "propertyName": "JustSpawnedAnObject"
+          },
+          {
+            "propertyName": "MaxQuantityReached"
+          },
+          {
+            "propertyName": "MaxQuantity"
+          },
+          {
+            "propertyName": "SpawnerCapacity"
+          },
+          {
+            "propertyName": "UnlimitedCapacity"
+          },
+          {
+            "propertyName": "RandomPosition"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

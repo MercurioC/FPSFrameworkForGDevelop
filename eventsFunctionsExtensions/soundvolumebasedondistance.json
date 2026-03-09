@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Audio",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Sound volume based on distance",
   "gdevelopVersion": ">=5.5.222",

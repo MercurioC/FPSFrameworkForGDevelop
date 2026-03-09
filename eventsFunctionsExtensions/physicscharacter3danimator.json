@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Movement",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "3D physics character animator",
   "gdevelopVersion": "",
@@ -455,7 +456,40 @@
           "name": "RotationSpeed"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "Animation"
+          },
+          {
+            "folderName": "Animation names",
+            "children": [
+              {
+                "propertyName": "IdleAnimationName"
+              },
+              {
+                "propertyName": "RunAnimationName"
+              },
+              {
+                "propertyName": "JumpAnimationName"
+              },
+              {
+                "propertyName": "FallAnimationName"
+              }
+            ]
+          },
+          {
+            "propertyName": "OldAngle"
+          },
+          {
+            "propertyName": "RotationSpeed"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

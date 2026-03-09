@@ -13,14 +13,17 @@
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
+    "gridDepth": 32,
     "gridOffsetX": 8,
     "gridOffsetY": 8,
+    "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.5,
     "snap": true,
     "zoomFactor": 0.6244537826600235,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [
     {
@@ -1708,6 +1711,7 @@
     {
       "assetStoreId": "",
       "name": "model_collision",
+      "persistentUuid": "51d022c2-0f44-4366-994d-2dbcc4e4058c",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -1746,8 +1750,8 @@
         "crossfadeDuration": 0,
         "depth": 100,
         "height": 100,
-        "isCastingShadow": false,
-        "isReceivingShadow": false,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "fps_collisionMesh.glb",
@@ -9598,7 +9602,7 @@
         "isCastingShadow": false,
         "isReceivingShadow": true,
         "keepAspectRatio": true,
-        "materialType": "Basic",
+        "materialType": "KeepOriginal",
         "modelResourceName": "assets\\dev_layoutMeasures.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
@@ -9892,7 +9896,7 @@
           "bodyType": "Static",
           "bullet": false,
           "fixedRotation": false,
-          "shape": "Box",
+          "shape": "Mesh",
           "shapeOrientation": "Z",
           "shapeDimensionA": 200,
           "shapeDimensionB": 30,
@@ -10091,6 +10095,293 @@
         "rotationY": 0,
         "rotationZ": 0,
         "width": 160,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_item_clock_01",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Cylinder",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 18,
+          "shapeDimensionB": 4,
+          "shapeDimensionC": 16,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 4,
+        "height": 36.00000537435426,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_item_clock_01.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 36,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "prop_sofa_01",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 144,
+          "shapeDimensionB": 60,
+          "shapeDimensionC": 56,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 80,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 56.00001558562735,
+        "height": 60.00001558562735,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\props\\prop_sofa_01.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 144,
+        "animations": []
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "rogueMap_chunkPlacer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "chunk_type",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "map_chunk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "map_chunk",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "arena_layout",
+      "persistentUuid": "7be84254-2333-4f3a-b1be-5f3f2f95873c",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Mesh",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 1712.0002923474808,
+        "height": 4320.000064373016,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Untitled.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 360.00026440829765,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "zoo_layout",
+      "persistentUuid": "45840fb7-92b4-4fb9-9375-624938a363de",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Mesh",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 272.0001074870851,
+        "height": 2048,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\zoo_map\\zoo_map.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 528.0001074870852,
         "animations": []
       }
     }
@@ -10295,7 +10586,13 @@
             "objectName": "prop_partition_02"
           },
           {
+            "objectName": "prop_sofa_01"
+          },
+          {
             "objectName": "prop_item_book_01"
+          },
+          {
+            "objectName": "prop_item_clock_01"
           }
         ]
       },
@@ -10563,6 +10860,15 @@
             "objectName": "weapon_grenade"
           }
         ]
+      },
+      {
+        "objectName": "rogueMap_chunkPlacer"
+      },
+      {
+        "objectName": "arena_layout"
+      },
+      {
+        "objectName": "zoo_layout"
       }
     ]
   },
@@ -11093,6 +11399,13 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "rogueMap_generation"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "object_manager"
     },
     {
@@ -11298,6 +11611,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 12800,
       "camera3DFieldOfView": 75,
       "camera3DNearPlaneDistance": 1,
@@ -11323,23 +11637,34 @@
       "effects": [
         {
           "effectType": "Scene3D::DirectionalLight",
-          "name": "SunLight",
+          "name": "Effect",
           "doubleParameters": {
-            "distanceFromCamera": 16000,
-            "elevation": 60,
+            "distanceFromCamera": 3200,
+            "elevation": 35,
             "frustumSize": 4000,
-            "intensity": 1.6,
+            "intensity": 1.2,
             "minimumShadowBias": 0.001,
-            "rotation": 210
+            "rotation": 60
           },
           "stringParameters": {
-            "color": "255;255;255",
+            "color": "231;230;223",
             "shadowQuality": "high",
             "top": "Z+"
           },
           "booleanParameters": {
             "isCastingShadow": true
           }
+        },
+        {
+          "effectType": "Scene3D::AmbientLight",
+          "name": "Effect3",
+          "doubleParameters": {
+            "intensity": 1.2
+          },
+          "stringParameters": {
+            "color": "36;96;197"
+          },
+          "booleanParameters": {}
         }
       ]
     },
@@ -11347,6 +11672,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11380,6 +11706,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 68,
       "camera3DNearPlaneDistance": 1,
@@ -11418,6 +11745,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11451,6 +11779,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11484,6 +11813,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11501,6 +11831,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11534,6 +11865,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11551,6 +11883,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11584,6 +11917,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -11617,6 +11951,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,

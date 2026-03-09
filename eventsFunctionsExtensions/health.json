@@ -1,6 +1,7 @@
 {
   "author": "@4ian",
   "category": "Game mechanic",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Health points and damage",
   "gdevelopVersion": "",
@@ -4814,7 +4815,108 @@
           "name": "PercentDamageReduction"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Health",
+            "children": [
+              {
+                "propertyName": "Health"
+              },
+              {
+                "propertyName": "CurrentHealth"
+              },
+              {
+                "propertyName": "MaxHealth"
+              },
+              {
+                "propertyName": "DamageCooldown"
+              },
+              {
+                "propertyName": "AllowOverHealing"
+              },
+              {
+                "propertyName": "IsHealthJustDamaged"
+              },
+              {
+                "propertyName": "DamageToBeApplied"
+              },
+              {
+                "propertyName": "HitAtLeastOnce"
+              },
+              {
+                "propertyName": "ChanceToDodge"
+              },
+              {
+                "propertyName": "IsJustDodged"
+              },
+              {
+                "propertyName": "HealToBeApplied"
+              }
+            ]
+          },
+          {
+            "folderName": "Health regeneration",
+            "children": [
+              {
+                "propertyName": "HealthRegenRate"
+              },
+              {
+                "propertyName": "HealthRegenDelay"
+              }
+            ]
+          },
+          {
+            "propertyName": "IsJustHealed"
+          },
+          {
+            "folderName": "Shield",
+            "children": [
+              {
+                "propertyName": "CurrentShieldPoints"
+              },
+              {
+                "propertyName": "MaxShieldPoints"
+              },
+              {
+                "propertyName": "ShieldDuration"
+              },
+              {
+                "propertyName": "BlockExcessDamage"
+              },
+              {
+                "propertyName": "IsShieldJustDamaged"
+              },
+              {
+                "propertyName": "ShieldDamageTaken"
+              }
+            ]
+          },
+          {
+            "folderName": "Shield regeneration",
+            "children": [
+              {
+                "propertyName": "ShieldRegenRate"
+              },
+              {
+                "propertyName": "ShieldRegenDelay"
+              }
+            ]
+          },
+          {
+            "folderName": "Armor",
+            "children": [
+              {
+                "propertyName": "FlatDamageReduction"
+              },
+              {
+                "propertyName": "PercentDamageReduction"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

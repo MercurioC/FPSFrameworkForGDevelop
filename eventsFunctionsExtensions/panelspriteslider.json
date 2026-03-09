@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "User interface",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Slider",
   "gdevelopVersion": ">=5.5.222",
@@ -501,7 +502,23 @@
           "name": "StepSize"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "CurrentValue"
+          },
+          {
+            "propertyName": "MinValue"
+          },
+          {
+            "propertyName": "MaxValue"
+          },
+          {
+            "propertyName": "StepSize"
+          }
+        ]
+      }
     },
     {
       "description": "The finite state machine used internally by the button object.",
@@ -1611,7 +1628,29 @@
           "name": "Index"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ShouldCheckHovering"
+          },
+          {
+            "propertyName": "State"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIsInside"
+          },
+          {
+            "propertyName": "MouseIsInside"
+          },
+          {
+            "propertyName": "Index"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -1769,6 +1808,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -3829,6 +3869,68 @@
           "name": "ShowLabel"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Bar",
+            "children": [
+              {
+                "propertyName": "BarLeftPadding"
+              },
+              {
+                "propertyName": "BarTopPadding"
+              },
+              {
+                "propertyName": "BarRightPadding"
+              },
+              {
+                "propertyName": "BarBottomPadding"
+              }
+            ]
+          },
+          {
+            "folderName": "Label",
+            "children": [
+              {
+                "propertyName": "ShowLabelAtChanges"
+              },
+              {
+                "propertyName": "LabelMargin"
+              }
+            ]
+          },
+          {
+            "folderName": "Value",
+            "children": [
+              {
+                "propertyName": "MinValue"
+              },
+              {
+                "propertyName": "MaxValue"
+              },
+              {
+                "propertyName": "StepSize"
+              },
+              {
+                "propertyName": "InitialValue"
+              }
+            ]
+          },
+          {
+            "propertyName": "PreviousInitialValue"
+          },
+          {
+            "propertyName": "ThumbAnchorOrigin"
+          },
+          {
+            "propertyName": "ThumbAnchorTarget"
+          },
+          {
+            "propertyName": "ShowLabel"
+          }
+        ]
+      },
       "variants": []
     }
   ]

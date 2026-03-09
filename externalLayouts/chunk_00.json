@@ -1,0 +1,37 @@
+{
+  "associatedLayout": "sandbox",
+  "name": "chunk_00",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 16,
+      "height": 480,
+      "layer": "",
+      "name": "model_collision",
+      "persistentUuid": "b6afd6c3-b6d6-41aa-9d78-f87a3a1482b7",
+      "width": 640,
+      "x": 0,
+      "y": -120,
+      "z": -16,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5653158055126306,
+    "windowMask": false,
+    "selectedLayer": ""
+  }
+}

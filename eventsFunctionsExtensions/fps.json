@@ -1,6 +1,7 @@
 {
   "author": "Ahnaf30e",
   "category": "Advanced",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Frames per second (FPS)",
   "gdevelopVersion": "",
@@ -463,7 +464,20 @@
           "name": "DecimalDigits"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Text"
+          },
+          {
+            "propertyName": "prefix"
+          },
+          {
+            "propertyName": "DecimalDigits"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

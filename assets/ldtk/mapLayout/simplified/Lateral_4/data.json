@@ -1,0 +1,30 @@
+{
+	"identifier": "Lateral_4",
+	"uniqueIdentifer": "cb4da730-ac70-11f0-8153-41609c673bf2",
+	"x": -1280,
+	"y": -672,
+	"width": 512,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "eb9b81a0-ac70-11f0-a056-6324dd0818b9",
+			"dir": "se"
+		},
+		{
+			"levelIid": "f52e1161-ac70-11f0-a056-2fa5674190b2",
+			"dir": "e"
+		},
+		{
+			"levelIid": "480bdb70-ac70-11f0-8153-7d2c71965ac9",
+			"dir": "w"
+		},
+		{
+			"levelIid": "f1a6e670-ac70-11f0-a056-0b497d659e26",
+			"dir": "ne"
+		}
+	],
+	"customFields" : {},
+	"layers": [],
+	"entities" : {}
+}

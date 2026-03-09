@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "User interface",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Resource bar (separated units)",
   "gdevelopVersion": "",
@@ -673,7 +674,23 @@
           "name": "PreviousHighValueDuration"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Value"
+          },
+          {
+            "propertyName": "MaxValue"
+          },
+          {
+            "propertyName": "PreviousHighValue"
+          },
+          {
+            "propertyName": "PreviousHighValueDuration"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -757,6 +774,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -1651,6 +1669,38 @@
           "name": "BarVerticalAnchorTarget"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "MaxValue"
+          },
+          {
+            "propertyName": "InitialValue"
+          },
+          {
+            "propertyName": "PreviousInitialValue"
+          },
+          {
+            "propertyName": "UnitWidth"
+          },
+          {
+            "propertyName": "ShowBackground"
+          },
+          {
+            "propertyName": "BarLeftPadding"
+          },
+          {
+            "propertyName": "BarRightPadding"
+          },
+          {
+            "propertyName": "BarVerticalAnchorOrigin"
+          },
+          {
+            "propertyName": "BarVerticalAnchorTarget"
+          }
+        ]
+      },
       "variants": []
     }
   ]

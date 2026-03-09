@@ -1,6 +1,7 @@
 {
   "author": "Tommaso \"Giampiero\" Bresciani",
   "category": "Input",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Konami Code",
   "gdevelopVersion": "",
@@ -2250,7 +2251,9 @@
         }
       ],
       "propertyDescriptors": [],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
     }
   ],
   "eventsBasedObjects": []

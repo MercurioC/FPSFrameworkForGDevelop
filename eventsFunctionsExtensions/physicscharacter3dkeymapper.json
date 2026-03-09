@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Input",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "3D character keyboard mapper",
   "gdevelopVersion": "",
@@ -690,7 +691,38 @@
           "name": "LockedCameraAngle"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "Jump"
+          },
+          {
+            "propertyName": "Up"
+          },
+          {
+            "propertyName": "Left"
+          },
+          {
+            "propertyName": "Down"
+          },
+          {
+            "propertyName": "Right"
+          },
+          {
+            "propertyName": "Crouch"
+          },
+          {
+            "propertyName": "CameraAngle"
+          },
+          {
+            "propertyName": "LockedCameraAngle"
+          }
+        ]
+      }
     },
     {
       "description": "Control a 3D physics character with a keyboard for a first or third person shooter.",
@@ -894,7 +926,32 @@
           "name": "Crouch"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "Jump"
+          },
+          {
+            "propertyName": "Up"
+          },
+          {
+            "propertyName": "Left"
+          },
+          {
+            "propertyName": "Down"
+          },
+          {
+            "propertyName": "Right"
+          },
+          {
+            "propertyName": "Crouch"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

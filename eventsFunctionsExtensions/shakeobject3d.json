@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "3D object shake",
   "gdevelopVersion": "",
@@ -2753,6 +2754,71 @@
           "name": "IsStartingAtCreation"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "TranslationAmplitudeX"
+          },
+          {
+            "propertyName": "TranslationAmplitudeY"
+          },
+          {
+            "propertyName": "TranslationAmplitudeZ"
+          },
+          {
+            "propertyName": "RotationAmplitudeX"
+          },
+          {
+            "propertyName": "RotationAmplitudeY"
+          },
+          {
+            "propertyName": "RotationAmplitudeZ"
+          },
+          {
+            "propertyName": "Time"
+          },
+          {
+            "propertyName": "Duration"
+          },
+          {
+            "propertyName": "StartEasingDuration"
+          },
+          {
+            "propertyName": "StopEasingDuration"
+          },
+          {
+            "propertyName": "Frequency"
+          },
+          {
+            "propertyName": "DeltaX"
+          },
+          {
+            "propertyName": "DeltaY"
+          },
+          {
+            "propertyName": "DeltaZ"
+          },
+          {
+            "propertyName": "DeltaAngleX"
+          },
+          {
+            "propertyName": "DeltaAngleY"
+          },
+          {
+            "propertyName": "DeltaAngleZ"
+          },
+          {
+            "propertyName": "NoiseTime"
+          },
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "propertyName": "IsStartingAtCreation"
+          }
+        ]
+      },
       "sharedPropertyDescriptors": [
         {
           "value": "",
@@ -2761,7 +2827,15 @@
           "hidden": true,
           "name": "EasingFactor"
         }
-      ]
+      ],
+      "sharedPropertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "EasingFactor"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

@@ -1,6 +1,7 @@
 {
   "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Shake object",
   "gdevelopVersion": "",
@@ -2028,7 +2029,9 @@
         }
       ],
       "propertyDescriptors": [],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
     },
     {
       "description": "Shake objects with translation, rotation and scale.",
@@ -4419,7 +4422,17 @@
           "name": "Property"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Scale"
+          },
+          {
+            "propertyName": "Property"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

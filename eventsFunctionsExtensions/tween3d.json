@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Advanced 3D tween",
   "gdevelopVersion": "",
@@ -3843,7 +3844,20 @@
           "name": "Tween"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "propertyName": "Scale"
+          },
+          {
+            "propertyName": "Tween"
+          }
+        ]
+      }
     },
     {
       "description": "Squash and stretch a 3D model in loop.",
@@ -5201,7 +5215,81 @@
           "name": "Tween3D"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Scale",
+            "children": [
+              {
+                "propertyName": "ScaleMin"
+              },
+              {
+                "propertyName": "ScaleMax"
+              },
+              {
+                "propertyName": "ScalePeriodOffset"
+              }
+            ]
+          },
+          {
+            "propertyName": "PeriodDuration"
+          },
+          {
+            "folderName": "Stretch",
+            "children": [
+              {
+                "propertyName": "StretchMin"
+              },
+              {
+                "propertyName": "StretchMax"
+              },
+              {
+                "propertyName": "StretchPeriodOffset"
+              }
+            ]
+          },
+          {
+            "propertyName": "Angle"
+          },
+          {
+            "propertyName": "ScaleMinTweenTarget"
+          },
+          {
+            "propertyName": "ScaleMinTweenDuration"
+          },
+          {
+            "propertyName": "ScaleMinTweenEasing"
+          },
+          {
+            "propertyName": "ScaleMaxTweenTarget"
+          },
+          {
+            "propertyName": "ScaleMaxTweenDuration"
+          },
+          {
+            "propertyName": "ScaleMaxTweenEasing"
+          },
+          {
+            "propertyName": "ScaleMinTweenTime"
+          },
+          {
+            "propertyName": "ScaleMaxTweenTime"
+          },
+          {
+            "propertyName": "ScaleMinTweenInitialValue"
+          },
+          {
+            "propertyName": "ScaleMaxTweenInitialValue"
+          },
+          {
+            "propertyName": "Top"
+          },
+          {
+            "propertyName": "Tween3D"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

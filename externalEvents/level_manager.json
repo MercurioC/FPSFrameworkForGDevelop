@@ -36,6 +36,7 @@
           "comment": "* Initial properties"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -208,6 +209,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "0. Debug",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -501,6 +503,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -657,7 +660,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"hubArea\"",
+                    "\"rogueMap_base\"",
                     "0",
                     "0",
                     "0"
@@ -670,7 +673,7 @@
                   "parameters": [
                     "game_currentLevel",
                     "=",
-                    "\"hubArea\""
+                    "\"rogueMap_base\""
                   ]
                 },
                 {

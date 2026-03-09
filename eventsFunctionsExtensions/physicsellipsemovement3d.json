@@ -1,6 +1,7 @@
 {
   "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
   "category": "Movement",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "3D ellipse movement",
   "gdevelopVersion": ">=5.5.222",
@@ -1823,7 +1824,65 @@
           "name": "MovementAngle"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "propertyName": "Physics3D"
+          },
+          {
+            "folderName": "Ellipse",
+            "children": [
+              {
+                "propertyName": "Width"
+              },
+              {
+                "propertyName": "Height"
+              }
+            ]
+          },
+          {
+            "propertyName": "Plane"
+          },
+          {
+            "folderName": "Speed",
+            "children": [
+              {
+                "propertyName": "LoopDuration"
+              },
+              {
+                "propertyName": "InitialTurningLeft"
+              },
+              {
+                "propertyName": "InitialDirectionAngle"
+              }
+            ]
+          },
+          {
+            "folderName": "Rotation",
+            "children": [
+              {
+                "propertyName": "ShouldRotate"
+              },
+              {
+                "propertyName": "RotationOffset"
+              }
+            ]
+          },
+          {
+            "propertyName": "CenterV"
+          },
+          {
+            "propertyName": "CenterH"
+          },
+          {
+            "propertyName": "MovementAngle"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

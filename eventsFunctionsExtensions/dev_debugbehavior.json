@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "dev_behavior",
   "gdevelopVersion": "",
@@ -748,7 +749,26 @@
           "name": "dev_integerScaling"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "dev_layer"
+          },
+          {
+            "propertyName": "dev_showDebugLayer"
+          },
+          {
+            "propertyName": "dev_gameCloses"
+          },
+          {
+            "propertyName": "dev_closeAfter"
+          },
+          {
+            "propertyName": "dev_integerScaling"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

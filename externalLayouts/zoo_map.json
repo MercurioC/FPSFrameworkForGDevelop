@@ -1,0 +1,40 @@
+{
+  "associatedLayout": "sandbox",
+  "name": "zoo_map",
+  "instances": [
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 272,
+      "height": 2048,
+      "keepRatio": true,
+      "layer": "",
+      "name": "zoo_layout",
+      "persistentUuid": "7baf9737-b458-4f66-9db3-ef9648f4c007",
+      "width": 528,
+      "x": -128,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  }
+}

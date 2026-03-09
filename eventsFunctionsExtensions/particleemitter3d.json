@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "3D particle emitter",
   "gdevelopVersion": "",
@@ -6822,6 +6823,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -9778,6 +9780,100 @@
           "name": "RotationY"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Color",
+            "children": [
+              {
+                "propertyName": "StartColor"
+              },
+              {
+                "propertyName": "EndColor"
+              },
+              {
+                "propertyName": "StartOpacity"
+              },
+              {
+                "propertyName": "EndOpacity"
+              },
+              {
+                "propertyName": "Blending"
+              }
+            ]
+          },
+          {
+            "propertyName": "Flow"
+          },
+          {
+            "folderName": "Size",
+            "children": [
+              {
+                "propertyName": "StartSizeMin"
+              },
+              {
+                "propertyName": "StartSizeMax"
+              },
+              {
+                "propertyName": "EndScale"
+              }
+            ]
+          },
+          {
+            "folderName": "Speed",
+            "children": [
+              {
+                "propertyName": "StartSpeedMin"
+              },
+              {
+                "propertyName": "StartSpeedMax"
+              },
+              {
+                "propertyName": "AreParticlesRelative"
+              },
+              {
+                "propertyName": "GravityTop"
+              },
+              {
+                "propertyName": "Gravity"
+              }
+            ]
+          },
+          {
+            "propertyName": "LifespanMin"
+          },
+          {
+            "propertyName": "LifespanMax"
+          },
+          {
+            "propertyName": "Duration"
+          },
+          {
+            "folderName": "Position",
+            "children": [
+              {
+                "propertyName": "SpayConeAngle"
+              },
+              {
+                "propertyName": "Z"
+              },
+              {
+                "propertyName": "RotationX"
+              },
+              {
+                "propertyName": "RotationY"
+              }
+            ]
+          },
+          {
+            "propertyName": "ShouldAutodestruct"
+          },
+          {
+            "propertyName": "ParentOrigin"
+          }
+        ]
+      },
       "variants": []
     }
   ]

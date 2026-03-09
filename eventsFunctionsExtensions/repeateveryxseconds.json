@@ -1,6 +1,7 @@
 {
   "author": "VegeTato, arthuro555",
   "category": "General",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Repeat every X seconds",
   "gdevelopVersion": "",
@@ -926,7 +927,23 @@
           "name": "Counter"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "TimerName"
+          },
+          {
+            "propertyName": "TimerLength"
+          },
+          {
+            "propertyName": "Limit"
+          },
+          {
+            "propertyName": "Counter"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "General",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Advanced 3D Features",
   "gdevelopVersion": "",
@@ -2008,7 +2009,44 @@
           "name": "ReceiveShadow"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Capability3d"
+          },
+          {
+            "folderName": "Debug",
+            "children": [
+              {
+                "propertyName": "AxesHelper"
+              }
+            ]
+          },
+          {
+            "folderName": "Effect",
+            "children": [
+              {
+                "propertyName": "Blend"
+              },
+              {
+                "propertyName": "CastShadow"
+              },
+              {
+                "propertyName": "ReceiveShadow"
+              }
+            ]
+          },
+          {
+            "folderName": "Visibility",
+            "children": [
+              {
+                "propertyName": "Opacity"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "⚠️ 3D Lights are highly loaded.",
@@ -2372,7 +2410,68 @@
           "name": "ShadowHelper"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Capability3d"
+          },
+          {
+            "propertyName": "Type"
+          },
+          {
+            "propertyName": "Color"
+          },
+          {
+            "propertyName": "Intensity"
+          },
+          {
+            "propertyName": "Distance"
+          },
+          {
+            "propertyName": "SpotAngle"
+          },
+          {
+            "propertyName": "SpotPenumbra"
+          },
+          {
+            "folderName": "Shadow",
+            "children": [
+              {
+                "propertyName": "CastShadow"
+              },
+              {
+                "propertyName": "ShadowMapSize"
+              },
+              {
+                "propertyName": "ShadowRange"
+              }
+            ]
+          },
+          {
+            "folderName": "Shadow Bias",
+            "children": [
+              {
+                "propertyName": "ShadowDepthBias"
+              },
+              {
+                "propertyName": "ShadowNormalBias"
+              }
+            ]
+          },
+          {
+            "folderName": "Helper",
+            "children": [
+              {
+                "propertyName": "LightHelper"
+              },
+              {
+                "propertyName": "ShadowHelper"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

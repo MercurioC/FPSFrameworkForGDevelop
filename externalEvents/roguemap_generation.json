@@ -1,0 +1,41 @@
+{
+  "associatedLayout": "sandbox",
+  "name": "rogueMap_generation",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "rogueMap_chunkPlacer",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"chunk_00\"",
+                "rogueMap_chunkPlacer.X()",
+                "rogueMap_chunkPlacer.Y()",
+                "rogueMap_chunkPlacer.ZOrder()"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

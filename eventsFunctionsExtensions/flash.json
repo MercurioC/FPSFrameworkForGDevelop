@@ -1,6 +1,7 @@
 {
   "author": "@4ian, Entropy, VegeTato",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Flash object",
   "gdevelopVersion": ">=5.5.222",
@@ -917,7 +918,20 @@
           "name": "FlashDuration"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          }
+        ]
+      }
     },
     {
       "description": "Make an object flash a color tint for a period of time.",
@@ -1491,7 +1505,23 @@
           "name": "TintColor"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          },
+          {
+            "propertyName": "TintColor"
+          }
+        ]
+      }
     },
     {
       "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -2145,7 +2175,32 @@
           "name": "StartingOpacity"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Opacity"
+          },
+          {
+            "propertyName": "TweenBehavior"
+          },
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          },
+          {
+            "propertyName": "TargetOpacity"
+          },
+          {
+            "propertyName": "StartingOpacity"
+          }
+        ]
+      }
     },
     {
       "description": "Make the object flash an effect for a period of time.",
@@ -2993,7 +3048,26 @@
           "name": "EffectName"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Effect"
+          },
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          },
+          {
+            "propertyName": "EffectName"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

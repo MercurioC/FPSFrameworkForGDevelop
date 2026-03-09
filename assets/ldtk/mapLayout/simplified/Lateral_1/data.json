@@ -1,0 +1,59 @@
+{
+	"identifier": "Lateral_1",
+	"uniqueIdentifer": "f1a6e670-ac70-11f0-a056-0b497d659e26",
+	"x": -768,
+	"y": -1088,
+	"width": 512,
+	"height": 416,
+	"bgColor": "#696A79",
+	"neighbourLevels": [
+		{
+			"levelIid": "eee55570-ac70-11f0-a056-a1d823de2082",
+			"dir": "se"
+		},
+		{
+			"levelIid": "f52e1161-ac70-11f0-a056-2fa5674190b2",
+			"dir": "s"
+		},
+		{
+			"levelIid": "cb4da730-ac70-11f0-8153-41609c673bf2",
+			"dir": "sw"
+		},
+		{
+			"levelIid": "f6a12961-ac70-11f0-a056-efe56fdfcc11",
+			"dir": "e"
+		}
+	],
+	"customFields" : {},
+	"layers": [],
+	"entities": {
+		"Stairs": [
+			{
+				"id": "Stairs",
+				"iid": "115dbd30-ac70-11f0-a056-c5ddb2c42904",
+				"layer": "Entities",
+				"x": 160,
+				"y": 32,
+				"width": 64,
+				"height": 64,
+				"color": 2943221,
+				"customFields": {
+					"direction": "left"
+				}
+			},
+			{
+				"id": "Stairs",
+				"iid": "15b94f20-ac70-11f0-a056-db35fabf97e2",
+				"layer": "Entities",
+				"x": 32,
+				"y": 160,
+				"width": 64,
+				"height": 64,
+				"color": 2943221,
+				"customFields": {
+					"direction": "up"
+				}
+			}
+		]
+	}
+}

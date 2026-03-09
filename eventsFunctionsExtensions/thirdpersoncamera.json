@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Camera",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Third person camera",
   "gdevelopVersion": "",
@@ -2328,7 +2329,75 @@
           "name": "TargetedRotationAngle"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "folderName": "Catch-up speed",
+            "children": [
+              {
+                "propertyName": "RotationHalfwayDuration"
+              },
+              {
+                "propertyName": "TranslationZHalfwayDuration"
+              }
+            ]
+          },
+          {
+            "folderName": "Position",
+            "children": [
+              {
+                "propertyName": "Distance"
+              },
+              {
+                "propertyName": "OffsetX"
+              },
+              {
+                "propertyName": "OffsetY"
+              },
+              {
+                "propertyName": "OffsetZ"
+              },
+              {
+                "propertyName": "RotationAngleOffset"
+              },
+              {
+                "propertyName": "ElevationAngleOffset"
+              },
+              {
+                "propertyName": "FollowFreeAreaZMax"
+              },
+              {
+                "propertyName": "FollowFreeAreaZMin"
+              }
+            ]
+          },
+          {
+            "propertyName": "RotationLogSpeed"
+          },
+          {
+            "propertyName": "TranslationZLogSpeed"
+          },
+          {
+            "propertyName": "IsCalledManually"
+          },
+          {
+            "propertyName": "CameraZ"
+          },
+          {
+            "propertyName": "HasJustBeenCreated"
+          },
+          {
+            "propertyName": "IsRotatingWithObject"
+          },
+          {
+            "propertyName": "TargetedRotationAngle"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

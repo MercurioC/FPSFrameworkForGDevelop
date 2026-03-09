@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Movement",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Advanced movements for 3D physics characters",
   "gdevelopVersion": "",
@@ -1685,7 +1686,45 @@
           "name": "WasJumpKeyReleased"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "folderName": "Coyote time",
+            "children": [
+              {
+                "propertyName": "CoyoteTimeFrameDuration"
+              },
+              {
+                "propertyName": "CanCoyoteJump"
+              },
+              {
+                "propertyName": "WasInTheAir"
+              }
+            ]
+          },
+          {
+            "folderName": "Air jump",
+            "children": [
+              {
+                "propertyName": "AirJumpCountMaximum"
+              },
+              {
+                "propertyName": "AreFloorJumpCountedAsAirJump"
+              },
+              {
+                "propertyName": "AirJumpCount"
+              },
+              {
+                "propertyName": "WasJumpKeyReleased"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

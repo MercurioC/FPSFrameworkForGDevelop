@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "User interface",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Panel sprite button",
   "gdevelopVersion": "",
@@ -1179,7 +1180,29 @@
           "name": "Index"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ShouldCheckHovering"
+          },
+          {
+            "propertyName": "State"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIsInside"
+          },
+          {
+            "propertyName": "MouseIsInside"
+          },
+          {
+            "propertyName": "Index"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -1329,6 +1352,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -2722,6 +2746,34 @@
           "name": "HoveredFadeOutDuration"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PressedLabelOffsetY"
+          },
+          {
+            "folderName": "Padding",
+            "children": [
+              {
+                "propertyName": "LeftPadding"
+              },
+              {
+                "propertyName": "RightPadding"
+              },
+              {
+                "propertyName": "TopPadding"
+              },
+              {
+                "propertyName": "BottomPadding"
+              }
+            ]
+          },
+          {
+            "propertyName": "HoveredFadeOutDuration"
+          }
+        ]
+      },
       "variants": []
     }
   ]
