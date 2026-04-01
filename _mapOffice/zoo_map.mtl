@@ -1,0 +1,85 @@
+newmtl __TB_empty
+map_Kd ../level-editor/defaults/assets/textures/__TB_empty.png
+
+newmtl chunksTextures/color_02
+
+newmtl chunksTextures/color_03
+
+newmtl chunksTextures/color_05
+
+newmtl chunksTextures/dev_nodraw
+
+newmtl chunksTextures/obj_book_01
+
+newmtl chunksTextures/obj_book_02
+
+newmtl chunksTextures/obj_book_03
+
+newmtl chunksTextures/obj_cabinet_02_shelf
+
+newmtl chunksTextures/obj_cabinet_04
+
+newmtl chunksTextures/obj_scaffold_01
+
+newmtl chunksTextures/obj_scaffold_02
+
+newmtl chunksTextures/obj_scaffold_03
+
+newmtl chunksTextures/prop_desk02_base
+
+newmtl chunksTextures/prop_desk02_base2
+
+newmtl chunksTextures/prop_desk02_base3
+
+newmtl chunksTextures/prop_desk02_cabinet_ext
+
+newmtl chunksTextures/prop_desk02_cabinet_front
+
+newmtl chunksTextures/prop_desk02_cabinet_front2
+
+newmtl chunksTextures/prop_desk02_cabinet_front3
+
+newmtl chunksTextures/prop_desk02_leg
+
+newmtl chunksTextures/prop_desk02_table
+
+newmtl chunksTextures/prop_desk02_tableBorder
+
+newmtl chunksTextures/prop_desk_cabinet_x126
+
+newmtl chunksTextures/prop_desk_cabinet_x64
+
+newmtl chunksTextures/prop_library_back
+
+newmtl chunksTextures/prop_library_front
+
+newmtl officeTextures/color_07
+map_Kd textures/officeTextures/color_07.png
+
+newmtl officeTextures/color_08
+map_Kd textures/officeTextures/color_08.png
+
+newmtl officeTextures/dev_nodraw
+map_Kd textures/officeTextures/dev_nodraw.png
+
+newmtl officeTextures/dev_wallMeasures
+map_Kd textures/officeTextures/dev_wallMeasures.png
+
+newmtl officeTextures/floor_01
+map_Kd textures/officeTextures/floor_01.png
+
+newmtl officeTextures/obj_cabinet01
+map_Kd textures/officeTextures/obj_cabinet01.png
+
+newmtl officeTextures/obj_cabinet04
+map_Kd textures/officeTextures/obj_cabinet04.png
+
+newmtl officeTextures/player_texture
+map_Kd textures/officeTextures/player_texture.png
+
+newmtl officeTextures/poster_01
+map_Kd textures/officeTextures/poster_01.png
+
+newmtl officeTextures/poster_02
+map_Kd textures/officeTextures/poster_02.png
+

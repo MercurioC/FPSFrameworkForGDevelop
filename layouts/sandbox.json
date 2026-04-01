@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 226,
   "disableInputWhenNotFocused": true,
   "mangledName": "sandbox",
   "name": "sandbox",
-  "r": 87,
+  "r": 74,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 213,
+  "v": 144,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -11640,9 +11640,9 @@
           "name": "Effect",
           "doubleParameters": {
             "distanceFromCamera": 3200,
-            "elevation": 35,
-            "frustumSize": 4000,
-            "intensity": 1.2,
+            "elevation": 40,
+            "frustumSize": 5120,
+            "intensity": 1.25,
             "minimumShadowBias": 0.001,
             "rotation": 60
           },
@@ -11659,10 +11659,10 @@
           "effectType": "Scene3D::AmbientLight",
           "name": "Effect3",
           "doubleParameters": {
-            "intensity": 1.2
+            "intensity": 1.15
           },
           "stringParameters": {
-            "color": "36;96;197"
+            "color": "150;178;224"
           },
           "booleanParameters": {}
         }

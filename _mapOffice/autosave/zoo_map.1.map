@@ -1,0 +1,42 @@
+// Game: Generic
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/officeTextures"
+// brush 0
+{
+( -64 -64 -32 ) ( -64 -63 -32 ) ( -64 -64 -31 ) officeTextures/dev_nodraw 0 -16 0 1 1
+( -64 -64 -32 ) ( -64 -64 -31 ) ( -63 -64 -32 ) officeTextures/dev_nodraw 0 -16 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) officeTextures/dev_nodraw 0 0 0 1 1
+( 64 64 0 ) ( 64 65 0 ) ( 65 64 0 ) officeTextures/floor_01 0 0 0 1 1
+( 64 448 0 ) ( 65 448 0 ) ( 64 448 1 ) officeTextures/dev_nodraw 0 -16 0 1 1
+( 448 64 0 ) ( 448 64 1 ) ( 448 65 0 ) officeTextures/dev_nodraw 0 -16 0 1 1
+}
+// brush 1
+{
+( -64 448 0 ) ( -64 449 0 ) ( -64 448 1 ) officeTextures/dev_nodraw 0 16 0 1 1
+( -64 448 0 ) ( -64 448 1 ) ( -63 448 0 ) officeTextures/dev_wallMeasures 0 0 0 1 1
+( -64 448 0 ) ( -63 448 0 ) ( -64 449 0 ) officeTextures/dev_nodraw 0 0 0 1 1
+( 64 576 256 ) ( 64 577 256 ) ( 65 576 256 ) officeTextures/dev_nodraw 0 0 0 1 1
+( 64 464 32 ) ( 65 464 32 ) ( 64 464 33 ) officeTextures/dev_nodraw 0 16 0 1 1
+( 448 576 32 ) ( 448 576 33 ) ( 448 577 32 ) officeTextures/dev_nodraw 0 16 0 1 1
+}
+// brush 2
+{
+( -16 -16 0 ) ( -16 -15 0 ) ( -16 -16 1 ) officeTextures/player_texture 0 0 0 1 1
+( -14 -16 36 ) ( -16 -12 36 ) ( -16 -12 164 ) officeTextures/player_texture 0 0 0 1 1
+( -16 12 36 ) ( -14 16 36 ) ( -14 16 164 ) officeTextures/player_texture 0 0 0 1 1
+( -12 -16 36 ) ( -16 -14 36 ) ( -16 -14 164 ) officeTextures/player_texture 0 0 0 1 1
+( -12 16 36 ) ( -16 14 164 ) ( -16 14 36 ) officeTextures/player_texture 0 0 0 1 1
+( -16 -16 0 ) ( -16 -16 1 ) ( -15 -16 0 ) officeTextures/player_texture 0 0 0 1 1
+( -16 -16 0 ) ( -15 -16 0 ) ( -16 -15 0 ) officeTextures/player_texture 0 0 0 1 1
+( 16 16 72 ) ( 16 17 72 ) ( 17 16 72 ) officeTextures/player_texture 0 0 0 1 1
+( 16 16 16 ) ( 17 16 16 ) ( 16 16 17 ) officeTextures/player_texture 0 0 0 1 1
+( 12 -16 36 ) ( 16 -14 164 ) ( 16 -14 36 ) officeTextures/player_texture 0 0 0 1 1
+( 12 16 36 ) ( 16 14 36 ) ( 16 14 164 ) officeTextures/player_texture 0 0 0 1 1
+( 14 -16 36 ) ( 16 -12 164 ) ( 16 -12 36 ) officeTextures/player_texture 0 0 0 1 1
+( 16 12 36 ) ( 14 16 164 ) ( 14 16 36 ) officeTextures/player_texture 0 0 0 1 1
+( 16 16 16 ) ( 16 16 17 ) ( 16 17 16 ) officeTextures/player_texture 0 0 0 1 1
+}
+}

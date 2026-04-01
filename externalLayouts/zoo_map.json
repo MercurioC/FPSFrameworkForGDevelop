@@ -6,12 +6,11 @@
       "angle": 90,
       "customSize": true,
       "depth": 272,
-      "height": 2048,
-      "keepRatio": true,
+      "height": 2400,
       "layer": "",
       "name": "zoo_layout",
       "persistentUuid": "7baf9737-b458-4f66-9db3-ef9648f4c007",
-      "width": 528,
+      "width": 1168,
       "x": -128,
       "y": 0,
       "zOrder": 1,
@@ -32,9 +31,9 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.9934433498259576,
     "windowMask": false,
     "selectedLayer": "",
-    "gameEditorMode": "instances-editor"
+    "gameEditorMode": "embedded-game"
   }
 }
