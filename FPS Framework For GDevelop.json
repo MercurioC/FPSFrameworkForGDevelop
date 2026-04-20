@@ -1,7 +1,7 @@
 {
   "firstLayout": "sandbox",
   "gdVersion": {
-    "build": 261,
+    "build": 266,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -89,7 +89,6 @@
     ],
     "playableDevices": [
       "keyboard",
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1617,6 +1616,27 @@
         "kind": "model3D",
         "metadata": "",
         "name": "assets\\zoo_map\\zoo_map.glb",
+        "userAdded": false
+      },
+      {
+        "file": "externalLayouts/devTestLayout.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "externalLayouts/devTestLayout.glb",
+        "userAdded": false
+      },
+      {
+        "file": "externalLayouts/arena_test_260419.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "externalLayouts/arena_test_260419.glb",
+        "userAdded": false
+      },
+      {
+        "file": "externalLayouts/arena_test_260420.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "externalLayouts/arena_test_260420.glb",
         "userAdded": false
       }
     ]

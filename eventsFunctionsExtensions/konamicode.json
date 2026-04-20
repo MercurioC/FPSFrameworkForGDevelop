@@ -32,12 +32,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Allows to input the classic Konami Code (\"Up, Up, Down, Down, Left, Right, Left, Right, B, A\") into a scene for cheats and easter eggs.",
       "fullName": "Konami Code",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "KonamiCode",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2250,6 +2256,17 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "KC_Inputted"
+          }
+        ]
+      },
       "propertyDescriptors": [],
       "propertiesFolderStructure": {
         "folderName": "__ROOT"

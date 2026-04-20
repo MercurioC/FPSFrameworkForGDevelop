@@ -143,6 +143,14 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "DefineHelperClasses"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": [
     {
@@ -155,10 +163,13 @@
       "defaultName": "",
       "description": "An animated sprite in 3D.",
       "fullName": "3D sprite",
+      "helpPath": "",
+      "iconUrl": "",
       "is3D": true,
       "isAnimatable": true,
       "isUsingLegacyInstancesRenderer": true,
       "name": "Sprite3D",
+      "previewIconUrl": "",
       "objects": [],
       "objectsFolderStructure": {
         "folderName": "__ROOT"
@@ -245,6 +256,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          }
+        ]
+      },
       "propertyDescriptors": [],
       "propertiesFolderStructure": {
         "folderName": "__ROOT"

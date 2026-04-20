@@ -31,12 +31,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Change animations of a 3D physics character automatically.",
       "fullName": "3D physics character animator",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PhysicsCharacter3DAnimator",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -354,6 +360,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "RotationSpeed",
+          "group": "3D physics character animator configuration",
           "name": "SetRotationSpeed",
           "sentence": "",
           "events": [
@@ -391,6 +398,25 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "folderName": "3D physics character animator configuration",
+            "children": [
+              {
+                "functionName": "RotationSpeed"
+              },
+              {
+                "functionName": "SetRotationSpeed"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

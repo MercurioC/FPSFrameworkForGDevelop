@@ -918,6 +918,86 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "Fibonacci"
+      },
+      {
+        "functionName": "Slope"
+      },
+      {
+        "functionName": "Map"
+      },
+      {
+        "functionName": "Hypot"
+      },
+      {
+        "functionName": "Gcf"
+      },
+      {
+        "functionName": "Lcm"
+      },
+      {
+        "functionName": "Factorial"
+      },
+      {
+        "functionName": "PolarToCartesianX"
+      },
+      {
+        "functionName": "PolarToCartesianY"
+      },
+      {
+        "functionName": "IsoToCartesianX"
+      },
+      {
+        "functionName": "IisoToCartesianY"
+      },
+      {
+        "functionName": "GoldenRatio"
+      },
+      {
+        "functionName": "Pi"
+      },
+      {
+        "functionName": "HalfPi"
+      },
+      {
+        "functionName": "E"
+      },
+      {
+        "functionName": "Ln2"
+      },
+      {
+        "functionName": "Ln10"
+      },
+      {
+        "functionName": "Log2e"
+      },
+      {
+        "functionName": "Log10e"
+      },
+      {
+        "functionName": "Sqrt2"
+      },
+      {
+        "functionName": "Sqrt1_2"
+      },
+      {
+        "functionName": "QuarterPi"
+      },
+      {
+        "functionName": "ToFixed"
+      },
+      {
+        "functionName": "ToFixedString"
+      },
+      {
+        "functionName": "IsEven"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

@@ -361,6 +361,32 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "SetCountdown"
+      },
+      {
+        "functionName": "StartCountdown"
+      },
+      {
+        "functionName": "RestartCountdown"
+      },
+      {
+        "functionName": "IsTimerAtTime"
+      },
+      {
+        "functionName": "IsTimerFinished"
+      },
+      {
+        "functionName": "RemainingTime"
+      },
+      {
+        "functionName": "InitialConfigurationValue"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

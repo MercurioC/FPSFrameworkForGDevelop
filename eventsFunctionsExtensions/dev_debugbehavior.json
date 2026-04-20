@@ -18,12 +18,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Useful tools for debugging the game",
       "fullName": "Debug Behavior",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "dev_debugBehavior",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -703,6 +709,17 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "dev",

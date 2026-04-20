@@ -34,12 +34,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Represent a value on a slider.",
       "fullName": "Slider",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Slider",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -204,6 +210,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MinValue",
+          "group": "Resource bar configuration",
           "name": "SetMinValue",
           "sentence": "",
           "events": [
@@ -296,6 +303,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxValue",
+          "group": "Resource bar configuration",
           "name": "SetMaxValue",
           "sentence": "",
           "events": [
@@ -428,6 +436,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "StepSize",
+          "group": "Resource bar configuration",
           "name": "SetStepSize",
           "sentence": "",
           "events": [
@@ -476,6 +485,43 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "Value"
+          },
+          {
+            "functionName": "SetValue"
+          },
+          {
+            "folderName": "Resource bar configuration",
+            "children": [
+              {
+                "functionName": "MinValue"
+              },
+              {
+                "functionName": "SetMinValue"
+              },
+              {
+                "functionName": "MaxValue"
+              },
+              {
+                "functionName": "SetMaxValue"
+              },
+              {
+                "functionName": "StepSize"
+              },
+              {
+                "functionName": "SetStepSize"
+              }
+            ]
+          },
+          {
+            "functionName": "Size"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",
@@ -523,8 +569,11 @@
     {
       "description": "The finite state machine used internally by the button object.",
       "fullName": "Button finite state machine",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonFSM",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -1561,6 +1610,38 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "IsPressedOutside"
+          },
+          {
+            "functionName": "TouchId"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "true",
@@ -1664,8 +1745,11 @@
       "defaultName": "Slider",
       "description": "Let users select a numerical value by dragging a slider.",
       "fullName": "Slider",
+      "helpPath": "",
+      "iconUrl": "",
       "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteSlider",
+      "previewIconUrl": "",
       "objects": [
         {
           "assetStoreId": "",
@@ -2862,6 +2946,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MinValue",
+          "group": "Slider configuration",
           "name": "SetMinValue",
           "sentence": "",
           "events": [
@@ -2958,6 +3043,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxValue",
+          "group": "Slider configuration",
           "name": "SetMaxValue",
           "sentence": "",
           "events": [
@@ -3054,6 +3140,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "StepSize",
+          "group": "Slider configuration",
           "name": "SetStepSize",
           "sentence": "",
           "events": [
@@ -3733,6 +3820,87 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "folderName": "Slider",
+            "children": [
+              {
+                "functionName": "IsBeingDragged"
+              }
+            ]
+          },
+          {
+            "functionName": "Value"
+          },
+          {
+            "functionName": "SetValue"
+          },
+          {
+            "folderName": "Slider configuration",
+            "children": [
+              {
+                "functionName": "MinValue"
+              },
+              {
+                "functionName": "SetMinValue"
+              },
+              {
+                "functionName": "MaxValue"
+              },
+              {
+                "functionName": "SetMaxValue"
+              },
+              {
+                "functionName": "StepSize"
+              },
+              {
+                "functionName": "SetStepSize"
+              },
+              {
+                "functionName": "IsLabelShown"
+              },
+              {
+                "functionName": "SetLabelShown"
+              }
+            ]
+          },
+          {
+            "functionName": "UpdateLayout"
+          },
+          {
+            "functionName": "UpdateThumbPosition"
+          },
+          {
+            "functionName": "FullBarLeft"
+          },
+          {
+            "functionName": "FullBarRight"
+          },
+          {
+            "functionName": "FullBarWidth"
+          },
+          {
+            "functionName": "UpdateSliderConfiguration"
+          },
+          {
+            "functionName": "Activate"
+          },
+          {
+            "functionName": "IsActivated"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",

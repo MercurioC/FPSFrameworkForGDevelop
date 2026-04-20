@@ -42,12 +42,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Spawn (create) objects periodically.",
       "fullName": "Object spawner",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ObjectSpawner",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1131,6 +1137,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxQuantity",
+          "group": "Object spawner configuration",
           "name": "SetMaxQuantity",
           "sentence": "",
           "events": [
@@ -1342,6 +1349,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "SpawnerCapacity",
+          "group": "Object spawner configuration",
           "name": "SetSpawnerCapacity",
           "sentence": "",
           "events": [
@@ -1509,6 +1517,79 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onActivate"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "SpawnObject"
+          },
+          {
+            "functionName": "SetOffsetX"
+          },
+          {
+            "functionName": "SetOffsetY"
+          },
+          {
+            "functionName": "SetSpawnPeriod"
+          },
+          {
+            "functionName": "OffsetX"
+          },
+          {
+            "functionName": "OffsetY"
+          },
+          {
+            "functionName": "SpawnPeriod"
+          },
+          {
+            "functionName": "ResetSpawnTimer"
+          },
+          {
+            "functionName": "TimeBeforeSpawn"
+          },
+          {
+            "functionName": "ObjectWasJustSpawned"
+          },
+          {
+            "folderName": "Object spawner configuration",
+            "children": [
+              {
+                "functionName": "MaxQuantity"
+              },
+              {
+                "functionName": "SetMaxQuantity"
+              },
+              {
+                "functionName": "UnlimitedObjectCapacity"
+              },
+              {
+                "functionName": "SetUnlimitedObjectCapacity"
+              },
+              {
+                "functionName": "SpawnerCapacity"
+              },
+              {
+                "functionName": "SetSpawnerCapacity"
+              },
+              {
+                "functionName": "RandomPosition"
+              },
+              {
+                "functionName": "SetRandomPosition"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",

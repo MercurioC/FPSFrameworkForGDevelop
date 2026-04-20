@@ -26,12 +26,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Control a 3D physics character with a keyboard for a platformer or a top-down game.",
       "fullName": "3D platformer keyboard mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Platformer3DKeyboardMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -629,6 +635,20 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "LockedCameraAngle"
+          },
+          {
+            "functionName": "SetLockedCameraAngle"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -727,8 +747,11 @@
     {
       "description": "Control a 3D physics character with a keyboard for a first or third person shooter.",
       "fullName": "3D shooter keyboard mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Shooter3DKeyboardMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -878,6 +901,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

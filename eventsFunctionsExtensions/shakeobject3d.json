@@ -1324,12 +1324,80 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "onFirstSceneLoaded"
+      },
+      {
+        "functionName": "DefineHelperClasses"
+      },
+      {
+        "functionName": "Noise2d"
+      },
+      {
+        "functionName": "Noise3d"
+      },
+      {
+        "functionName": "Noise4d"
+      },
+      {
+        "functionName": "Create"
+      },
+      {
+        "functionName": "Delete"
+      },
+      {
+        "functionName": "DeleteAll"
+      },
+      {
+        "functionName": "SetSeed"
+      },
+      {
+        "functionName": "SetLoopPeriodX"
+      },
+      {
+        "functionName": "SetLoopPeriodY"
+      },
+      {
+        "functionName": "SetFrequency"
+      },
+      {
+        "functionName": "SetOctaves"
+      },
+      {
+        "functionName": "SetPersistence"
+      },
+      {
+        "functionName": "SetLacunarity"
+      },
+      {
+        "functionName": "Seed"
+      },
+      {
+        "functionName": "Frequency"
+      },
+      {
+        "functionName": "Octaves"
+      },
+      {
+        "functionName": "Persistence"
+      },
+      {
+        "functionName": "Lacunarity"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Shake 3D objects with translation and rotation.",
       "fullName": "3D shake",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ShakeModel3D",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -2378,6 +2446,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "Frequency",
+          "group": "ShakeObject3D configuration",
           "name": "SetFrequency",
           "sentence": "",
           "events": [
@@ -2611,6 +2680,52 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Shake"
+          },
+          {
+            "functionName": "StartShaking"
+          },
+          {
+            "functionName": "StopShaking"
+          },
+          {
+            "functionName": "IsShaking"
+          },
+          {
+            "functionName": "IsStopping"
+          },
+          {
+            "folderName": "ShakeObject3D configuration",
+            "children": [
+              {
+                "functionName": "Frequency"
+              },
+              {
+                "functionName": "SetFrequency"
+              }
+            ]
+          },
+          {
+            "functionName": "StartEasingFactor"
+          },
+          {
+            "functionName": "StopEasingFactor"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",

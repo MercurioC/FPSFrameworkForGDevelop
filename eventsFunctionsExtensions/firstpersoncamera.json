@@ -135,6 +135,19 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "Layers and cameras",
+        "children": [
+          {
+            "functionName": "LookFromObjectEyes"
+          }
+        ]
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

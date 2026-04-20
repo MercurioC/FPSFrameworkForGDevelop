@@ -307,12 +307,32 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "Repeat"
+      },
+      {
+        "functionName": "Repetition"
+      },
+      {
+        "functionName": "RepeatXTimes"
+      },
+      {
+        "functionName": "DeleteTimer"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Allows to repeat an object timer every X seconds.",
       "fullName": "Repeat every X seconds",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "RepeatTimer",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -897,6 +917,43 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "folderName": "Timers",
+            "children": [
+              {
+                "functionName": "Repeat2"
+              },
+              {
+                "functionName": "Repetition"
+              },
+              {
+                "functionName": "RepeatXTimes"
+              },
+              {
+                "functionName": "DeleteTimer"
+              }
+            ]
+          },
+          {
+            "functionName": "Repeat"
+          },
+          {
+            "functionName": "Pause"
+          },
+          {
+            "functionName": "Resume"
+          },
+          {
+            "functionName": "ResetLimit"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "MyTimer",

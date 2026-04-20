@@ -39,12 +39,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
       "fullName": "Resource bar",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ResourceBar",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -290,6 +296,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxValue",
+          "group": "Resource bar configuration",
           "name": "SetMaxValue",
           "sentence": "",
           "events": [
@@ -549,6 +556,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "PreviousHighValueDuration",
+          "group": "Resource bar configuration",
           "name": "SetPreviousHighValueDuration",
           "sentence": "",
           "events": [
@@ -647,6 +655,52 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "Value"
+          },
+          {
+            "functionName": "SetValue"
+          },
+          {
+            "folderName": "Resource bar configuration",
+            "children": [
+              {
+                "functionName": "MaxValue"
+              },
+              {
+                "functionName": "SetMaxValue"
+              },
+              {
+                "functionName": "PreviousHighValueDuration"
+              },
+              {
+                "functionName": "SetPreviousHighValueDuration"
+              }
+            ]
+          },
+          {
+            "functionName": "IsEmpty"
+          },
+          {
+            "functionName": "IsFull"
+          },
+          {
+            "functionName": "PreviousHighValue"
+          },
+          {
+            "functionName": "UpdatePreviousHighValue"
+          },
+          {
+            "functionName": "IsChanging"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",
@@ -704,8 +758,11 @@
       "defaultName": "ResourceBar",
       "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
       "fullName": "Resource bar (separated units)",
+      "helpPath": "",
+      "iconUrl": "",
       "isUsingLegacyInstancesRenderer": true,
       "name": "TiledUnitsBar",
+      "previewIconUrl": "",
       "objects": [
         {
           "assetStoreId": "",
@@ -1347,6 +1404,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "Value",
+          "group": "Resource bar",
           "name": "SetValue",
           "sentence": "",
           "events": [
@@ -1436,6 +1494,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxValue",
+          "group": "Resource bar configuration",
           "name": "SetMaxValue",
           "sentence": "",
           "events": [
@@ -1583,6 +1642,51 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "CenterBar"
+          },
+          {
+            "folderName": "Resource bar",
+            "children": [
+              {
+                "functionName": "Value"
+              },
+              {
+                "functionName": "SetValue"
+              },
+              {
+                "functionName": "IsEmpty"
+              },
+              {
+                "functionName": "IsFull"
+              }
+            ]
+          },
+          {
+            "folderName": "Resource bar configuration",
+            "children": [
+              {
+                "functionName": "MaxValue"
+              },
+              {
+                "functionName": "SetMaxValue"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "3",

@@ -2378,6 +2378,7 @@
     {
       "assetStoreId": "",
       "name": "obj_crate",
+      "persistentUuid": "a1d3a84f-f0fc-40b8-aee5-218b3f6583c3",
       "type": "Scene3D::Model3DObject",
       "variables": [
         {
@@ -2696,6 +2697,7 @@
     {
       "assetStoreId": "",
       "name": "obj_doorPivot",
+      "persistentUuid": "a4848112-6f2b-4433-9eac-43e494504f35",
       "type": "Scene3D::Model3DObject",
       "variables": [
         {
@@ -2749,6 +2751,7 @@
     {
       "assetStoreId": "",
       "name": "obj_barrel",
+      "persistentUuid": "0d892459-aef8-4bc6-90b5-be0b57236050",
       "type": "Scene3D::Model3DObject",
       "variables": [
         {
@@ -6140,6 +6143,7 @@
     {
       "assetStoreId": "",
       "name": "obj_doorCollision",
+      "persistentUuid": "bd48be9d-c5f4-4f95-b01d-afa5628fe58d",
       "type": "Scene3D::Model3DObject",
       "variables": [
         {
@@ -9615,6 +9619,7 @@
     {
       "assetStoreId": "",
       "name": "prop_desk_01",
+      "persistentUuid": "d0028ea0-c27e-482f-ae02-e7d506a81955",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9669,6 +9674,7 @@
     {
       "assetStoreId": "",
       "name": "prop_desk_02",
+      "persistentUuid": "a79fba72-7fa6-47f9-a48a-ca6c926d2f44",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9723,6 +9729,7 @@
     {
       "assetStoreId": "",
       "name": "prop_cabinet_01",
+      "persistentUuid": "e1d154e0-bb2b-4d19-abc1-7720c0898a92",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9885,6 +9892,7 @@
     {
       "assetStoreId": "",
       "name": "prop_library_01",
+      "persistentUuid": "c15eb6ce-cb05-4bda-a3a8-0732897d87fa",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -9993,6 +10001,7 @@
     {
       "assetStoreId": "",
       "name": "prop_item_book_01",
+      "persistentUuid": "d05acf9f-2d99-46c1-947a-90dca3c06770",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -10101,6 +10110,7 @@
     {
       "assetStoreId": "",
       "name": "prop_item_clock_01",
+      "persistentUuid": "48705760-3b93-4e53-acb5-e4246452cf57",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -10155,6 +10165,7 @@
     {
       "assetStoreId": "",
       "name": "prop_sofa_01",
+      "persistentUuid": "8f9acf4b-6511-4fde-8578-93a81f62980c",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -10382,6 +10393,62 @@
         "rotationY": 0,
         "rotationZ": 90,
         "width": 528.0001074870852,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "arena_test",
+      "persistentUuid": "a6c94946-e7f4-4beb-8c1c-a8befdbfd209",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Mesh",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 240.00021640071026,
+        "height": 1536.0000228881838,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "externalLayouts/arena_test_260420.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 1344.0002328515927,
         "animations": []
       }
     }
@@ -10869,6 +10936,9 @@
       },
       {
         "objectName": "zoo_layout"
+      },
+      {
+        "objectName": "arena_test"
       }
     ]
   },

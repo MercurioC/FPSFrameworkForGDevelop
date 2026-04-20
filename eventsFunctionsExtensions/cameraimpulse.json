@@ -798,6 +798,26 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "onScenePostEvents"
+      },
+      {
+        "functionName": "onScenePreEvents"
+      },
+      {
+        "functionName": "AddImpulse"
+      },
+      {
+        "functionName": "AddImpulseAngle"
+      },
+      {
+        "functionName": "IsPlaying"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

@@ -647,6 +647,55 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "onFirstSceneLoaded"
+      },
+      {
+        "functionName": "DefineHelperClasses"
+      },
+      {
+        "folderName": "Collision",
+        "children": [
+          {
+            "functionName": "RaycastWithAngle"
+          },
+          {
+            "functionName": "RaycastBetweenPosition"
+          },
+          {
+            "functionName": "RaycastFromCameraCenter"
+          },
+          {
+            "functionName": "RaycastFromCameraPoint"
+          }
+        ]
+      },
+      {
+        "functionName": "Distance"
+      },
+      {
+        "functionName": "IntersectionX"
+      },
+      {
+        "functionName": "IntersectionY"
+      },
+      {
+        "functionName": "IntersectionZ"
+      },
+      {
+        "functionName": "NormalX"
+      },
+      {
+        "functionName": "NormalY"
+      },
+      {
+        "functionName": "NormalZ"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

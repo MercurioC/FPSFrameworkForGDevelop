@@ -542,12 +542,43 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "LookFromDistanceAtPosition"
+      },
+      {
+        "functionName": "LookFromDistanceAtObject"
+      },
+      {
+        "functionName": "LookFromDistanceAtPosition3D"
+      },
+      {
+        "folderName": "Layers and cameras",
+        "children": [
+          {
+            "functionName": "LookFromDistanceAtObject3D"
+          }
+        ]
+      },
+      {
+        "functionName": "RotatedX"
+      },
+      {
+        "functionName": "RotatedY"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Smoothly follow an object at a distance.",
       "fullName": "Third person camera",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ThirdPersonCamera",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1197,6 +1228,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "RotationHalfwayDuration",
+          "group": "Third person camera configuration",
           "name": "SetRotationHalfwayDuration",
           "sentence": "",
           "events": [
@@ -1301,6 +1333,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "TranslationZHalfwayDuration",
+          "group": "Third person camera configuration",
           "name": "SetTranslationZHalfwayDuration",
           "sentence": "",
           "events": [
@@ -1489,6 +1522,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FollowFreeAreaZMax",
+          "group": "Third person camera configuration",
           "name": "SetFollowFreeAreaZMax",
           "sentence": "",
           "events": [
@@ -1570,6 +1604,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FollowFreeAreaZMin",
+          "group": "Third person camera configuration",
           "name": "SetFollowFreeAreaZMin",
           "sentence": "",
           "events": [
@@ -1651,6 +1686,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "Distance",
+          "group": "Third person camera configuration",
           "name": "SetDistance",
           "sentence": "",
           "events": [
@@ -1732,6 +1768,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetX",
+          "group": "Third person camera configuration",
           "name": "SetOffsetX",
           "sentence": "",
           "events": [
@@ -1813,6 +1850,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetY",
+          "group": "Third person camera configuration",
           "name": "SetOffsetY",
           "sentence": "",
           "events": [
@@ -1894,6 +1932,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetZ",
+          "group": "Third person camera configuration",
           "name": "SetOffsetZ",
           "sentence": "",
           "events": [
@@ -1975,6 +2014,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "RotationAngleOffset",
+          "group": "Third person camera configuration",
           "name": "SetRotationAngleOffset",
           "sentence": "",
           "events": [
@@ -2056,6 +2096,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "ElevationAngleOffset",
+          "group": "Third person camera configuration",
           "name": "SetElevationAngleOffset",
           "sentence": "",
           "events": [
@@ -2137,6 +2178,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "TargetedRotationAngle",
+          "group": "Third person camera configuration",
           "name": "SetTargetedRotationAngle",
           "sentence": "",
           "events": [
@@ -2184,6 +2226,114 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "MoveCameraCloser"
+          },
+          {
+            "functionName": "DoMoveCameraCloser"
+          },
+          {
+            "functionName": "JumpToTargetedRotation"
+          },
+          {
+            "functionName": "RotationAngle"
+          },
+          {
+            "functionName": "SetCameraRotation"
+          },
+          {
+            "folderName": "Third person camera configuration",
+            "children": [
+              {
+                "functionName": "RotationHalfwayDuration"
+              },
+              {
+                "functionName": "SetRotationHalfwayDuration"
+              },
+              {
+                "functionName": "TranslationZHalfwayDuration"
+              },
+              {
+                "functionName": "SetTranslationZHalfwayDuration"
+              },
+              {
+                "functionName": "FollowFreeAreaZMax"
+              },
+              {
+                "functionName": "SetFollowFreeAreaZMax"
+              },
+              {
+                "functionName": "FollowFreeAreaZMin"
+              },
+              {
+                "functionName": "SetFollowFreeAreaZMin"
+              },
+              {
+                "functionName": "Distance"
+              },
+              {
+                "functionName": "SetDistance"
+              },
+              {
+                "functionName": "OffsetX"
+              },
+              {
+                "functionName": "SetOffsetX"
+              },
+              {
+                "functionName": "OffsetY"
+              },
+              {
+                "functionName": "SetOffsetY"
+              },
+              {
+                "functionName": "OffsetZ"
+              },
+              {
+                "functionName": "SetOffsetZ"
+              },
+              {
+                "functionName": "RotationAngleOffset"
+              },
+              {
+                "functionName": "SetRotationAngleOffset"
+              },
+              {
+                "functionName": "ElevationAngleOffset"
+              },
+              {
+                "functionName": "SetElevationAngleOffset"
+              },
+              {
+                "functionName": "TargetedRotationAngle"
+              },
+              {
+                "functionName": "SetTargetedRotationAngle"
+              }
+            ]
+          },
+          {
+            "folderName": "Private",
+            "children": [
+              {
+                "functionName": "FreeAreaZMin"
+              },
+              {
+                "functionName": "FreeAreaZMax"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

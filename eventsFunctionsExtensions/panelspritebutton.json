@@ -31,12 +31,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "The finite state machine used internally by the button object.",
       "fullName": "Button finite state machine",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonFSM",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -1113,6 +1119,41 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "ResetState"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "IsPressedOutside"
+          },
+          {
+            "functionName": "TouchId"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "true",
@@ -1216,8 +1257,11 @@
       "defaultName": "Button",
       "description": "A button that can be customized.",
       "fullName": "Button (panel sprite)",
+      "helpPath": "",
+      "iconUrl": "",
       "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteButton",
+      "previewIconUrl": "",
       "objects": [
         {
           "assetStoreId": "",
@@ -2688,6 +2732,53 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "SetLabelText"
+          },
+          {
+            "functionName": "LabelText"
+          },
+          {
+            "functionName": "CenterWithPaddingY"
+          },
+          {
+            "functionName": "CenterLabel"
+          },
+          {
+            "functionName": "Activate"
+          },
+          {
+            "functionName": "IsActivated"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",

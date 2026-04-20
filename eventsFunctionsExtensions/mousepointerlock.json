@@ -779,12 +779,68 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "onFirstSceneLoaded"
+      },
+      {
+        "functionName": "onScenePostEvents"
+      },
+      {
+        "functionName": "RequestPointerLock"
+      },
+      {
+        "functionName": "ExitPointerLock"
+      },
+      {
+        "functionName": "isPointerLocked"
+      },
+      {
+        "functionName": "isPointerActuallyLocked"
+      },
+      {
+        "functionName": "isEmulatingPointerLock"
+      },
+      {
+        "functionName": "IsMoving"
+      },
+      {
+        "functionName": "MovementX"
+      },
+      {
+        "functionName": "SetMovementX"
+      },
+      {
+        "functionName": "MovementY"
+      },
+      {
+        "functionName": "SetMovementY"
+      },
+      {
+        "functionName": "TouchX"
+      },
+      {
+        "functionName": "TouchY"
+      },
+      {
+        "functionName": "TouchSpeedFactor"
+      },
+      {
+        "functionName": "SetTouchSpeedFactor"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Control camera rotations with a mouse.",
       "fullName": "First person camera mouse mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FirstPersonPointerMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1058,6 +1114,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HorizontalSpeed",
+          "group": "First person camera mouse mapper configuration",
           "name": "SetHorizontalSpeed",
           "sentence": "",
           "events": [
@@ -1139,6 +1196,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalSpeed",
+          "group": "First person camera mouse mapper configuration",
           "name": "SetVerticalSpeed",
           "sentence": "",
           "events": [
@@ -1220,6 +1278,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalAngleMin",
+          "group": "First person camera mouse mapper configuration",
           "name": "SetVerticalAngleMin",
           "sentence": "",
           "events": [
@@ -1301,6 +1360,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalAngleMax",
+          "group": "First person camera mouse mapper configuration",
           "name": "SetVerticalAngleMax",
           "sentence": "",
           "events": [
@@ -1382,6 +1442,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetZ",
+          "group": "First person camera mouse mapper configuration",
           "name": "SetOffsetZ",
           "sentence": "",
           "events": [
@@ -1419,6 +1480,57 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "folderName": "Layers and cameras",
+            "children": [
+              {
+                "functionName": "LookFromObjectEyes"
+              }
+            ]
+          },
+          {
+            "folderName": "First person camera mouse mapper configuration",
+            "children": [
+              {
+                "functionName": "HorizontalSpeed"
+              },
+              {
+                "functionName": "SetHorizontalSpeed"
+              },
+              {
+                "functionName": "VerticalSpeed"
+              },
+              {
+                "functionName": "SetVerticalSpeed"
+              },
+              {
+                "functionName": "VerticalAngleMin"
+              },
+              {
+                "functionName": "SetVerticalAngleMin"
+              },
+              {
+                "functionName": "VerticalAngleMax"
+              },
+              {
+                "functionName": "SetVerticalAngleMax"
+              },
+              {
+                "functionName": "OffsetZ"
+              },
+              {
+                "functionName": "SetOffsetZ"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

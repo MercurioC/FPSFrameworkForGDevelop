@@ -44,12 +44,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Let 3D physics characters jump shortly after leaving a platform and also jump in mid-air.",
       "fullName": "Coyote time and air jump for 3D",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AdvancedJump3D",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1620,6 +1626,63 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "onActivate"
+          },
+          {
+            "folderName": "Coyote time",
+            "children": [
+              {
+                "functionName": "SetCoyoteTime"
+              },
+              {
+                "functionName": "CanCoyoteJump"
+              },
+              {
+                "functionName": "UpdateWasInTheAir"
+              }
+            ]
+          },
+          {
+            "folderName": "Air jump",
+            "children": [
+              {
+                "functionName": "AirJumpsMax"
+              },
+              {
+                "functionName": "SetAirJumpCountMaximum"
+              },
+              {
+                "functionName": "RemainingAirJumps"
+              },
+              {
+                "functionName": "RemoveOneRemainingAirJump"
+              },
+              {
+                "functionName": "ResetAirJumpCounter"
+              },
+              {
+                "functionName": "AreFloorJumpCountedAsAirJump"
+              }
+            ]
+          },
+          {
+            "functionName": "WasJumpKeyPressed"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

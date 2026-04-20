@@ -3278,6 +3278,133 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "onSceneLoaded"
+      },
+      {
+        "functionName": "LayerCount"
+      },
+      {
+        "functionName": "LayerName"
+      },
+      {
+        "functionName": "onScenePostEvents"
+      },
+      {
+        "functionName": "onScenePreEvents"
+      },
+      {
+        "functionName": "ShakeCamera"
+      },
+      {
+        "functionName": "StartShaking"
+      },
+      {
+        "functionName": "StopShaking"
+      },
+      {
+        "folderName": "Camera shake configuration",
+        "children": [
+          {
+            "functionName": "SetLayerShakable"
+          },
+          {
+            "functionName": "SpineAmplitudeAngle"
+          },
+          {
+            "functionName": "SetSpineAmplitudeAngle"
+          },
+          {
+            "functionName": "HorizontalAmplitudeAngle"
+          },
+          {
+            "functionName": "SetHorizontalAmplitudeAngle"
+          },
+          {
+            "functionName": "VerticalAmplitudeAngle"
+          },
+          {
+            "functionName": "SetVerticalAmplitudeAngle"
+          },
+          {
+            "functionName": "SetLayerShakingFrequency"
+          }
+        ]
+      },
+      {
+        "functionName": "IsShaking"
+      },
+      {
+        "functionName": "SpinCamera"
+      },
+      {
+        "functionName": "TurnCameraVertically"
+      },
+      {
+        "functionName": "TurnCameraHorizontally"
+      },
+      {
+        "functionName": "onFirstSceneLoaded"
+      },
+      {
+        "functionName": "Noise2d"
+      },
+      {
+        "functionName": "Noise3d"
+      },
+      {
+        "functionName": "Noise4d"
+      },
+      {
+        "functionName": "Create"
+      },
+      {
+        "functionName": "Delete"
+      },
+      {
+        "functionName": "DeleteAll"
+      },
+      {
+        "functionName": "SetSeed"
+      },
+      {
+        "functionName": "SetLoopPeriodX"
+      },
+      {
+        "functionName": "SetLoopPeriodY"
+      },
+      {
+        "functionName": "SetFrequency"
+      },
+      {
+        "functionName": "SetOctaves"
+      },
+      {
+        "functionName": "SetPersistence"
+      },
+      {
+        "functionName": "SetLacunarity"
+      },
+      {
+        "functionName": "Seed"
+      },
+      {
+        "functionName": "Frequency"
+      },
+      {
+        "functionName": "Octaves"
+      },
+      {
+        "functionName": "Persistence"
+      },
+      {
+        "functionName": "Lacunarity"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

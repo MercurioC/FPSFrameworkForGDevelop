@@ -387,12 +387,32 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "ColorTint"
+      },
+      {
+        "functionName": "IsTinted"
+      },
+      {
+        "functionName": "ToggleColorTint"
+      },
+      {
+        "functionName": "ToggleVisibility"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
       "fullName": "Flash visibility (blink)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Flash",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -856,6 +876,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash visibility (blink) configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -892,6 +913,37 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash visibility (blink) configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0.1",
@@ -936,8 +988,11 @@
     {
       "description": "Make an object flash a color tint for a period of time.",
       "fullName": "Flash color tint",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlashColor",
       "objectType": "Sprite",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1435,6 +1490,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash color tint configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -1472,6 +1528,37 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash color tint configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0.1",
@@ -1526,8 +1613,11 @@
     {
       "description": "Flash opacity smoothly (fade) in a repeating loop.",
       "fullName": "Flash opacity smothly (fade)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlashOpacity",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2075,6 +2165,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash opacity smothly (fade) configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -2111,6 +2202,37 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash opacity smothly (fade) configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -2205,8 +2327,11 @@
     {
       "description": "Make the object flash an effect for a period of time.",
       "fullName": "Flash effect",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FlashEffect",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2847,6 +2972,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash effect configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -3005,6 +3131,40 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash effect configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          },
+          {
+            "functionName": "ToggleEffect"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

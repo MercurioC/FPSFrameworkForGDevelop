@@ -1898,12 +1898,88 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "AcceleratedSpeed"
+      },
+      {
+        "functionName": "IsButtonPressed"
+      },
+      {
+        "functionName": "IsButtonReleased"
+      },
+      {
+        "functionName": "SetButtonState"
+      },
+      {
+        "functionName": "SetDeadZone"
+      },
+      {
+        "functionName": "DeadZone"
+      },
+      {
+        "functionName": "AngleTo4Way"
+      },
+      {
+        "functionName": "AngleTo8Way"
+      },
+      {
+        "functionName": "IsAngleIn4WayDirection"
+      },
+      {
+        "functionName": "IsAngleIn8WayDirection"
+      },
+      {
+        "functionName": "IsDirectionPushed4Way"
+      },
+      {
+        "functionName": "IsDirectionPushed8Way"
+      },
+      {
+        "functionName": "JoystickForce"
+      },
+      {
+        "functionName": "StickForce"
+      },
+      {
+        "functionName": "SetJoystickForce"
+      },
+      {
+        "functionName": "JoystickAngle"
+      },
+      {
+        "functionName": "StickAngle"
+      },
+      {
+        "functionName": "SetJoystickAngle"
+      },
+      {
+        "functionName": "StickForceX"
+      },
+      {
+        "functionName": "StickForceY"
+      },
+      {
+        "folderName": "Multitouch Joystick",
+        "children": [
+          {
+            "functionName": "HasTouchStartedOnScreenSide"
+          }
+        ]
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Joystick that can be controlled by interacting with a touchscreen.",
       "fullName": "Multitouch Joystick",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "MultitouchJoystick",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -2784,6 +2860,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "ControllerIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetControllerIdentifier",
           "sentence": "",
           "events": [
@@ -2864,6 +2941,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "JoystickIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetJoystickIdentifier",
           "sentence": "",
           "events": [
@@ -2944,6 +3022,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "DeadZoneRadius",
+          "group": "Multitouch Joystick configuration",
           "name": "SetDeadZoneRadius",
           "sentence": "",
           "events": [
@@ -3036,6 +3115,76 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "JoystickForce"
+          },
+          {
+            "functionName": "SetJoystickForce"
+          },
+          {
+            "functionName": "JoystickAngle"
+          },
+          {
+            "functionName": "SetJoystickAngle"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "functionName": "IsDirectionPushed4Way"
+          },
+          {
+            "functionName": "IsDirectionPushed8Way"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "Reset"
+          },
+          {
+            "folderName": "Multitouch Joystick configuration",
+            "children": [
+              {
+                "functionName": "ControllerIdentifier"
+              },
+              {
+                "functionName": "SetControllerIdentifier"
+              },
+              {
+                "functionName": "JoystickIdentifier"
+              },
+              {
+                "functionName": "SetJoystickIdentifier"
+              },
+              {
+                "functionName": "DeadZoneRadius"
+              },
+              {
+                "functionName": "SetDeadZoneRadius"
+              }
+            ]
+          },
+          {
+            "functionName": "ForceStartPressing"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",
@@ -3115,8 +3264,11 @@
     {
       "description": "Detect button presses made on a touchscreen.",
       "fullName": "Multitouch button",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "MultitouchButton",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3498,6 +3650,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "IsReleased"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "SetButtonState"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",
@@ -3568,8 +3737,11 @@
     {
       "description": "Control a platformer character with a multitouch controller.",
       "fullName": "Platformer multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PlatformerMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3742,6 +3914,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -3810,8 +3990,11 @@
     {
       "description": "Control a 3D physics character with a multitouch controller.",
       "fullName": "3D platformer multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Platformer3DMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3905,6 +4088,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -3973,8 +4164,11 @@
     {
       "description": "Control a 3D physics character with a multitouch controller.",
       "fullName": "3D shooter multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Shooter3DMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -4057,6 +4251,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -4125,8 +4327,11 @@
     {
       "description": "Control camera rotations with a multitouch controller.",
       "fullName": "First person camera multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FirstPersonMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -4366,6 +4571,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HorizontalRotationSpeedMax",
+          "group": "First person camera multitouch controller mapper horizontal rotation configuration",
           "name": "SetHorizontalRotationSpeedMax",
           "sentence": "",
           "events": [
@@ -4446,6 +4652,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HorizontalRotationAcceleration",
+          "group": "First person camera multitouch controller mapper horizontal rotation configuration",
           "name": "SetHorizontalRotationAcceleration",
           "sentence": "",
           "events": [
@@ -4526,6 +4733,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HorizontalRotationDeceleration",
+          "group": "First person camera multitouch controller mapper horizontal rotation configuration",
           "name": "SetHorizontalRotationDeceleration",
           "sentence": "",
           "events": [
@@ -4606,6 +4814,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalRotationSpeedMax",
+          "group": "First person camera multitouch controller mapper vertical rotation configuration",
           "name": "SetVerticalRotationSpeedMax",
           "sentence": "",
           "events": [
@@ -4686,6 +4895,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalRotationAcceleration",
+          "group": "First person camera multitouch controller mapper vertical rotation configuration",
           "name": "SetVerticalRotationAcceleration",
           "sentence": "",
           "events": [
@@ -4766,6 +4976,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalRotationDeceleration",
+          "group": "First person camera multitouch controller mapper vertical rotation configuration",
           "name": "SetVerticalRotationDeceleration",
           "sentence": "",
           "events": [
@@ -4846,6 +5057,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalAngleMin",
+          "group": "First person camera multitouch controller mapper vertical rotation configuration",
           "name": "SetVerticalAngleMin",
           "sentence": "",
           "events": [
@@ -4926,6 +5138,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "VerticalAngleMax",
+          "group": "First person camera multitouch controller mapper vertical rotation configuration",
           "name": "SetVerticalAngleMax",
           "sentence": "",
           "events": [
@@ -5006,6 +5219,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetZ",
+          "group": "First person camera multitouch controller mapper position configuration",
           "name": "SetOffsetZ",
           "sentence": "",
           "events": [
@@ -5042,6 +5256,91 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "folderName": "Layers and cameras",
+            "children": [
+              {
+                "functionName": "LookFromObjectEyes"
+              }
+            ]
+          },
+          {
+            "folderName": "First person camera multitouch controller mapper horizontal rotation configuration",
+            "children": [
+              {
+                "functionName": "HorizontalRotationSpeedMax"
+              },
+              {
+                "functionName": "SetHorizontalRotationSpeedMax"
+              },
+              {
+                "functionName": "HorizontalRotationAcceleration"
+              },
+              {
+                "functionName": "SetHorizontalRotationAcceleration"
+              },
+              {
+                "functionName": "HorizontalRotationDeceleration"
+              },
+              {
+                "functionName": "SetHorizontalRotationDeceleration"
+              }
+            ]
+          },
+          {
+            "folderName": "First person camera multitouch controller mapper vertical rotation configuration",
+            "children": [
+              {
+                "functionName": "VerticalRotationSpeedMax"
+              },
+              {
+                "functionName": "SetVerticalRotationSpeedMax"
+              },
+              {
+                "functionName": "VerticalRotationAcceleration"
+              },
+              {
+                "functionName": "SetVerticalRotationAcceleration"
+              },
+              {
+                "functionName": "VerticalRotationDeceleration"
+              },
+              {
+                "functionName": "SetVerticalRotationDeceleration"
+              },
+              {
+                "functionName": "VerticalAngleMin"
+              },
+              {
+                "functionName": "SetVerticalAngleMin"
+              },
+              {
+                "functionName": "VerticalAngleMax"
+              },
+              {
+                "functionName": "SetVerticalAngleMax"
+              }
+            ]
+          },
+          {
+            "folderName": "First person camera multitouch controller mapper position configuration",
+            "children": [
+              {
+                "functionName": "OffsetZ"
+              },
+              {
+                "functionName": "SetOffsetZ"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -5232,8 +5531,11 @@
     {
       "description": "Control a top-down character with a multitouch controller.",
       "fullName": "Top-down multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TopDownMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -5739,6 +6041,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -5829,8 +6139,11 @@
       "defaultName": "Joystick",
       "description": "Joystick for touchscreens.",
       "fullName": "Multitouch Joystick",
+      "helpPath": "",
+      "iconUrl": "",
       "isUsingLegacyInstancesRenderer": true,
       "name": "SpriteMultitouchJoystick",
+      "previewIconUrl": "",
       "objects": [
         {
           "adaptCollisionMaskAutomatically": false,
@@ -6863,6 +7176,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "ControllerIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetControllerIdentifier",
           "sentence": "",
           "events": [
@@ -6935,6 +7249,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "JoystickIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetJoystickIdentifier",
           "sentence": "",
           "events": [
@@ -7007,6 +7322,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "DeadZoneRadius",
+          "group": "Multitouch Joystick configuration",
           "name": "SetDeadZoneRadius",
           "sentence": "",
           "events": [
@@ -7040,6 +7356,85 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "UpdateConfiguration"
+          },
+          {
+            "functionName": "TeleportAndPress"
+          },
+          {
+            "functionName": "ParentTouchX"
+          },
+          {
+            "functionName": "ParentTouchY"
+          },
+          {
+            "functionName": "ActivateControl"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "JoystickForce"
+          },
+          {
+            "functionName": "StickForce"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "functionName": "JoystickAngle"
+          },
+          {
+            "functionName": "StickAngle"
+          },
+          {
+            "functionName": "IsDirectionPushed4Way"
+          },
+          {
+            "functionName": "IsDirectionPushed8Way"
+          },
+          {
+            "folderName": "Multitouch Joystick configuration",
+            "children": [
+              {
+                "functionName": "ControllerIdentifier"
+              },
+              {
+                "functionName": "SetControllerIdentifier"
+              },
+              {
+                "functionName": "JoystickIdentifier"
+              },
+              {
+                "functionName": "SetJoystickIdentifier"
+              },
+              {
+                "functionName": "DeadZoneRadius"
+              },
+              {
+                "functionName": "SetDeadZoneRadius"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",

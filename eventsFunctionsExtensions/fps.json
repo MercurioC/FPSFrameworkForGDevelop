@@ -269,12 +269,32 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "onSceneLoaded"
+      },
+      {
+        "functionName": "onScenePostEvents"
+      },
+      {
+        "functionName": "FPS"
+      },
+      {
+        "functionName": "PreciseFPS"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Makes a text object display the current FPS.",
       "fullName": "FPS Displayer",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FPSDisplayer",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -439,6 +459,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

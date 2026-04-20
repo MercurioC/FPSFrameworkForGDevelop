@@ -46,12 +46,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Move objects on ellipses or smoothly back and forth in one direction.",
       "fullName": "3D ellipse movement",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PhysicsEllipseMovement3D",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1309,6 +1315,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "Width",
+          "group": "3D ellipse movement ellipse configuration",
           "name": "SetWidth",
           "sentence": "",
           "events": [
@@ -1389,6 +1396,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "Height",
+          "group": "3D ellipse movement ellipse configuration",
           "name": "SetHeight",
           "sentence": "",
           "events": [
@@ -1470,7 +1478,7 @@
           "fullName": "Loop duration",
           "functionType": "ActionWithOperator",
           "getterName": "LoopDuration",
-          "group": "Elliptical movement configuration",
+          "group": "Configuration",
           "name": "SetLoopDuration",
           "sentence": "Change the loop duration of _PARAM0_ to _PARAM2_",
           "events": [
@@ -1707,6 +1715,81 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "IsTurningLeft"
+          },
+          {
+            "functionName": "SetTurningLeft"
+          },
+          {
+            "functionName": "ToggleTurningLeft"
+          },
+          {
+            "functionName": "MovementAngle"
+          },
+          {
+            "functionName": "SetMovementAngle"
+          },
+          {
+            "folderName": "Configuration",
+            "children": [
+              {
+                "functionName": "CenterV"
+              },
+              {
+                "functionName": "CenterH"
+              },
+              {
+                "functionName": "LoopDuration"
+              },
+              {
+                "functionName": "SetLoopDuration"
+              }
+            ]
+          },
+          {
+            "folderName": "3D ellipse movement ellipse configuration",
+            "children": [
+              {
+                "functionName": "Width"
+              },
+              {
+                "functionName": "SetWidth"
+              },
+              {
+                "functionName": "Height"
+              },
+              {
+                "functionName": "SetHeight"
+              }
+            ]
+          },
+          {
+            "functionName": "DeltaH"
+          },
+          {
+            "functionName": "DeltaV"
+          },
+          {
+            "functionName": "DirectionAngle"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

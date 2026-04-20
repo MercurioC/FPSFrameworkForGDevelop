@@ -880,6 +880,32 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "RespawnPlayer"
+      },
+      {
+        "functionName": "BounceMovement"
+      },
+      {
+        "functionName": "ZoneCollision"
+      },
+      {
+        "functionName": "BulletPhysicsForce"
+      },
+      {
+        "functionName": "CreateBlobShadow"
+      },
+      {
+        "functionName": "ThrowStuff"
+      },
+      {
+        "functionName": "ActionSeparator"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }
